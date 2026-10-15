@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: 'TERRAFORM · Evidence-led agriculture',
   description: 'A local knowledge-base-driven soil analysis and crop decision-support workflow.',
   generator: 'v0.app',
+  manifest: '/manifest.webmanifest',
   icons: {
     icon: [
       {
