@@ -22,7 +22,7 @@ export default function Page() {
   const t = copy[lang] ?? copy.en
   const selectedLanguage = languages.find((item) => item.code === lang) ?? languages[0]
   const hasInput = scenario.trim().length > 0
-  useEffect(() => { const saved = window.localStorage.getItem('terraform-language') as Lang | null; if (saved && languages.some((item) => item.code === saved)) setLang(saved) }, [])
+  useEffect(() => { const saved = window.localStorage.getItem('terraform-language') as Lang | null; const detected = navigator.language.split('-')[0] as Lang; if (saved && languages.some((item) => item.code === saved)) setLang(saved); else if (languages.some((item) => item.code === detected)) setLang(detected); if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js').catch(() => undefined) }, [])
   useEffect(() => { window.localStorage.setItem('terraform-language', lang); document.documentElement.lang = lang; document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr' }, [lang])
   const speak = (text: string) => { if ('speechSynthesis' in window) { window.speechSynthesis.cancel(); const utterance = new SpeechSynthesisUtterance(text); utterance.lang = selectedLanguage.speech; window.speechSynthesis.speak(utterance) } }
   const toggleListening = () => { const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition; if (!SpeechRecognition) { speak('Speech recognition is not available. You can type instead.'); return } const recognition = new SpeechRecognition(); recognition.lang = selectedLanguage.speech; recognition.onresult = (event: any) => setScenario(event.results[0][0].transcript); recognition.onend = () => setListening(false); setListening(true); recognition.start() }
