@@ -1,0 +1,112 @@
+{
+  "entries": [
+    {
+      "id": "LC-001",
+      "name": "Flooded or silted land",
+      "keywords": ["flood", "flooded", "silt", "river", "washed over", "water came", "covered in mud", "layer of mud", "sediment"],
+      "photo_tags": ["muddy", "standing_water"],
+      "what_you_see": "A soft layer of mud or fine dirt sits on top of the old ground. Water may still stand in low spots. The ground squelches under your feet and smells like a wet ditch.",
+      "what_it_usually_means": "Flood water dropped fine silt on your land. The silt can be rich, but it can also seal the surface so water cannot drain and air cannot get in. Roots may rot if it stays wet.",
+      "kb_trace_label": "kb/01_land_conditions.json -> LC-001"
+    },
+    {
+      "id": "LC-002",
+      "name": "Cracked dry land",
+      "keywords": ["cracked", "dry", "drought", "dust", "parched", "baked", "no rain", "deep cracks", "hardpan"],
+      "photo_tags": ["cracked", "no_water"],
+      "what_you_see": "The ground is split into hard plates and deep cracks. The surface is dusty and pale. A stick pushed in meets stiff resistance.",
+      "what_it_usually_means": "The land dried out deeply. There is little water stored in the soil. When the first heavy rain comes it may run off instead of soaking in, and roots cannot push through the hard crust.",
+      "kb_trace_label": "kb/01_land_conditions.json -> LC-002"
+    },
+    {
+      "id": "LC-003",
+      "name": "Salty white crust",
+      "keywords": ["salt", "salty", "white crust", "white patch", "powder", "barren", "salt flat", "white ground"],
+      "photo_tags": ["white_crust", "no_water"],
+      "what_you_see": "A white or grey powder sits on the surface, often in low flat patches. It may look like a light dusting or a hard shell. Plants are missing or stunted, and a little of the soil on the tongue tastes salty when you spit it out.",
+      "what_it_usually_means": "Salt rose to the surface and dried there. Salt keeps most crops from drinking water. This land needs to be flushed and drained before much will grow, or it needs plants that tolerate salt. Ask a local elder or farmer what grows here.",
+      "kb_trace_label": "kb/01_land_conditions.json -> LC-003"
+    },
+    {
+      "id": "LC-004",
+      "name": "Waterlogged mud",
+      "keywords": ["waterlogged", "swamp", "bog", "soggy", "wet", "squelch", "marsh", "standing water", "soaked ground"],
+      "photo_tags": ["muddy", "standing_water", "mossy"],
+      "what_you_see": "The ground is soft and spongy. Water seeps up around your boots or a stick. Puddles stay for days after rain. The smell is sour or like rotten eggs.",
+      "what_it_usually_means": "Water cannot drain away. Air cannot reach the roots, so most crops drown or turn yellow. The soil turns sour and smells bad. This land needs a way for water to leave.",
+      "kb_trace_label": "kb/01_land_conditions.json -> LC-004"
+    },
+    {
+      "id": "LC-005",
+      "name": "Compacted hard ground",
+      "keywords": ["compacted", "hard", "packed", "tight", "trodden", "path", "hard surface", "sealed ground"],
+      "photo_tags": ["cracked", "stony"],
+      "what_you_see": "The surface is flat and hard, like a well-walked path. A stick or spade bounces off it. Water runs off fast and puddles only in the lowest dips.",
+      "what_it_usually_means": "The soil has been pressed tight by feet, animals or machines. Roots and water cannot get in, and air is locked out. Breaking the surface open helps water soak and roots spread.",
+      "kb_trace_label": "kb/01_land_conditions.json -> LC-005"
+    },
+    {
+      "id": "LC-006",
+      "name": "Burnt land",
+      "keywords": ["burnt", "burned", "fire", "scorched", "ash", "black", "charred", "wildfire"],
+      "photo_tags": ["burnt_black"],
+      "what_you_see": "The ground is black or grey, sometimes streaked with white ash. Charred stems and sticks lie about. The surface is powdery and smears your hands.",
+      "what_it_usually_means": "Fire removed the plants and the cover. Ash can feed the soil for a while, but rain and wind will wash or blow the bare ground away. The soil is exposed and easily lost.",
+      "kb_trace_label": "kb/01_land_conditions.json -> LC-006"
+    },
+    {
+      "id": "LC-007",
+      "name": "Sandy loose soil",
+      "keywords": ["sand", "sandy", "loose", "gritty", "light soil", "beach", "drains fast", "grainy"],
+      "photo_tags": ["pale_sand", "no_water"],
+      "what_you_see": "The soil feels gritty between your fingers. A handful will not hold together and runs through like dry sand. Water sinks in almost as fast as you pour it.",
+      "what_it_usually_means": "Water and food drain away quickly. The soil dries fast and holds little. It warms early but feeds little. It needs added organic matter to hold water and food.",
+      "kb_trace_label": "kb/01_land_conditions.json -> LC-007"
+    },
+    {
+      "id": "LC-008",
+      "name": "Heavy clay",
+      "keywords": ["clay", "sticky", "heavy", "clod", "lump", "slick", "smooth soil", "greasy"],
+      "photo_tags": ["muddy", "cracked"],
+      "what_you_see": "Wet, the soil is slick and sticky and clings to your boots and spade. Dry, it forms hard clods and wide cracks. Rubbed between your fingers it feels smooth and greasy.",
+      "what_it_usually_means": "Clay holds water and food well but drains slowly and packs hard. It is heavy to work and cold in the wet season. Roots struggle when it is either soaked or baked.",
+      "kb_trace_label": "kb/01_land_conditions.json -> LC-008"
+    },
+    {
+      "id": "LC-009",
+      "name": "Stony ground",
+      "keywords": ["stony", "stones", "rocks", "gravel", "pebbles", "rubble", "rocky"],
+      "photo_tags": ["stony", "pale_sand"],
+      "what_you_see": "Loose stones, pebbles or broken rock cover the surface or sit just under it. A spade rings or scrapes when it strikes. There is little fine soil between the stones.",
+      "what_it_usually_means": "There is little soil for roots to grow in. Water runs through the gaps and dries fast. The stones warm the ground and can hold a little moisture underneath at night.",
+      "kb_trace_label": "kb/01_land_conditions.json -> LC-009"
+    },
+    {
+      "id": "LC-010",
+      "name": "Land with debris or spill signs",
+      "keywords": ["debris", "rubbish", "trash", "spill", "waste", "oily", "chemical", "dump", "rusty", "glass", "drum"],
+      "photo_tags": ["burnt_black", "stony", "standing_water"],
+      "what_you_see": "Broken items, metal, glass, plastic, oily patches or drum shapes lie on the ground. Water in a nearby dip has a strange sheen or a sharp smell. Plants grow in odd patches or not at all.",
+      "what_it_usually_means": "Something was dumped or spilled here. The ground may be unsafe to touch, grow in or drink from. Keep people and animals away until a local elder or farmer has seen it and says it is safe.",
+      "kb_trace_label": "kb/01_land_conditions.json -> LC-010"
+    },
+    {
+      "id": "LC-011",
+      "name": "Sour or mossy soil",
+      "keywords": ["sour", "moss", "mossy", "acid", "sorrel", "fern", "damp", "dark soil"],
+      "photo_tags": ["mossy", "dark_crumbly"],
+      "what_you_see": "Moss, sorrel or ferns grow well while crops do poorly. The top soil is dark and damp. A pinch dropped in vinegar fizzes little, while a pinch dropped in baking soda fizzes well.",
+      "what_it_usually_means": "The soil is likely sour. Many crops dislike it and grow thin. Wood ash or lime, where it can be found, sweetens sour ground. Ask a local elder or farmer what grows well in sour soil here.",
+      "kb_trace_label": "kb/01_land_conditions.json -> LC-011"
+    },
+    {
+      "id": "LC-012",
+      "name": "Eroded slope",
+      "keywords": ["eroded", "erosion", "slope", "hill", "gully", "washed away", "steep", "channels", "bare roots"],
+      "photo_tags": ["slope", "cracked", "stony"],
+      "what_you_see": "The ground slopes and shows small channels or gullies where water ran. Bare roots stick out. Soil collects at the bottom of the slope in a fan or spread.",
+      "what_it_usually_means": "Rain is carrying your soil downhill. The top and the best soil go first. Roots are left exposed and the slope grows poor. Slowing the water and covering the bare ground helps.",
+      "kb_trace_label": "kb/01_land_conditions.json -> LC-012"
+    }
+  ]
+}

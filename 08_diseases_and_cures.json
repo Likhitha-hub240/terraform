@@ -1,0 +1,124 @@
+{
+  "entries": [
+    {
+      "id": "DS-001",
+      "name": "White crust coming back",
+      "linked_cr_ids": ["CR-001", "CR-003", "CR-005", "CR-011"],
+      "what_you_see": "White powder or a hard shell forms on the surface again after the ground dries.",
+      "how_to_check": "Touch a little to your tongue and spit it out; it tastes salty. Leave a jar of soil and water to settle and the top water looks cloudy.",
+      "what_it_usually_means": "Salt has risen again and is holding water away from the roots.",
+      "what_to_do": "Break the crust, soak the ground through, then let the water drain away. Repeat after each heavy rain. Mix in dung, ash and straw, and use gypsum only if a local farmer says it suits your ground. Keep the surface covered with something growing.",
+      "kb_trace_label": "kb/08_diseases_and_cures.json -> DS-001"
+    },
+    {
+      "id": "DS-002",
+      "name": "Leaves yellowing in wet ground",
+      "linked_cr_ids": ["CR-004", "CR-005", "CR-006", "CR-010"],
+      "what_you_see": "The lower leaves turn pale, then yellow, while the ground around the roots stays wet.",
+      "how_to_check": "Press a stick in beside a plant; water wells up in the hole. Smell the soil; a sour or rotten egg smell means it has no air in it.",
+      "what_it_usually_means": "The roots are drowning. Water is standing and air cannot reach them, so they stop feeding the plant.",
+      "what_to_do": "Cut a shallow drain running downhill, stop adding water, and let the plot dry out. If plants stand in a pool, thin the worst ones so air can move. Mix in straw and ash once it drains.",
+      "kb_trace_label": "kb/08_diseases_and_cures.json -> DS-002"
+    },
+    {
+      "id": "DS-003",
+      "name": "Sour ground under moss and sorrel",
+      "linked_cr_ids": ["CR-004", "CR-005", "CR-006"],
+      "what_you_see": "Moss, sorrel and ferns spread while the crops grow thin and pale.",
+      "how_to_check": "A pinch of soil in baking soda fizzes well, while a pinch in vinegar fizzes little. Rub a little soil between wet fingers; it feels damp and slick.",
+      "what_it_usually_means": "The ground has turned sour and many crops dislike it.",
+      "what_to_do": "Scatter wood ash lightly over the ground and work it into the top. Let a few rains pass and check the fizz again. Keep draining the plot, and ask a local elder or farmer which crops suit sour ground here.",
+      "kb_trace_label": "kb/08_diseases_and_cures.json -> DS-003"
+    },
+    {
+      "id": "DS-004",
+      "name": "Seedlings falling over at the base",
+      "linked_cr_ids": ["CR-003", "CR-005", "CR-010"],
+      "what_you_see": "Young seedlings topple over and rot where the stem meets the soil.",
+      "how_to_check": "Lift one plant gently; the stem is soft and wet at ground level and pulls away easily.",
+      "what_it_usually_means": "The seedbed is too wet and the plants are too close together, so rot spreads from plant to plant.",
+      "what_to_do": "Stop watering, thin the crowded seedlings, and dust a little dry ash around the base of the healthy ones. Keep the surface loose and let it dry for a few mornings.",
+      "kb_trace_label": "kb/08_diseases_and_cures.json -> DS-004"
+    },
+    {
+      "id": "DS-005",
+      "name": "Plants wilting although the ground is wet",
+      "linked_cr_ids": ["CR-004", "CR-007", "CR-008"],
+      "what_you_see": "Plants droop in the heat even though the ground feels wet to the touch.",
+      "how_to_check": "Scratch the soil by a plant. If the roots are black and smell rotten, they are drowning. If the top is wet but the soil a hand's depth down is hard and dry, the roots cannot push down.",
+      "what_it_usually_means": "Either standing water has rotted the roots, or the hard clay has stopped the roots from reaching deeper water.",
+      "what_to_do": "If the ground is wet, drain it and stop watering. If it is dry below, break the hard layer and cover the surface with straw and ash to hold moisture. If many plants die, ask a local elder or farmer to look at the plot.",
+      "kb_trace_label": "kb/08_diseases_and_cures.json -> DS-005"
+    },
+    {
+      "id": "DS-006",
+      "name": "Thin pale growth across the whole plot",
+      "linked_cr_ids": ["CR-004", "CR-007", "CR-008", "CR-011"],
+      "what_you_see": "Everything grows small, thin and pale, with few leaves, and it does so slowly.",
+      "how_to_check": "Take a handful of soil; it feels light, gritty or lifeless and crumbles to dust. The plants have few leaves and no deep green.",
+      "what_it_usually_means": "The soil is hungry and holds little food for the crop.",
+      "what_to_do": "Feed it well: dig in dung, ash and chopped straw, then keep the ground covered. Grow a green manure between food crops and dig the cut plants back in before they seed.",
+      "kb_trace_label": "kb/08_diseases_and_cures.json -> DS-006"
+    },
+    {
+      "id": "DS-007",
+      "name": "White powder on the leaves",
+      "linked_cr_ids": ["CR-005", "CR-006", "CR-010"],
+      "what_you_see": "A white powder spreads over the upper leaves, and the leaves curl and dry at the edges.",
+      "how_to_check": "Rub a leaf between your fingers; the powder comes off on your skin like flour.",
+      "what_it_usually_means": "A mould takes hold when leaves stay damp and packed too close together.",
+      "what_to_do": "Cut out and burn or bury the worst leaves. Give the plants more space so air moves between them. Dust fine ash over the leaves in the cool of the day. If it keeps coming back, ask a local elder or farmer what is used here.",
+      "kb_trace_label": "kb/08_diseases_and_cures.json -> DS-007"
+    },
+    {
+      "id": "DS-008",
+      "name": "Brown and orange spots on the leaves",
+      "linked_cr_ids": ["CR-004", "CR-007", "CR-008"],
+      "what_you_see": "Brown or orange bumps and dust appear on the leaves; the leaves yellow and fall early.",
+      "how_to_check": "Rub a spot with your thumb; a rusty dust comes off on your skin.",
+      "what_it_usually_means": "A leaf disease that spreads in damp weather and travels on the wind and on old plant remains.",
+      "what_to_do": "Pull off and burn or bury the worst leaves, and clear old stalks from the plot. Give the plants room and keep them fed and steady. Ask a local elder or farmer for the treatment used in your area.",
+      "kb_trace_label": "kb/08_diseases_and_cures.json -> DS-008"
+    },
+    {
+      "id": "DS-009",
+      "name": "Small insects under the leaves",
+      "linked_cr_ids": ["CR-005", "CR-006", "CR-010"],
+      "what_you_see": "Leaves curl, sticky patches appear on them, and tiny specks gather on the new shoots.",
+      "how_to_check": "Turn a leaf over and look closely; small insects are moving there. Tap them onto a light cloth so you can see them clearly.",
+      "what_it_usually_means": "Sucking insects are feeding on the sap and weakening the plants.",
+      "what_to_do": "Wash them off with plain water poured from a bucket or wiped with a wet cloth. A wash of wood ash left to stand in water, then poured over the leaves, drives off many of them. Keep the plants fed so they can recover.",
+      "kb_trace_label": "kb/08_diseases_and_cures.json -> DS-009"
+    },
+    {
+      "id": "DS-010",
+      "name": "Leaves chewed with holes",
+      "linked_cr_ids": ["CR-005", "CR-006", "CR-010"],
+      "what_you_see": "Leaves have holes and ragged edges, and dark droppings sit on the leaves below.",
+      "how_to_check": "Look on the undersides in the cool of the morning, when the culprits hide; hand-pick them into a bucket of water.",
+      "what_it_usually_means": "Leaf-eating grubs, caterpillars or beetles are feeding on the crop.",
+      "what_to_do": "Pick them off by hand and drop them in water or feed them to birds. Dust fine ash over the leaves. A ring of thorn and sticks keeps out larger animals.",
+      "kb_trace_label": "kb/08_diseases_and_cures.json -> DS-010"
+    },
+    {
+      "id": "DS-011",
+      "name": "Seed and young shoots disappearing",
+      "linked_cr_ids": ["CR-004", "CR-007", "CR-008", "CR-010"],
+      "what_you_see": "Patches of bare soil where seed was sown, pecked shoots, and tracks across the ground.",
+      "how_to_check": "Walk the plot at first light and look for tracks, droppings and scratched soil in the rows.",
+      "what_it_usually_means": "Birds, rodents or livestock are eating the sown seed and the new shoots.",
+      "what_to_do": "Scare them off with a cloth on a stick or a line of shiny objects that move in the wind. Keep animals behind a thorn fence until the shoots are tall and strong, and cover the seed well when you sow.",
+      "kb_trace_label": "kb/08_diseases_and_cures.json -> DS-011"
+    },
+    {
+      "id": "DS-012",
+      "name": "Fast weeds crowding the crop",
+      "linked_cr_ids": ["CR-003", "CR-005", "CR-007", "CR-009"],
+      "what_you_see": "Quick strong weeds spring up around the crop and set seed of their own.",
+      "how_to_check": "Pull one weed and look at its roots; deep strong roots mean it is taking water and food from the crop.",
+      "what_it_usually_means": "Weeds drink the water and eat the food first, and they hide insects and disease among the plants.",
+      "what_to_do": "Pull them while they are small and before they seed, and leave them on the ground to dry into mulch. Cover the bare ground with straw and ash so fewer come back, and keep the paths clear as well.",
+      "kb_trace_label": "kb/08_diseases_and_cures.json -> DS-012"
+    }
+  ]
+}

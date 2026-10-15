@@ -1,0 +1,112 @@
+{
+  "entries": [
+    {
+      "id": "FR-001",
+      "name": "Nothing matched at all",
+      "when_to_use": "The typed words and the photo tags match no entry.",
+      "rule": "Do not guess. Show this message and offer the two hand tests so the survivor can start.",
+      "map_to_ids": ["LC-003", "LC-004", "LC-008"],
+      "message": "We could not match your words yet. Look at the ground: is there a white crust, standing water, or hard cracked clay? Crush a damp handful and drop a pinch in vinegar, then a pinch in baking soda, and tell us which one fizzes.",
+      "kb_trace_label": "kb/10_fallback_rubric.json -> FR-001"
+    },
+    {
+      "id": "FR-002",
+      "name": "A photo chip matched but no words",
+      "when_to_use": "A photo tag matches a chip but no typed word does.",
+      "rule": "Use the chip list in the photo cues file to point to the land conditions and gaps that chip stands for.",
+      "map_to_ids": ["LC-002", "LC-003", "LC-004", "LC-007"],
+      "message": "We went by your picture. Here is the ground it looks like. If that is wrong, describe what you see in your own words.",
+      "kb_trace_label": "kb/10_fallback_rubric.json -> FR-002"
+    },
+    {
+      "id": "FR-003",
+      "name": "A land condition and a disease both matched",
+      "when_to_use": "The words match both a land condition and a disease.",
+      "rule": "Show the land condition first, then the disease it links to, because the ground is usually the cause.",
+      "map_to_ids": ["LC-004", "DS-002"],
+      "message": "Your ground is the first thing to fix. Here is the land entry, then the crop problem it can cause.",
+      "kb_trace_label": "kb/10_fallback_rubric.json -> FR-003"
+    },
+    {
+      "id": "FR-004",
+      "name": "Several land conditions matched",
+      "when_to_use": "More than one land entry matches the same words or chips.",
+      "rule": "Count how many chips and words each entry matches. Show the entry with the most matches. If two are equal, ask one simple question.",
+      "map_to_ids": ["LC-003", "LC-004", "LC-002"],
+      "message": "Tell us what the ground shows: a white crust, standing water, or hard dry cracks?",
+      "kb_trace_label": "kb/10_fallback_rubric.json -> FR-004"
+    },
+    {
+      "id": "FR-005",
+      "name": "Only a crop matched",
+      "when_to_use": "The words match a crop but no land condition.",
+      "rule": "Show the crop, then the land conditions and gaps it links to, so the ground is still explained.",
+      "map_to_ids": ["CR-001", "LC-003", "GP-005"],
+      "message": "Here is the crop you asked about, together with the ground it suits. Check your ground first before you sow.",
+      "kb_trace_label": "kb/10_fallback_rubric.json -> FR-005"
+    },
+    {
+      "id": "FR-006",
+      "name": "Words about salt or a white crust",
+      "when_to_use": "Words such as salt, salty, white crust, white powder, salt patch.",
+      "rule": "Lead straight to the salty crust land entry, the salt gaps and the crust disease.",
+      "map_to_ids": ["LC-003", "GP-005", "GP-006", "DS-001"],
+      "message": "This sounds like salty ground. Flush it with water and give it a way to drain before you sow anything.",
+      "kb_trace_label": "kb/10_fallback_rubric.json -> FR-006"
+    },
+    {
+      "id": "FR-007",
+      "name": "Words about too much water",
+      "when_to_use": "Words such as wet, soggy, swamp, waterlogged, standing water, root rot.",
+      "rule": "Lead to the waterlogged and flooded entries, the drainage gap and the yellowing disease.",
+      "map_to_ids": ["LC-004", "LC-001", "GP-007", "DS-002"],
+      "message": "This sounds like water that cannot drain. Give it a way out before the roots drown.",
+      "kb_trace_label": "kb/10_fallback_rubric.json -> FR-007"
+    },
+    {
+      "id": "FR-008",
+      "name": "Words about dry hard cracked ground",
+      "when_to_use": "Words such as dry, cracked, dusty, drought, hard, baked, packed.",
+      "rule": "Lead to the dry and hard land entries, and the water and loosening gaps.",
+      "map_to_ids": ["LC-002", "LC-005", "GP-003", "GP-004"],
+      "message": "This sounds like hard dry ground. Break the surface and get water into it before you sow.",
+      "kb_trace_label": "kb/10_fallback_rubric.json -> FR-008"
+    },
+    {
+      "id": "FR-009",
+      "name": "Words about dumping, spills or rubbish",
+      "when_to_use": "Words such as dump, spill, waste, chemical, oily, rusty, glass, barrel.",
+      "rule": "Lead straight to the debris or spill land entry and its safe water gap, with the keep away warning.",
+      "map_to_ids": ["LC-010", "GP-013"],
+      "message": "Do not touch, grow or drink here. Keep people and animals away and ask a local elder or farmer to look at it first.",
+      "kb_trace_label": "kb/10_fallback_rubric.json -> FR-009"
+    },
+    {
+      "id": "FR-010",
+      "name": "Words and picture disagree",
+      "when_to_use": "The typed words point one way and the photo tag points another.",
+      "rule": "Trust the photo tag, because the picture shows the ground itself. Note the disagreement on screen.",
+      "map_to_ids": [],
+      "message": "Your picture and your words disagree. We went with what the picture shows. If that is wrong, describe the ground again.",
+      "kb_trace_label": "kb/10_fallback_rubric.json -> FR-010"
+    },
+    {
+      "id": "FR-011",
+      "name": "Dangerous or unclear",
+      "when_to_use": "The words suggest harm to people or animals, or nothing is clear at all.",
+      "rule": "Show the safe warning and the local elder step. Never invent a cure or a fact.",
+      "map_to_ids": ["LC-010", "GP-013"],
+      "message": "We are not sure this is safe. Nothing here replaces a local elder or farmer who can see the ground. Keep people and animals away until it is checked.",
+      "kb_trace_label": "kb/10_fallback_rubric.json -> FR-011"
+    },
+    {
+      "id": "FR-012",
+      "name": "Always show a trace",
+      "when_to_use": "Every time any answer is shown on screen.",
+      "rule": "Show the file path and the entry id under every answer, so each answer can be traced back to the exact entry.",
+      "map_to_ids": [],
+      "message": "Every answer shows the file and the entry it came from, so you can always check where it came from. Ask a local elder or farmer for anything the entry leaves out.",
+      "kb_trace_label": "kb/10_fallback_rubric.json -> FR-012"
+    }
+  ]
+}

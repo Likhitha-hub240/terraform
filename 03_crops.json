@@ -1,0 +1,634 @@
+{
+  "entries": [
+    {
+      "id": "CR-001",
+      "name": "Karnal grass",
+      "keywords": ["karnal", "kallar grass", "salt grass", "fodder grass", "sodic", "sally ground", "dhani grass"],
+      "photo_tags": ["white_crust", "standing_water"],
+      "what_it_tolerates": "A salty white crust, sodden clay and long dry spells. It lives where grain dies.",
+      "how_to_spot_good_ground_for_it": "White crust, sour mossy patches or clay that will not drain, where other crops have already failed.",
+      "why_recommended": "Deep roots open tight clay, it feeds animals while it grows, and its litter slowly heals the ground. The first choice when land is too salty for food crops.",
+      "linked_land_ids": ["LC-003", "LC-004", "LC-008"],
+      "roadmap": [
+        {
+          "phase": "Check the ground by hand",
+          "when": "before anything else",
+          "instructions": "Crush a damp handful. If it rolls into a slick ribbon it is heavy clay. Drop a pinch in vinegar, then a pinch in baking soda, and watch which one fizzes. Look for white crust and patches of moss.",
+          "photo_tags": ["white_crust", "mossy"]
+        },
+        {
+          "phase": "Open the clay so water can leave",
+          "when": "when the ground is moist but not soaked",
+          "instructions": "Dig shallow channels running downhill so water can escape. Break the hard top layer with a spade or pick to about a hand's depth. Ask a local elder or farmer which way the water used to run.",
+          "photo_tags": ["standing_water", "cracked"]
+        },
+        {
+          "phase": "Feed the ground",
+          "when": "before the first heavy rain",
+          "instructions": "If a local farmer says gypsum suits your ground, spread a thin hand's covering of it, then cover with dung, ash and straw. If there is no gypsum, use dung, ash and straw alone, well mixed into the top.",
+          "photo_tags": ["white_crust"]
+        },
+        {
+          "phase": "Flush the salt down",
+          "when": "after the first heavy rain",
+          "instructions": "Let the rain soak in and run out through the channels, taking the salt with it. Do not let it pool in low spots. If the white crust returns, repeat over a few more rains.",
+          "photo_tags": ["standing_water"]
+        },
+        {
+          "phase": "Sow the grass",
+          "when": "when the soil crumbles in your hand",
+          "instructions": "Scatter seed or push in slips about a hand's width apart. Cover lightly with soil, press it down, then scatter straw to hold it in place.",
+          "photo_tags": ["dark_crumbly"]
+        },
+        {
+          "phase": "Keep it growing and cut fodder",
+          "when": "through the wet season",
+          "instructions": "Keep animals off until it has a strong hold. Cut it high for fodder when it reaches your knee and let it grow again. It feeds your stock while it heals the land.",
+          "photo_tags": []
+        }
+      ],
+      "kb_trace_label": "kb/03_crops.json -> CR-001"
+    },
+    {
+      "id": "CR-002",
+      "name": "Rhodes grass",
+      "keywords": ["rhodes", "rhodes grass", "fodder", "pasture", "hay", "sodic", "salt tolerant grass"],
+      "photo_tags": ["white_crust", "cracked"],
+      "what_it_tolerates": "Salty ground, dry spells and poor clay, though it dislikes standing water.",
+      "how_to_spot_good_ground_for_it": "A salty or hard patch that still sheds water and does not stay flooded.",
+      "why_recommended": "It grows fast, spreads to cover bare ground, gives good fodder and can be cut many times. Good once the worst salt has been flushed.",
+      "linked_land_ids": ["LC-003", "LC-008", "LC-005"],
+      "roadmap": [
+        {
+          "phase": "Read the ground",
+          "when": "before you start",
+          "instructions": "Look for the white crust and hard cracked clay. Push a stick in to feel how tight and dry the top is, and check that water runs off rather than pooling.",
+          "photo_tags": ["white_crust", "cracked"]
+        },
+        {
+          "phase": "Break the crust and drain",
+          "when": "when the soil is workable",
+          "instructions": "Loosen the top to a hand's depth with a spade and open a shallow drain along the lowest edge so salty water can leave.",
+          "photo_tags": ["standing_water"]
+        },
+        {
+          "phase": "Add what the soil lacks",
+          "when": "before the rains",
+          "instructions": "Work in dung, ash and old straw. Add gypsum only if a local farmer confirms it suits this ground. These help tight clay break into crumbs.",
+          "photo_tags": ["dark_crumbly"]
+        },
+        {
+          "phase": "Flush and settle",
+          "when": "after the first heavy rain",
+          "instructions": "Let the rain wash the salt out through the drain. Once the surface stops crusting white, let the ground settle firm.",
+          "photo_tags": ["standing_water"]
+        },
+        {
+          "phase": "Sow and cover",
+          "when": "when the soil crumbles in your hand",
+          "instructions": "Broadcast the seed and rake it in lightly, then spread straw to shade the young shoots and hold moisture.",
+          "photo_tags": ["dark_crumbly"]
+        },
+        {
+          "phase": "Grow and cut",
+          "when": "through the growing season",
+          "instructions": "Pull weeds early while the grass is small. Cut for hay when the seed heads form and dry the cut grass in the sun.",
+          "photo_tags": []
+        }
+      ],
+      "kb_trace_label": "kb/03_crops.json -> CR-002"
+    },
+    {
+      "id": "CR-003",
+      "name": "Salt-tolerant rice",
+      "keywords": ["rice", "paddy", "dhan", "salt rice", "sodic", "flooded field", "paddy rice"],
+      "photo_tags": ["standing_water", "muddy"],
+      "what_it_tolerates": "Salty wet clay and poor drainage, as long as a shallow layer of water can be held on the plot.",
+      "how_to_spot_good_ground_for_it": "Low ground where water already stands, with clay that holds a puddle.",
+      "why_recommended": "The flooded plot grows food while, season by season, the standing water and drainage wash salt out of the clay. Best where some water can be held, so ask a local elder or farmer about named varieties that do well here.",
+      "linked_land_ids": ["LC-004", "LC-003", "LC-008"],
+      "roadmap": [
+        {
+          "phase": "Check the plot",
+          "when": "before you start",
+          "instructions": "Put a spoonful of soil in a jar of water, shake it and let it stand. Sand settles first and clay last, so you can see what your soil is made of. Test a pinch in vinegar and in baking soda to see which one fizzes.",
+          "photo_tags": ["muddy"]
+        },
+        {
+          "phase": "Wall the plot to hold water",
+          "when": "when the soil is soft",
+          "instructions": "Build low earth walls around a level patch so a shallow layer of water, about a hand's depth, can be held. Leave an opening so you can drain it when needed.",
+          "photo_tags": ["standing_water"]
+        },
+        {
+          "phase": "Wash the worst salt away",
+          "when": "after the first heavy rain",
+          "instructions": "Let the plot fill, then open the drain and let the top water run away, carrying salt with it. Repeat over a few rains until the crust no longer forms.",
+          "photo_tags": ["standing_water"]
+        },
+        {
+          "phase": "Feed and puddle the mud",
+          "when": "before sowing",
+          "instructions": "Work dung and chopped straw into the wet mud. Walk over the plot to puddle it smooth so it holds water, then level any high and low spots.",
+          "photo_tags": ["muddy"]
+        },
+        {
+          "phase": "Sow and keep shallow water",
+          "when": "when the mud holds water",
+          "instructions": "Soak the seed first, then scatter it on the wet mud. Keep just a shallow covering of water and top it up from rain or a channel, never letting the mud dry out.",
+          "photo_tags": ["standing_water"]
+        },
+        {
+          "phase": "Grow to harvest",
+          "when": "through the season",
+          "instructions": "Keep the water level steady and pull weeds by hand. Drain the plot a little before harvest so the grain ripens and the ground firms up.",
+          "photo_tags": ["standing_water"]
+        },
+        {
+          "phase": "Harvest and use the straw",
+          "when": "when the stalks bend with grain and turn golden",
+          "instructions": "Cut, dry and thresh the grain. Save the straw for fodder, thatch or mulch, and leave the stubble to rot back into the mud.",
+          "photo_tags": []
+        }
+      ],
+      "kb_trace_label": "kb/03_crops.json -> CR-003"
+    },
+    {
+      "id": "CR-004",
+      "name": "Barley",
+      "keywords": ["barley", "jau", "grain", "sodic", "salt tolerant", "cereal"],
+      "photo_tags": ["white_crust", "cracked"],
+      "what_it_tolerates": "Salty ground and dry clay better than most grains, and it copes with a dry finish.",
+      "how_to_spot_good_ground_for_it": "A salty patch that drains and does not stay boggy, where wheat would have failed.",
+      "why_recommended": "A dependable grain and straw crop for ground that is still a little salty, once the worst crust has been flushed and the clay opened.",
+      "linked_land_ids": ["LC-003", "LC-008", "LC-005"],
+      "roadmap": [
+        {
+          "phase": "Read the ground",
+          "when": "before you start",
+          "instructions": "Look for white crust and hard clods. A damp handful that rolls into a slick ribbon is heavy clay that needs opening before grain will grow.",
+          "photo_tags": ["white_crust", "cracked"]
+        },
+        {
+          "phase": "Open and drain",
+          "when": "when the soil is moist",
+          "instructions": "Break the top to a hand's depth with a spade and cut a shallow drain along the low edge so rain can run off instead of standing.",
+          "photo_tags": ["standing_water"]
+        },
+        {
+          "phase": "Feed the soil",
+          "when": "before the rains",
+          "instructions": "Spread dung, ash and straw and mix them into the top. Add gypsum only if a local farmer says it suits your ground.",
+          "photo_tags": ["dark_crumbly"]
+        },
+        {
+          "phase": "Flush the salt",
+          "when": "after the first heavy rain",
+          "instructions": "Let rain soak through and out the drain, washing salt away. Repeat over a few rains if the crust returns.",
+          "photo_tags": ["standing_water"]
+        },
+        {
+          "phase": "Sow",
+          "when": "when the soil crumbles in your hand",
+          "instructions": "Sow the seed in rows about a hand's width apart, cover lightly and press the soil down so it has good contact.",
+          "photo_tags": ["dark_crumbly"]
+        },
+        {
+          "phase": "Thin and keep cover",
+          "when": "a few mornings after the shoots show",
+          "instructions": "Pull out crowded seedlings so the rest have room, and keep weeds low. Keep straw on the ground to hold moisture and shade it.",
+          "photo_tags": []
+        },
+        {
+          "phase": "Harvest",
+          "when": "when the heads droop and dry",
+          "instructions": "Cut, dry and thresh the grain. Keep the straw for fodder or to mulch the next patch.",
+          "photo_tags": []
+        }
+      ],
+      "kb_trace_label": "kb/03_crops.json -> CR-004"
+    },
+    {
+      "id": "CR-005",
+      "name": "Mustard",
+      "keywords": ["mustard", "sarson", "oilseed", "greens", "saag", "sodic", "salt tolerant"],
+      "photo_tags": ["white_crust", "cracked"],
+      "what_it_tolerates": "Salty dryish clay and a short season. It is tougher on salty ground than many field crops.",
+      "how_to_spot_good_ground_for_it": "A patch that dries and crumbles and no longer shows a thick crust, after the salt has been flushed.",
+      "why_recommended": "It gives oil from the seed and edible greens from the leaves, grows well on a small plot, and suits the dry finish of a sodic plateau once the ground is opened.",
+      "linked_land_ids": ["LC-003", "LC-005", "LC-008"],
+      "roadmap": [
+        {
+          "phase": "Read the ground",
+          "when": "before you start",
+          "instructions": "Check for white crust and tight clay. Test a pinch in vinegar and in baking soda to see which one fizzes, and feel whether the ground still tastes salty to the touch.",
+          "photo_tags": ["white_crust"]
+        },
+        {
+          "phase": "Loosen and drain",
+          "when": "when the soil is workable",
+          "instructions": "Break the top with a spade and open a shallow drain so rain can leave. Mustard suffers if water stands around its roots.",
+          "photo_tags": ["standing_water"]
+        },
+        {
+          "phase": "Feed the soil",
+          "when": "before the rains finish",
+          "instructions": "Mix in dung, ash and straw to help the clay crumble. Use gypsum only if a local farmer advises it.",
+          "photo_tags": ["dark_crumbly"]
+        },
+        {
+          "phase": "Sow as the rains ease",
+          "when": "as the heavy rains ease",
+          "instructions": "Scatter or sow the seed in shallow rows and cover lightly. Mustard likes a dry finish, so sow once the worst wet is past.",
+          "photo_tags": ["dark_crumbly"]
+        },
+        {
+          "phase": "Water and weed",
+          "when": "while it grows",
+          "instructions": "Keep the plot weeded by hand and water only if the ground dries out badly. Keep the top loose so roots can spread.",
+          "photo_tags": []
+        },
+        {
+          "phase": "Harvest",
+          "when": "when the pods rattle and the plants dry",
+          "instructions": "Cut the plants, dry them in the sun and shake out the seed for oil and for next season. Cook the young leaves as greens.",
+          "photo_tags": []
+        }
+      ],
+      "kb_trace_label": "kb/03_crops.json -> CR-005"
+    },
+    {
+      "id": "CR-006",
+      "name": "Sugarbeet",
+      "keywords": ["sugarbeet", "sugar beet", "beet", "fodder beet", "root crop", "sodic", "salt tolerant"],
+      "photo_tags": ["white_crust", "cracked"],
+      "what_it_tolerates": "Salty dryish clay and a dry finish. Its deep roots push down through tight ground that stops shallower crops.",
+      "how_to_spot_good_ground_for_it": "A patch that dries and crumbles and no longer shows a thick white crust, after the salt has been flushed.",
+      "why_recommended": "Deep roots break open tight clay, the sweet roots feed people and animals, and the leafy tops make good fodder. It works while the ground is still healing from salt.",
+      "linked_land_ids": ["LC-003", "LC-008", "LC-005"],
+      "roadmap": [
+        {
+          "phase": "Read the ground",
+          "when": "before you start",
+          "instructions": "Look for white crust and tight clay. Test a pinch in vinegar and in baking soda to see which one fizzes, and press a damp handful to feel whether it rolls into a slick ribbon of clay.",
+          "photo_tags": ["white_crust", "cracked"]
+        },
+        {
+          "phase": "Loosen deep and drain",
+          "when": "when the soil is workable",
+          "instructions": "Break the top down to a full spade depth so the roots have room, and open a shallow drain along the low edge so rain can leave instead of standing.",
+          "photo_tags": ["standing_water"]
+        },
+        {
+          "phase": "Feed the soil",
+          "when": "before the rains",
+          "instructions": "Mix in dung, ash and straw to help the clay crumble. Add gypsum only if a local farmer confirms it suits this ground.",
+          "photo_tags": ["dark_crumbly"]
+        },
+        {
+          "phase": "Flush the salt",
+          "when": "after the first heavy rain",
+          "instructions": "Let rain soak through and out the drain, carrying salt away. Repeat over a few rains if the crust returns.",
+          "photo_tags": ["standing_water"]
+        },
+        {
+          "phase": "Sow",
+          "when": "when the soil crumbles in your hand",
+          "instructions": "Sow the seed in shallow rows about a hand's width apart and cover lightly. Space them so the roots have room to swell.",
+          "photo_tags": ["dark_crumbly"]
+        },
+        {
+          "phase": "Thin and weed",
+          "when": "a few mornings after the shoots show",
+          "instructions": "Pull out crowded seedlings so each root has space, and keep weeds low by hand. Keep the top loose so the roots can push down.",
+          "photo_tags": []
+        },
+        {
+          "phase": "Harvest",
+          "when": "when the leaves yellow and flop over",
+          "instructions": "Lift the roots with a spade or fork, twist off the tops for fodder and keep the roots shaded. They store well in a pit or clamp covered with straw and soil.",
+          "photo_tags": []
+        }
+      ],
+      "kb_trace_label": "kb/03_crops.json -> CR-006"
+    },
+    {
+      "id": "CR-007",
+      "name": "Pearl millet",
+      "keywords": ["pearl millet", "bajra", "millet", "grain", "sodic", "salt tolerant", "fodder"],
+      "photo_tags": ["white_crust", "cracked"],
+      "what_it_tolerates": "Salty dry clay and hot dry spells. It ripens fast in a short season and gives both grain and fodder.",
+      "how_to_spot_good_ground_for_it": "A salty patch that drains and warms up, where the white crust has eased after flushing.",
+      "why_recommended": "A quick, tough grain for a poor season. It covers the ground, feeds people and animals, and leaves stubble that helps hold the soil.",
+      "linked_land_ids": ["LC-003", "LC-008", "LC-005"],
+      "roadmap": [
+        {
+          "phase": "Read the ground",
+          "when": "before you start",
+          "instructions": "Look for white crust and hard clay. Test a pinch in vinegar and in baking soda to see which one fizzes, and squeeze a damp handful to feel how tight the soil is.",
+          "photo_tags": ["white_crust", "cracked"]
+        },
+        {
+          "phase": "Loosen and drain",
+          "when": "when the soil is workable",
+          "instructions": "Break the top to a hand's depth with a spade and open a shallow drain along the low edge so rain can leave instead of standing.",
+          "photo_tags": ["standing_water"]
+        },
+        {
+          "phase": "Feed the soil",
+          "when": "before the rains",
+          "instructions": "Mix in dung, ash and straw to help the clay crumble. Add gypsum only if a local farmer confirms it suits this ground.",
+          "photo_tags": ["dark_crumbly"]
+        },
+        {
+          "phase": "Flush the salt",
+          "when": "after the first heavy rain",
+          "instructions": "Let rain soak through and out the drain, carrying salt away. Repeat over a few rains if the crust returns.",
+          "photo_tags": ["standing_water"]
+        },
+        {
+          "phase": "Sow",
+          "when": "when the soil crumbles in your hand",
+          "instructions": "Sow the seed in shallow rows about a hand's width apart, or broadcast it and rake it in lightly, then press the soil down.",
+          "photo_tags": ["dark_crumbly"]
+        },
+        {
+          "phase": "Thin and weed",
+          "when": "a few mornings after the shoots show",
+          "instructions": "Pull out crowded seedlings and keep weeds low by hand so the millet is not smothered.",
+          "photo_tags": []
+        },
+        {
+          "phase": "Harvest",
+          "when": "when the heads turn brown and dry",
+          "instructions": "Cut the heads, dry them in the sun and rub out the grain. Keep the stalks and leaves for fodder.",
+          "photo_tags": []
+        }
+      ],
+      "kb_trace_label": "kb/03_crops.json -> CR-007"
+    },
+    {
+      "id": "CR-008",
+      "name": "Sorghum",
+      "keywords": ["sorghum", "jowar", "great millet", "grain", "fodder", "sodic", "salt tolerant"],
+      "photo_tags": ["white_crust", "cracked"],
+      "what_it_tolerates": "Salty clay and long dry spells. Its deep roots reach water that shallow crops miss.",
+      "how_to_spot_good_ground_for_it": "A patch that drains and no longer crusts white, warm and open enough for roots to spread.",
+      "why_recommended": "Grain, sweet stalks and fodder from tough ground. Deep roots help open the clay and hold the soil in place.",
+      "linked_land_ids": ["LC-003", "LC-008", "LC-005"],
+      "roadmap": [
+        {
+          "phase": "Read the ground",
+          "when": "before you start",
+          "instructions": "Look for white crust and tight clay. Test a pinch in vinegar and in baking soda to see which one fizzes, and push a stick in to feel how hard the ground is.",
+          "photo_tags": ["white_crust", "cracked"]
+        },
+        {
+          "phase": "Break deep and drain",
+          "when": "when the soil is workable",
+          "instructions": "Loosen the top to a full spade depth so the roots can go down, and open a shallow drain along the low edge so rain can leave.",
+          "photo_tags": ["standing_water"]
+        },
+        {
+          "phase": "Feed the soil",
+          "when": "before the rains",
+          "instructions": "Mix in dung, ash and straw to help the clay crumble. Add gypsum only if a local farmer confirms it suits this ground.",
+          "photo_tags": ["dark_crumbly"]
+        },
+        {
+          "phase": "Flush the salt",
+          "when": "after the first heavy rain",
+          "instructions": "Let rain soak through and out the drain, carrying salt away. Repeat over a few rains if the crust returns.",
+          "photo_tags": ["standing_water"]
+        },
+        {
+          "phase": "Sow",
+          "when": "when the soil crumbles in your hand",
+          "instructions": "Sow the seed in rows about a hand's width apart and cover lightly. Press the soil down so the seed has good contact.",
+          "photo_tags": ["dark_crumbly"]
+        },
+        {
+          "phase": "Thin and weed",
+          "when": "a few mornings after the shoots show",
+          "instructions": "Pull out crowded seedlings so the rest have room, and keep weeds low by hand.",
+          "photo_tags": []
+        },
+        {
+          "phase": "Harvest",
+          "when": "when the seed heads darken and harden",
+          "instructions": "Cut the heads, dry them and rub out the grain. Keep the stalks for fodder and for fuel.",
+          "photo_tags": []
+        }
+      ],
+      "kb_trace_label": "kb/03_crops.json -> CR-008"
+    },
+    {
+      "id": "CR-009",
+      "name": "Sesbania",
+      "keywords": ["sesbania", "dhaincha", "green manure", "legume", "sodic", "fodder"],
+      "photo_tags": ["standing_water", "muddy"],
+      "what_it_tolerates": "Wet, salty clay and poor drainage better than most plants, and it grows fast on sodic ground.",
+      "how_to_spot_good_ground_for_it": "Low soggy patches that hold standing water and smell sour after rain.",
+      "why_recommended": "Grown and then dug back into the soil, it feeds the ground and helps salt wash out. A living cure for sodic clay before food crops go in.",
+      "linked_land_ids": ["LC-004", "LC-003", "LC-008"],
+      "roadmap": [
+        {
+          "phase": "Read the ground",
+          "when": "before you start",
+          "instructions": "Note the low soggy spots and any sour smell. Test a pinch in vinegar and in baking soda to see which one fizzes, and squeeze a damp handful to feel the clay.",
+          "photo_tags": ["muddy", "standing_water"]
+        },
+        {
+          "phase": "Open a drain",
+          "when": "when the ground is soft",
+          "instructions": "Cut a shallow channel from the lowest spot downhill so water can leave. Sesbania likes wet ground but will not stand in a deep pool.",
+          "photo_tags": ["standing_water"]
+        },
+        {
+          "phase": "Sow in the wet",
+          "when": "after the first heavy rain",
+          "instructions": "Scatter the seed thickly over the wet ground and press it in. It sprouts quickly in warm wet soil.",
+          "photo_tags": ["muddy"]
+        },
+        {
+          "phase": "Let it grow",
+          "when": "through the warm wet season",
+          "instructions": "Keep animals off and let it grow to knee to waist high. On the worst ground it may grow slowly at first, so be patient.",
+          "photo_tags": []
+        },
+        {
+          "phase": "Dig it back in",
+          "when": "before it seeds and while still green",
+          "instructions": "Cut the plants and dig them into the top soil. Leave a few plants standing to seed so you have seed for the next patch.",
+          "photo_tags": ["dark_crumbly"]
+        },
+        {
+          "phase": "Feed animals or save seed",
+          "when": "as it grows",
+          "instructions": "You can also cut some for fodder and let it regrow, but always leave a strip to feed the soil and to set seed.",
+          "photo_tags": []
+        }
+      ],
+      "kb_trace_label": "kb/03_crops.json -> CR-009"
+    },
+    {
+      "id": "CR-010",
+      "name": "Oats",
+      "keywords": ["oats", "jai", "fodder", "green feed", "hay", "sodic", "salt tolerant"],
+      "photo_tags": ["white_crust", "cracked"],
+      "what_it_tolerates": "Salty clay and cool damp spells, better than most fodder on poor ground.",
+      "how_to_spot_good_ground_for_it": "A salty patch that holds some moisture and no longer crusts hard.",
+      "why_recommended": "Fast green fodder for animals through the cool season while the land recovers.",
+      "linked_land_ids": ["LC-003", "LC-008", "LC-004"],
+      "roadmap": [
+        {
+          "phase": "Read the ground",
+          "when": "before you start",
+          "instructions": "Look for white crust and tight clay. Test a pinch in vinegar and in baking soda to see which one fizzes, and squeeze a damp handful to feel how heavy it is.",
+          "photo_tags": ["white_crust", "cracked"]
+        },
+        {
+          "phase": "Loosen and drain",
+          "when": "when the soil is workable",
+          "instructions": "Break the top to a hand's depth and open a shallow drain so rain can leave. Oats dislike standing water.",
+          "photo_tags": ["standing_water"]
+        },
+        {
+          "phase": "Feed the soil",
+          "when": "before the rains",
+          "instructions": "Mix in dung, ash and straw to help the clay crumble. Add gypsum only if a local farmer confirms it suits this ground.",
+          "photo_tags": ["dark_crumbly"]
+        },
+        {
+          "phase": "Flush the salt",
+          "when": "after the first heavy rain",
+          "instructions": "Let rain soak through and out the drain, carrying salt away. Repeat over a few rains if the crust returns.",
+          "photo_tags": ["standing_water"]
+        },
+        {
+          "phase": "Sow",
+          "when": "when the soil crumbles in your hand",
+          "instructions": "Broadcast the seed and rake it in lightly, then press the soil down. Sow thick for a full stand.",
+          "photo_tags": ["dark_crumbly"]
+        },
+        {
+          "phase": "Cut green fodder",
+          "when": "when it reaches your knee",
+          "instructions": "Cut the green crop for animals and let it regrow for another cut. If you want hay, leave some standing until the seed heads form, then cut and dry it in the sun.",
+          "photo_tags": []
+        }
+      ],
+      "kb_trace_label": "kb/03_crops.json -> CR-010"
+    },
+    {
+      "id": "CR-011",
+      "name": "Ber",
+      "keywords": ["ber", "indian jujube", "jujube", "fruit tree", "sodic", "salt tolerant", "bair"],
+      "photo_tags": ["white_crust", "no_water"],
+      "what_it_tolerates": "Salty, dry clay and drought once its roots are deep. It bears fruit on land too salty for field crops.",
+      "how_to_spot_good_ground_for_it": "An open salty patch where a tree can be planted and tended, with room for deep roots.",
+      "why_recommended": "A hardy fruit tree that lives on sodic ground, shades the soil and gives fruit for many seasons with little care once it is rooted.",
+      "linked_land_ids": ["LC-003", "LC-002", "LC-008"],
+      "roadmap": [
+        {
+          "phase": "Read the ground",
+          "when": "before you start",
+          "instructions": "Look for white crust and hard dry clay. Press a damp handful to feel how tight it is, and choose a sunny open spot with room for a tree.",
+          "photo_tags": ["white_crust", "no_water"]
+        },
+        {
+          "phase": "Open a planting spot",
+          "when": "when the ground is workable",
+          "instructions": "Break the hard pan over the planting spot to a full spade depth. If water stands there, cut a small drain so the roots do not sit in a pool.",
+          "photo_tags": ["standing_water"]
+        },
+        {
+          "phase": "Fill the pit",
+          "when": "before planting",
+          "instructions": "Dig a wide pit and mix good soil, dung, ash and old straw into it. This gives the young roots soft, fed ground to start in.",
+          "photo_tags": ["dark_crumbly"]
+        },
+        {
+          "phase": "Plant",
+          "when": "at the start of the rains",
+          "instructions": "Set the young tree in the pit and firm the soil around it. Water it well so it settles, using water you have carried to the spot.",
+          "photo_tags": []
+        },
+        {
+          "phase": "Water and mulch while young",
+          "when": "through the first dry spells",
+          "instructions": "Keep it watered until the roots take hold and cover the base with straw and ash to hold moisture. Keep animals away with a ring of thorn or sticks.",
+          "photo_tags": []
+        },
+        {
+          "phase": "Tend the tree",
+          "when": "each season",
+          "instructions": "Keep weeds clear of the base, top up the mulch with straw and ash, and cut out any dead wood.",
+          "photo_tags": []
+        },
+        {
+          "phase": "Fruit",
+          "when": "when the fruit colours and softens",
+          "instructions": "Pick the fruit by hand once it colours and softens. A healthy tree bears for many seasons, so little work is needed after the first few years.",
+          "photo_tags": []
+        }
+      ],
+      "kb_trace_label": "kb/03_crops.json -> CR-011"
+    },
+    {
+      "id": "CR-012",
+      "name": "Date palm",
+      "keywords": ["date palm", "date", "palm", "khajur", "fruit", "sodic", "salt tolerant"],
+      "photo_tags": ["white_crust", "no_water"],
+      "what_it_tolerates": "Very salty, dry ground and heat. It thrives where few other food plants live.",
+      "how_to_spot_good_ground_for_it": "A sunny salty spot with deep ground and, if possible, some water within reach of the roots.",
+      "why_recommended": "A long-lived food and shade tree for the worst salty ground. Once rooted it needs little, though it asks for patient tending while young.",
+      "linked_land_ids": ["LC-003", "LC-002", "LC-009"],
+      "roadmap": [
+        {
+          "phase": "Read the ground",
+          "when": "before you start",
+          "instructions": "Look for white crust, hard dry clay and stones. Check whether any water, a well or a channel, can be reached to keep a young tree alive.",
+          "photo_tags": ["white_crust", "no_water"]
+        },
+        {
+          "phase": "Dig a deep pit",
+          "when": "when the ground is workable",
+          "instructions": "Dig a deep, wide planting pit and open a small drain if the spot holds water, so the roots never sit in a pool.",
+          "photo_tags": ["standing_water"]
+        },
+        {
+          "phase": "Fill the pit",
+          "when": "before planting",
+          "instructions": "Mix good soil, dung, ash and straw into the pit. Soft fed ground gives the young palm a strong start in salty soil.",
+          "photo_tags": ["dark_crumbly"]
+        },
+        {
+          "phase": "Plant",
+          "when": "at the start of the warm season",
+          "instructions": "Set the young palm in the pit and firm the soil around the base. Water it well so it settles.",
+          "photo_tags": []
+        },
+        {
+          "phase": "Water while young",
+          "when": "through the first dry spells",
+          "instructions": "Keep it watered even though the palm is tough, and shade the base with straw. Keep animals off with a ring of thorn or sticks.",
+          "photo_tags": []
+        },
+        {
+          "phase": "Tend and protect",
+          "when": "each season",
+          "instructions": "Top up the mulch with straw and ash and cut away dead fronds. Ask a local elder or farmer how palms are tended in your area.",
+          "photo_tags": []
+        },
+        {
+          "phase": "Harvest the dates",
+          "when": "when the fruit ripens and softens",
+          "instructions": "Cut the date bunches once the fruit ripens and softens. This comes several seasons after planting, so tend the tree patiently in the meantime.",
+          "photo_tags": []
+        }
+      ],
+      "kb_trace_label": "kb/03_crops.json -> CR-012"
+    }
+  ]
+}

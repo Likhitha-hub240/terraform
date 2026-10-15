@@ -1,0 +1,125 @@
+{
+  "entries": [
+    {
+      "id": "PC-001",
+      "chip": "cracked",
+      "also_known_as": ["cracks", "split ground", "plates", "dry cracks"],
+      "linked_land_ids": ["LC-002", "LC-005", "LC-008"],
+      "linked_gap_ids": ["GP-003", "GP-004", "GP-008"],
+      "linked_disease_ids": ["DS-005"],
+      "what_it_points_to": "Deep cracks and hard plates mean dry or packed ground, often heavy clay that has baked.",
+      "ask_this": "Does a stick go in easily, or does it bounce off the surface?",
+      "kb_trace_label": "kb/11_photo_cues.json -> PC-001"
+    },
+    {
+      "id": "PC-002",
+      "chip": "muddy",
+      "also_known_as": ["mud", "soft ground", "squelchy", "wet dirt"],
+      "linked_land_ids": ["LC-001", "LC-004", "LC-008"],
+      "linked_gap_ids": ["GP-001", "GP-007"],
+      "linked_disease_ids": ["DS-002", "DS-004"],
+      "what_it_points_to": "Soft wet mud means flood silt or ground that cannot drain.",
+      "ask_this": "Does water stand in the dips for days after rain?",
+      "kb_trace_label": "kb/11_photo_cues.json -> PC-002"
+    },
+    {
+      "id": "PC-003",
+      "chip": "white_crust",
+      "also_known_as": ["white powder", "white shell", "salt crust", "salty ground", "white patch"],
+      "linked_land_ids": ["LC-003"],
+      "linked_gap_ids": ["GP-005", "GP-006"],
+      "linked_disease_ids": ["DS-001"],
+      "what_it_points_to": "A white crust points to salt dried on the surface.",
+      "ask_this": "Does a little of the ground taste salty when you touch it to your tongue and spit it out?",
+      "kb_trace_label": "kb/11_photo_cues.json -> PC-003"
+    },
+    {
+      "id": "PC-004",
+      "chip": "pale_sand",
+      "also_known_as": ["pale ground", "sandy", "light soil", "gritty"],
+      "linked_land_ids": ["LC-007", "LC-009"],
+      "linked_gap_ids": ["GP-010", "GP-012"],
+      "linked_disease_ids": ["DS-006"],
+      "what_it_points_to": "Pale gritty ground is sandy and thin, and drains and dries fast.",
+      "ask_this": "Does a squeezed handful fall apart instead of holding together?",
+      "kb_trace_label": "kb/11_photo_cues.json -> PC-004"
+    },
+    {
+      "id": "PC-005",
+      "chip": "dark_crumbly",
+      "also_known_as": ["dark soil", "crumbly", "soft lumps", "good soil"],
+      "linked_land_ids": ["LC-011"],
+      "linked_gap_ids": ["GP-014"],
+      "linked_disease_ids": ["DS-003"],
+      "what_it_points_to": "Dark crumbly ground is usually richer, but if it smells sour and grows moss it may be sour ground.",
+      "ask_this": "Does the soil smell earthy, or sour like a wet ditch?",
+      "kb_trace_label": "kb/11_photo_cues.json -> PC-005"
+    },
+    {
+      "id": "PC-006",
+      "chip": "burnt_black",
+      "also_known_as": ["burnt", "black ground", "ash", "charred", "scorched"],
+      "linked_land_ids": ["LC-006", "LC-010"],
+      "linked_gap_ids": ["GP-009", "GP-013"],
+      "linked_disease_ids": ["DS-006"],
+      "what_it_points_to": "Black scorched ground means fire has passed, but grey powder can also be a spill, so check the smell.",
+      "ask_this": "Does it smell like clean ash, or sharp and oily like a spill?",
+      "kb_trace_label": "kb/11_photo_cues.json -> PC-006"
+    },
+    {
+      "id": "PC-007",
+      "chip": "stony",
+      "also_known_as": ["stones", "rocks", "gravel", "pebbles", "rubble"],
+      "linked_land_ids": ["LC-009", "LC-005", "LC-010"],
+      "linked_gap_ids": ["GP-012", "GP-008"],
+      "linked_disease_ids": ["DS-005"],
+      "what_it_points_to": "Stones and rubble mean little fine soil for roots to grow in.",
+      "ask_this": "Is there soft dark soil between the stones, or mostly bare rock?",
+      "kb_trace_label": "kb/11_photo_cues.json -> PC-007"
+    },
+    {
+      "id": "PC-008",
+      "chip": "mossy",
+      "also_known_as": ["moss", "green film", "sorrel", "damp green"],
+      "linked_land_ids": ["LC-011", "LC-004"],
+      "linked_gap_ids": ["GP-014", "GP-007"],
+      "linked_disease_ids": ["DS-003"],
+      "what_it_points_to": "Moss and sorrel point to damp sour ground.",
+      "ask_this": "Does a pinch of soil in baking soda fizz more than it does in vinegar?",
+      "kb_trace_label": "kb/11_photo_cues.json -> PC-008"
+    },
+    {
+      "id": "PC-009",
+      "chip": "standing_water",
+      "also_known_as": ["puddle", "pool", "flooded", "water sat", "soaked"],
+      "linked_land_ids": ["LC-004", "LC-001"],
+      "linked_gap_ids": ["GP-007", "GP-001"],
+      "linked_disease_ids": ["DS-002"],
+      "what_it_points_to": "Water standing on the ground means it cannot drain away.",
+      "ask_this": "Is the standing water clear, or does it have a sheen or a strange smell?",
+      "kb_trace_label": "kb/11_photo_cues.json -> PC-009"
+    },
+    {
+      "id": "PC-010",
+      "chip": "no_water",
+      "also_known_as": ["bone dry", "parched", "dusty", "no rain", "dry ground"],
+      "linked_land_ids": ["LC-002", "LC-007", "LC-003"],
+      "linked_gap_ids": ["GP-003", "GP-005"],
+      "linked_disease_ids": ["DS-005"],
+      "what_it_points_to": "Very dry ground holds little water, and it may dry out to a salt crust.",
+      "ask_this": "Does poured water sink in at once, or sit on the surface like a puddle?",
+      "kb_trace_label": "kb/11_photo_cues.json -> PC-010"
+    },
+    {
+      "id": "PC-011",
+      "chip": "slope",
+      "also_known_as": ["hill", "steep", "sloping ground", "gully", "washed away"],
+      "linked_land_ids": ["LC-012", "LC-009"],
+      "linked_gap_ids": ["GP-015"],
+      "linked_disease_ids": ["DS-006"],
+      "what_it_points_to": "A bare slope loses its soil to every rain that runs down it.",
+      "ask_this": "Are there small channels or gullies, or roots left bare on the surface?",
+      "kb_trace_label": "kb/11_photo_cues.json -> PC-011"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "entries": [
+    {
+      "id": "GP-001",
+      "linked_land_id": "LC-001",
+      "missing_item": "drainage",
+      "why_it_matters": "Flood silt seals the surface. Water stands, air is locked out and roots rot. Giving the water a way to leave saves what is still alive.",
+      "how_to_spot_it": "Push a stick in and pull it out. If the hole fills with water and stays full, or the ground squelches and smells like rotten eggs, the water cannot drain.",
+      "severity": "urgent",
+      "kb_trace_label": "kb/02_gap_rules.json -> GP-001"
+    },
+    {
+      "id": "GP-002",
+      "linked_land_id": "LC-001",
+      "missing_item": "cover",
+      "why_it_matters": "Bare silt bakes hard or washes away with the next rain. Something growing or spread over it keeps the soil in place and lets air in.",
+      "how_to_spot_it": "Look for open mud with no plants, no stubble and no spread of straw or scraps. Water puddles on it and runs off cloudy.",
+      "severity": "soon",
+      "kb_trace_label": "kb/02_gap_rules.json -> GP-002"
+    },
+    {
+      "id": "GP-003",
+      "linked_land_id": "LC-002",
+      "missing_item": "water",
+      "why_it_matters": "Dried land cannot support seed or seedlings. Rain may run off the baked surface instead of soaking in, so the ground stays dry even after it falls.",
+      "how_to_spot_it": "Dig a hand's depth with fingers or a stick. If the soil is dusty all the way down and a poured cupful sinks in at once and vanishes, there is no water held in it.",
+      "severity": "urgent",
+      "kb_trace_label": "kb/02_gap_rules.json -> GP-003"
+    },
+    {
+      "id": "GP-004",
+      "linked_land_id": "LC-002",
+      "missing_item": "tools to loosen soil",
+      "why_it_matters": "A hard crust turns rain into runoff. Breaking the surface into rough clods lets water soak down where roots can reach it.",
+      "how_to_spot_it": "Press a spade or stick into the ground. If it bounces or only scratches the top, the surface is sealed and needs breaking open.",
+      "severity": "soon",
+      "kb_trace_label": "kb/02_gap_rules.json -> GP-004"
+    },
+    {
+      "id": "GP-005",
+      "linked_land_id": "LC-003",
+      "missing_item": "safe water",
+      "why_it_matters": "Flushing salt down and out needs a large, steady supply of water. Without enough clean water, the salt stays where it is and crops keep failing.",
+      "how_to_spot_it": "Check what water you can reach: a well, a stream, a tank or saved rain. If you cannot cover the patch with a hand's depth of water more than once, you do not have enough for flushing.",
+      "severity": "urgent",
+      "kb_trace_label": "kb/02_gap_rules.json -> GP-005"
+    },
+    {
+      "id": "GP-006",
+      "linked_land_id": "LC-003",
+      "missing_item": "drainage",
+      "why_it_matters": "Flushing only works if the salty water can leave. With no outlet, the salt circles back to the surface as the water dries.",
+      "how_to_spot_it": "Pour a bucket of water on the patch. If it sits like a puddle and does not sink or run away by the next light, the water has nowhere to go.",
+      "severity": "urgent",
+      "kb_trace_label": "kb/02_gap_rules.json -> GP-006"
+    },
+    {
+      "id": "GP-007",
+      "linked_land_id": "LC-004",
+      "missing_item": "drainage",
+      "why_it_matters": "Roots drown in standing water. Most crops need air around their roots, so the soggy ground must be given a way to shed water.",
+      "how_to_spot_it": "Look for puddles that stay for days. Step on the ground and watch water rise around your boot. A rotten egg smell means it is airless below.",
+      "severity": "urgent",
+      "kb_trace_label": "kb/02_gap_rules.json -> GP-007"
+    },
+    {
+      "id": "GP-008",
+      "linked_land_id": "LC-005",
+      "missing_item": "tools to loosen soil",
+      "why_it_matters": "Hard packed ground sheds rain and blocks roots. Loosening the top lets water soak in and gives roots a way down.",
+      "how_to_spot_it": "Drop a cup of water on the flat surface. If it runs off instead of sinking, and a stick will not push in past the first scratch, the ground is packed tight.",
+      "severity": "soon",
+      "kb_trace_label": "kb/02_gap_rules.json -> GP-008"
+    },
+    {
+      "id": "GP-009",
+      "linked_land_id": "LC-006",
+      "missing_item": "cover",
+      "why_it_matters": "Burnt ground is bare and loose. The first hard rain or a strong wind carries the ash and good soil away, leaving poor ground behind.",
+      "how_to_spot_it": "Look at the surface. If it is black or grey powder with no living plants and no stubble, and a puff of wind or a splash of water moves it, the cover is gone.",
+      "severity": "urgent",
+      "kb_trace_label": "kb/02_gap_rules.json -> GP-009"
+    },
+    {
+      "id": "GP-010",
+      "linked_land_id": "LC-007",
+      "missing_item": "organic matter",
+      "why_it_matters": "Sandy soil drains and dries fast and feeds little. Rotting scraps, ash and animal dung help it hold water and food for roots.",
+      "how_to_spot_it": "Squeeze a damp handful. If it will not hold a ball and crumbles or runs through your fingers, and water sinks away almost at once, it is too loose.",
+      "severity": "soon",
+      "kb_trace_label": "kb/02_gap_rules.json -> GP-010"
+    },
+    {
+      "id": "GP-011",
+      "linked_land_id": "LC-008",
+      "missing_item": "organic matter",
+      "why_it_matters": "Clay packs hard and turns sticky or baked. Rotting scraps and dung break it into crumbs that roots can push through and that drain better.",
+      "how_to_spot_it": "Roll a damp handful between your palms. If it makes a long ribbon or a slick lump without crumbling, it is heavy clay that needs lightening.",
+      "severity": "can wait",
+      "kb_trace_label": "kb/02_gap_rules.json -> GP-011"
+    },
+    {
+      "id": "GP-012",
+      "linked_land_id": "LC-009",
+      "missing_item": "organic matter",
+      "why_it_matters": "Stony ground holds little fine soil. Without something soft to fill the gaps, water runs through and roots find nothing to feed on.",
+      "how_to_spot_it": "Sift a handful of the ground. If it is mostly stones with little dark dirt clinging to them, there is not enough soil to hold water and food.",
+      "severity": "soon",
+      "kb_trace_label": "kb/02_gap_rules.json -> GP-012"
+    },
+    {
+      "id": "GP-013",
+      "linked_land_id": "LC-010",
+      "missing_item": "safe water",
+      "why_it_matters": "Debris and spill signs can poison ground and water. Until it is checked, drinking or growing here can harm people and animals.",
+      "how_to_spot_it": "Look for broken items, drums, glass and oily patches. Smell water in a nearby dip. A sharp or oily smell, or a rainbow sheen, means keep away.",
+      "severity": "urgent",
+      "kb_trace_label": "kb/02_gap_rules.json -> GP-013"
+    },
+    {
+      "id": "GP-014",
+      "linked_land_id": "LC-011",
+      "missing_item": "knowledge",
+      "why_it_matters": "Sour ground grows thin crops. Knowing which local crops and which treatments suit it saves seasons of failed planting.",
+      "how_to_spot_it": "Note what grows well without help, such as moss, sorrel and ferns, and what grows poorly. A pinch in baking soda that fizzes well points to sour ground.",
+      "severity": "can wait",
+      "kb_trace_label": "kb/02_gap_rules.json -> GP-014"
+    },
+    {
+      "id": "GP-015",
+      "linked_land_id": "LC-012",
+      "missing_item": "cover",
+      "why_it_matters": "On a slope, bare ground loses its soil to every rain. Cover and barriers slow the water so it soaks in instead of washing the land away.",
+      "how_to_spot_it": "Look for gullies, exposed roots and a spread of soil at the bottom of the slope. Water that runs off cloudy is carrying your soil with it.",
+      "severity": "urgent",
+      "kb_trace_label": "kb/02_gap_rules.json -> GP-015"
+    }
+  ]
+}

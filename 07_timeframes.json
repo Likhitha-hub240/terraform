@@ -1,0 +1,124 @@
+{
+  "entries": [
+    {
+      "id": "TF-001",
+      "name": "Open and drain the clay",
+      "linked_cr_ids": ["CR-001", "CR-004", "CR-007", "CR-011"],
+      "linked_land_ids": ["LC-003", "LC-005", "LC-008"],
+      "when_to_act": "Before the first heavy rain, while the ground is still workable.",
+      "how_to_tell_ready": "A spade cuts in about a hand's depth and the ground holds loose clods instead of bouncing back.",
+      "why_it_matters": "Salt only washes out through soil that is open and drains. Hard packed clay lets rain run off and leaves the salt where it is.",
+      "kb_trace_label": "kb/07_timeframes.json -> TF-001"
+    },
+    {
+      "id": "TF-002",
+      "name": "Flush the salt down",
+      "linked_cr_ids": ["CR-001", "CR-003", "CR-004", "CR-006"],
+      "linked_land_ids": ["LC-003", "LC-004"],
+      "when_to_act": "After the first heavy rain, and again after each heavy rain while the white crust keeps returning.",
+      "how_to_tell_ready": "The water leaving through the low end runs clear, and the surface no longer dries white.",
+      "why_it_matters": "Salt leaves with water. Flushing works only while the soil is open and the water has somewhere to go.",
+      "kb_trace_label": "kb/07_timeframes.json -> TF-002"
+    },
+    {
+      "id": "TF-003",
+      "name": "Sow the grasses",
+      "linked_cr_ids": ["CR-001", "CR-002"],
+      "linked_land_ids": ["LC-003", "LC-004", "LC-008"],
+      "when_to_act": "When the soil crumbles in your hand and the crust has eased after flushing.",
+      "how_to_tell_ready": "A damp handful crumbles into soft lumps instead of rolling into a slick ribbon.",
+      "why_it_matters": "Seed on hard salty ground dries out and dies. Seed on crumbled ground takes root and starts holding the soil.",
+      "kb_trace_label": "kb/07_timeframes.json -> TF-003"
+    },
+    {
+      "id": "TF-004",
+      "name": "Sow the warm season grain",
+      "linked_cr_ids": ["CR-007", "CR-008"],
+      "linked_land_ids": ["LC-003", "LC-005", "LC-008"],
+      "when_to_act": "When the ground has warmed after the first heavy rain and the soil crumbles.",
+      "how_to_tell_ready": "The soil feels warm to your bare palm, crumbles dry in your fist, and no water stands in the dips.",
+      "why_it_matters": "Warm, open, crumbled ground lets young roots push down to water before the heat sets in.",
+      "kb_trace_label": "kb/07_timeframes.json -> TF-004"
+    },
+    {
+      "id": "TF-005",
+      "name": "Sow the rice",
+      "linked_cr_ids": ["CR-003"],
+      "linked_land_ids": ["LC-003", "LC-004", "LC-008"],
+      "when_to_act": "When the mud holds a shallow layer of water and the worst of the salt has flushed out.",
+      "how_to_tell_ready": "Water sits a hand's depth deep in the walled plot, runs cloudy rather than oily, and the crust stays away.",
+      "why_it_matters": "Rice needs standing water to grow, and the same water keeps washing salt down and out of the clay.",
+      "kb_trace_label": "kb/07_timeframes.json -> TF-005"
+    },
+    {
+      "id": "TF-006",
+      "name": "Sow the cool season crops",
+      "linked_cr_ids": ["CR-004", "CR-005", "CR-006", "CR-010"],
+      "linked_land_ids": ["LC-003", "LC-005", "LC-008"],
+      "when_to_act": "As the heavy rains ease and the ground starts to dry and crumble.",
+      "how_to_tell_ready": "The puddles have gone, the ground crumbles dry underfoot, and a spade lifts it without sticking.",
+      "why_it_matters": "These crops like a drier finish. Sown too early into wet clay they rot; sown too late they dry out before they fill.",
+      "kb_trace_label": "kb/07_timeframes.json -> TF-006"
+    },
+    {
+      "id": "TF-007",
+      "name": "Dig the green manure in",
+      "linked_cr_ids": ["CR-009"],
+      "linked_land_ids": ["LC-003", "LC-004", "LC-008"],
+      "when_to_act": "Before the plants flower and set seed, while they are still green.",
+      "how_to_tell_ready": "The plants stand about knee to waist high with flowers just opening.",
+      "why_it_matters": "Green plants dug into the soil feed it and help salt wash out. Once they seed, the plot has to be cleared instead of fed.",
+      "kb_trace_label": "kb/07_timeframes.json -> TF-007"
+    },
+    {
+      "id": "TF-008",
+      "name": "Cut the green fodder",
+      "linked_cr_ids": ["CR-001", "CR-002", "CR-010"],
+      "linked_land_ids": ["LC-003", "LC-004", "LC-008"],
+      "when_to_act": "When the grass reaches your knee, and again each time it recovers.",
+      "how_to_tell_ready": "Fresh shoots are rising again from the base of the cut clumps.",
+      "why_it_matters": "Cutting at the right height keeps the grass thick and spreading, so it covers and heals the ground while it feeds animals.",
+      "kb_trace_label": "kb/07_timeframes.json -> TF-008"
+    },
+    {
+      "id": "TF-009",
+      "name": "Plant the trees",
+      "linked_cr_ids": ["CR-011", "CR-012"],
+      "linked_land_ids": ["LC-002", "LC-003", "LC-008", "LC-009"],
+      "when_to_act": "At the start of the rains, or the start of the warm season for the palm.",
+      "how_to_tell_ready": "The ground is soaked through deep after rain and soft to a spade, and water can be carried to the planting spot.",
+      "why_it_matters": "A young tree set into soaked, fed ground roots before the dry spell arrives and has the strength to live on salty ground.",
+      "kb_trace_label": "kb/07_timeframes.json -> TF-009"
+    },
+    {
+      "id": "TF-010",
+      "name": "Harvest the grain",
+      "linked_cr_ids": ["CR-004", "CR-007", "CR-008"],
+      "linked_land_ids": ["LC-003", "LC-005", "LC-008"],
+      "when_to_act": "When the heads droop, turn brown and dry, and rattle in the wind.",
+      "how_to_tell_ready": "A head rubbed between your palms lets the grain rub clean off the stalk.",
+      "why_it_matters": "Cut too soon the grain will not keep; left too long the wind and birds take it.",
+      "kb_trace_label": "kb/07_timeframes.json -> TF-010"
+    },
+    {
+      "id": "TF-011",
+      "name": "Harvest the root and oil crops",
+      "linked_cr_ids": ["CR-005", "CR-006"],
+      "linked_land_ids": ["LC-003", "LC-005", "LC-008"],
+      "when_to_act": "When the leaves yellow and flop over, or when the seed pods rattle.",
+      "how_to_tell_ready": "Pods crackle and split when pressed between your fingers; roots lift clean out of ground you have loosened.",
+      "why_it_matters": "Lifting at the right time saves the crop. Roots pulled too early are small and will not store; pods left too long shatter on the stalk.",
+      "kb_trace_label": "kb/07_timeframes.json -> TF-011"
+    },
+    {
+      "id": "TF-012",
+      "name": "Keep watching for the crust",
+      "linked_cr_ids": ["CR-001", "CR-003", "CR-005", "CR-012"],
+      "linked_land_ids": ["LC-003", "LC-004", "LC-008"],
+      "when_to_act": "One moon after flushing, and again after each long dry spell.",
+      "how_to_tell_ready": "The white crust stays away and the crumbs on the surface still feel soft under your fingers.",
+      "why_it_matters": "Salt comes back up as the ground dries. Catching it early keeps the work of flushing, rather than letting the land harden again.",
+      "kb_trace_label": "kb/07_timeframes.json -> TF-012"
+    }
+  ]
+}

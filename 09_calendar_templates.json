@@ -1,0 +1,164 @@
+{
+  "entries": [
+    {
+      "id": "CT-001",
+      "name": "Before the heavy rains",
+      "when": "While the ground is dry and workable, before the first heavy rain.",
+      "linked_tf_ids": ["TF-001"],
+      "linked_cr_ids": ["CR-001", "CR-004", "CR-007", "CR-011"],
+      "linked_ds_ids": ["DS-001"],
+      "linked_land_ids": ["LC-003", "LC-005", "LC-008"],
+      "do_this": [
+        "Walk the plot and look for white crust, hard packed patches and wide cracks.",
+        "Break the hard top to about a hand's depth with a spade or a pick.",
+        "Open shallow drains running downhill so rain can leave instead of pooling.",
+        "Mix in dung, ash and chopped straw. Use gypsum only if a local farmer says it suits your ground."
+      ],
+      "watch_for": [
+        "Hard ground a stick will not enter.",
+        "White powder drying on the surface.",
+        "Low spots where water always stands."
+      ],
+      "kb_trace_label": "kb/09_calendar_templates.json -> CT-001"
+    },
+    {
+      "id": "CT-002",
+      "name": "The first heavy rains",
+      "when": "After the first heavy rain, and again after each heavy rain.",
+      "linked_tf_ids": ["TF-002"],
+      "linked_cr_ids": ["CR-001", "CR-003", "CR-004", "CR-006"],
+      "linked_ds_ids": ["DS-001"],
+      "linked_land_ids": ["LC-003", "LC-004"],
+      "do_this": [
+        "Let the rain soak the ground and run out through the drains, carrying salt with it.",
+        "Keep the low spots from pooling by leading the water away.",
+        "Check the surface once it dries. If the white crust returns, flush again."
+      ],
+      "watch_for": [
+        "Water standing in the dips.",
+        "The white crust returning as the ground dries.",
+        "Cloudy water leaving the low end."
+      ],
+      "kb_trace_label": "kb/09_calendar_templates.json -> CT-002"
+    },
+    {
+      "id": "CT-003",
+      "name": "The warm wet season",
+      "when": "Through the warm wet season, once the soil crumbles and the salt has eased.",
+      "linked_tf_ids": ["TF-003", "TF-005", "TF-007"],
+      "linked_cr_ids": ["CR-001", "CR-002", "CR-003", "CR-007", "CR-008", "CR-009"],
+      "linked_ds_ids": ["DS-002", "DS-004", "DS-009"],
+      "linked_land_ids": ["LC-003", "LC-004", "LC-008"],
+      "do_this": [
+        "Sow the grasses when the soil crumbles in your hand.",
+        "Sow the rice where a shallow layer of water can be held.",
+        "Sow pearl millet and sorghum on the warmer, drier patches.",
+        "Sow sesbania and dig it back into the soil before it seeds."
+      ],
+      "watch_for": [
+        "Leaves yellowing in ground that stays wet.",
+        "Seedlings toppling over at the base.",
+        "Small insects gathering under the leaves."
+      ],
+      "kb_trace_label": "kb/09_calendar_templates.json -> CT-003"
+    },
+    {
+      "id": "CT-004",
+      "name": "As the rains ease",
+      "when": "As the heavy rains ease and the ground starts to dry and crumble.",
+      "linked_tf_ids": ["TF-006"],
+      "linked_cr_ids": ["CR-004", "CR-005", "CR-006", "CR-010"],
+      "linked_ds_ids": ["DS-002", "DS-007"],
+      "linked_land_ids": ["LC-003", "LC-005", "LC-008"],
+      "do_this": [
+        "Sow barley, mustard, sugarbeet and oats once the puddles have gone.",
+        "Keep the drains open so no water stands around the roots.",
+        "Keep the seedbed loose so the young shoots come up through soft ground."
+      ],
+      "watch_for": [
+        "Ground that sticks to the spade instead of crumbling.",
+        "White powder spreading over the leaves."
+      ],
+      "kb_trace_label": "kb/09_calendar_templates.json -> CT-004"
+    },
+    {
+      "id": "CT-005",
+      "name": "The hot dry spell",
+      "when": "Through the hot dry spell, when the ground dries and hardens.",
+      "linked_tf_ids": ["TF-010", "TF-012"],
+      "linked_cr_ids": ["CR-004", "CR-007", "CR-008"],
+      "linked_ds_ids": ["DS-005", "DS-008"],
+      "linked_land_ids": ["LC-002", "LC-003", "LC-005"],
+      "do_this": [
+        "Harvest the grain when the heads droop, turn brown and rattle.",
+        "Keep the young trees watered and shade their base with straw.",
+        "Mulch bare ground with straw and ash to hold moisture.",
+        "Watch for the white crust returning and flush it after any rain."
+      ],
+      "watch_for": [
+        "Plants wilting with hard dry ground below the surface.",
+        "Brown and orange spots spreading on the leaves."
+      ],
+      "kb_trace_label": "kb/09_calendar_templates.json -> CT-005"
+    },
+    {
+      "id": "CT-006",
+      "name": "The cool dry spell",
+      "when": "Through the cool dry months, when the nights turn cold and the days mild.",
+      "linked_tf_ids": ["TF-008", "TF-011"],
+      "linked_cr_ids": ["CR-001", "CR-002", "CR-005", "CR-006", "CR-010"],
+      "linked_ds_ids": ["DS-003", "DS-007"],
+      "linked_land_ids": ["LC-003", "LC-008"],
+      "do_this": [
+        "Cut the fodder when the grass reaches your knee, and again as it recovers.",
+        "Lift sugarbeet and gather mustard seed when the leaves yellow or the pods rattle.",
+        "Store roots in a pit covered with straw and soil."
+      ],
+      "watch_for": [
+        "Moss and sorrel spreading in damp corners.",
+        "A sour smell in the soil."
+      ],
+      "kb_trace_label": "kb/09_calendar_templates.json -> CT-006"
+    },
+    {
+      "id": "CT-007",
+      "name": "Planting the slow trees",
+      "when": "At the start of the rains, or the start of the warm season for the palm.",
+      "linked_tf_ids": ["TF-009"],
+      "linked_cr_ids": ["CR-011", "CR-012"],
+      "linked_ds_ids": ["DS-006"],
+      "linked_land_ids": ["LC-002", "LC-003", "LC-008", "LC-009"],
+      "do_this": [
+        "Dig a deep pit and mix good soil, dung, ash and straw into it.",
+        "Set the young tree into soaked ground and water it well.",
+        "Cover the base with straw and ash and keep animals off with a ring of thorn."
+      ],
+      "watch_for": [
+        "Dry ground below a wet top, which stops roots going down.",
+        "Animals rubbing against or grazing the young trees."
+      ],
+      "kb_trace_label": "kb/09_calendar_templates.json -> CT-007"
+    },
+    {
+      "id": "CT-008",
+      "name": "Every season, whatever the weather",
+      "when": "All through the year, in every season.",
+      "linked_tf_ids": ["TF-012"],
+      "linked_cr_ids": ["CR-001", "CR-009"],
+      "linked_ds_ids": ["DS-006", "DS-007", "DS-008", "DS-012"],
+      "linked_land_ids": ["LC-003", "LC-004", "LC-008", "LC-011"],
+      "do_this": [
+        "Pull weeds while they are small and before they seed, then let them dry as mulch.",
+        "Keep the ground covered so it does not crust, blow or wash away.",
+        "Check a pinch of soil in vinegar and in baking soda now and then to see which one fizzes.",
+        "When anything looks new or strange, ask a local elder or farmer."
+      ],
+      "watch_for": [
+        "Weeds setting seed.",
+        "Bare ground left after harvest.",
+        "Any change in the smell, colour or feel of the soil."
+      ],
+      "kb_trace_label": "kb/09_calendar_templates.json -> CT-008"
+    }
+  ]
+}
