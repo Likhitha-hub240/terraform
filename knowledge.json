@@ -1,0 +1,5406 @@
+{
+ "observation_tags": [
+  {
+   "id": "crust-white",
+   "group": "surface",
+   "label": "White crust",
+   "synonyms": [
+    "white powder on soil",
+    "salt crust",
+    "white surface",
+    "salty looking ground"
+   ],
+   "how_to_check": "Look for white powdery film on the bare surface."
+  },
+  {
+   "id": "crust-hard-sealed",
+   "group": "surface",
+   "label": "Hard sealed crust",
+   "synonyms": [
+    "hard capped surface",
+    "sealed soil",
+    "water cannot enter",
+    "baked hard top"
+   ],
+   "how_to_check": "Press heel on the dry top; it does not dent."
+  },
+  {
+   "id": "crust-thin-peeling",
+   "group": "surface",
+   "label": "Thin peeling crust",
+   "synonyms": [
+    "flaking soil skin",
+    "thin crust peeling",
+    "papery top layer"
+   ],
+   "how_to_check": "Peel a thin skin off the surface with your fingers."
+  },
+  {
+   "id": "patches-dark-greasy",
+   "group": "surface",
+   "label": "Dark greasy patches",
+   "synonyms": [
+    "greasy dark spots",
+    "oily looking soil",
+    "dark wet looking patches"
+   ],
+   "how_to_check": "Rub a patch; it feels greasy and looks darker."
+  },
+  {
+   "id": "patches-bare-shiny",
+   "group": "surface",
+   "label": "Shiny bare patches",
+   "synonyms": [
+    "shiny bare spots",
+    "slick bare ground",
+    "glossy patches"
+   ],
+   "how_to_check": "Watch sun on bare spots; they shine like glass."
+  },
+  {
+   "id": "ground-bare",
+   "group": "surface",
+   "label": "Bare ground",
+   "synonyms": [
+    "no plants",
+    "empty soil",
+    "all bare"
+   ],
+   "how_to_check": "Look for wide ground with no growing plants."
+  },
+  {
+   "id": "ground-dusty-powdery",
+   "group": "surface",
+   "label": "Dusty powdery ground",
+   "synonyms": [
+    "dust puffs",
+    "powdery soil",
+    "dry dust"
+   ],
+   "how_to_check": "Step down; dust puffs up around your foot."
+  },
+  {
+   "id": "cracks-deep",
+   "group": "surface",
+   "label": "Deep cracks",
+   "synonyms": [
+    "wide cracks",
+    "deep fissures",
+    "opening soil cracks"
+   ],
+   "how_to_check": "Lay a stick across a crack; it fits down deep."
+  },
+  {
+   "id": "cracks-fine-network",
+   "group": "surface",
+   "label": "Fine crack network",
+   "synonyms": [
+    "many small cracks",
+    "cracked pattern",
+    "fine web cracks"
+   ],
+   "how_to_check": "Look for fine cracks joining like a net."
+  },
+  {
+   "id": "gullies-erosion",
+   "group": "surface",
+   "label": "Gullies and erosion",
+   "synonyms": [
+    "washed channels",
+    "erosion gully",
+    "soil washed away"
+   ],
+   "how_to_check": "Look for channels cut by running water."
+  },
+  {
+   "id": "clods-brick-hard",
+   "group": "dry-behaviour",
+   "label": "Clods brick hard",
+   "synonyms": [
+    "clods like bricks",
+    "very hard lumps",
+    "hard dry clods"
+   ],
+   "how_to_check": "Knock a dry clod; it will not break easily."
+  },
+  {
+   "id": "clods-crumble-easy",
+   "group": "dry-behaviour",
+   "label": "Clods crumble easy",
+   "synonyms": [
+    "soft clods",
+    "lumps break easy",
+    "crumbly lumps"
+   ],
+   "how_to_check": "Press a dry clod; it breaks into crumbs."
+  },
+  {
+   "id": "clods-columnar-rounded",
+   "group": "dry-behaviour",
+   "label": "Columnar rounded clods",
+   "synonyms": [
+    "column shaped clods",
+    "rounded pillars",
+    "standing clods"
+   ],
+   "how_to_check": "Look at dry clods standing as rounded columns."
+  },
+  {
+   "id": "slippery-soapy-wet",
+   "group": "wet-behaviour",
+   "label": "Slippery soapy wet",
+   "synonyms": [
+    "soapy feel",
+    "slippery mud",
+    "slick wet soil"
+   ],
+   "how_to_check": "Rub wet soil between fingers; it feels soapy."
+  },
+  {
+   "id": "sticky-smear-wet",
+   "group": "wet-behaviour",
+   "label": "Sticky smear wet",
+   "synonyms": [
+    "sticky clay",
+    "smears on hand",
+    "gluey mud"
+   ],
+   "how_to_check": "Squeeze wet soil; it smears and sticks."
+  },
+  {
+   "id": "puddles-stay-long",
+   "group": "wet-behaviour",
+   "label": "Puddles stay long",
+   "synonyms": [
+    "water stands",
+    "puddles do not drain",
+    "long pooling"
+   ],
+   "how_to_check": "After rain, note puddles still there a day later."
+  },
+  {
+   "id": "puddles-drain-fast",
+   "group": "wet-behaviour",
+   "label": "Puddles drain fast",
+   "synonyms": [
+    "water sinks quick",
+    "puddles vanish",
+    "fast draining"
+   ],
+   "how_to_check": "After rain, puddles are gone within a short while."
+  },
+  {
+   "id": "water-runs-off",
+   "group": "wet-behaviour",
+   "label": "Water runs off",
+   "synonyms": [
+    "water flows away",
+    "runoff",
+    "water will not soak"
+   ],
+   "how_to_check": "Pour a bucketful; water runs off the surface."
+  },
+  {
+   "id": "mud-deep-when-wet",
+   "group": "wet-behaviour",
+   "label": "Deep mud when wet",
+   "synonyms": [
+    "sinking mud",
+    "deep wet mud",
+    "boots sink"
+   ],
+   "how_to_check": "Walk after rain; feet sink deep into mud."
+  },
+  {
+   "id": "hole-water-stays-long",
+   "group": "wet-behaviour",
+   "label": "Hole water stays long",
+   "synonyms": [
+    "test hole holds water",
+    "water sits in hole",
+    "hole not draining"
+   ],
+   "how_to_check": "Fill a hand-dug hole; water still there next day."
+  },
+  {
+   "id": "hardpan-under-surface",
+   "group": "below-surface",
+   "label": "Hardpan below surface",
+   "synonyms": [
+    "hard layer below",
+    "pan under soil",
+    "hard floor underground"
+   ],
+   "how_to_check": "Push a pointed stick down; it stops hard."
+  },
+  {
+   "id": "chalky-lumps-present",
+   "group": "below-surface",
+   "label": "Chalky lumps present",
+   "synonyms": [
+    "white lumps in soil",
+    "lime lumps",
+    "soft white stones"
+   ],
+   "how_to_check": "Dig and look for soft white lumps that crumble."
+  },
+  {
+   "id": "soil-colour-dark",
+   "group": "below-surface",
+   "label": "Dark soil colour",
+   "synonyms": [
+    "blackish soil",
+    "dark earth",
+    "very dark soil"
+   ],
+   "how_to_check": "Compare dug soil with a clean cloth; it looks dark."
+  },
+  {
+   "id": "soil-colour-grey",
+   "group": "below-surface",
+   "label": "Grey soil colour",
+   "synonyms": [
+    "grey earth",
+    "ash grey soil",
+    "dull grey soil"
+   ],
+   "how_to_check": "Look at dug soil; it has a grey tinge."
+  },
+  {
+   "id": "soil-colour-pale",
+   "group": "below-surface",
+   "label": "Pale soil colour",
+   "synonyms": [
+    "light soil",
+    "pale earth",
+    "washed pale soil"
+   ],
+   "how_to_check": "Look at dug soil; it is pale and washed."
+  },
+  {
+   "id": "weeds-none",
+   "group": "plants",
+   "label": "No weeds",
+   "synonyms": [
+    "no weeds",
+    "nothing growing",
+    "bare of weeds"
+   ],
+   "how_to_check": "Walk the field; you find almost no weeds."
+  },
+  {
+   "id": "weeds-salt-loving",
+   "group": "plants",
+   "label": "Salt loving weeds",
+   "synonyms": [
+    "salt weeds",
+    "salty weeds",
+    "weeds on white patches"
+   ],
+   "how_to_check": "Note weeds growing where the white crust is."
+  },
+  {
+   "id": "weeds-hardy-grass",
+   "group": "plants",
+   "label": "Hardy grass weeds",
+   "synonyms": [
+    "tough grass",
+    "hardy grass",
+    "rough grasses"
+   ],
+   "how_to_check": "Look for tough grasses surviving where crops fail."
+  },
+  {
+   "id": "plants-stunted-yellow",
+   "group": "plants",
+   "label": "Stunted yellow plants",
+   "synonyms": [
+    "small yellow plants",
+    "poor growth",
+    "yellow stunted crop"
+   ],
+   "how_to_check": "Compare plant height and leaf colour with healthy land."
+  },
+  {
+   "id": "plants-edge-scorched",
+   "group": "plants",
+   "label": "Scorched leaf edges",
+   "synonyms": [
+    "burnt leaf tips",
+    "scorched edges",
+    "brown leaf edges"
+   ],
+   "how_to_check": "Look at leaf tips and edges for browning."
+  },
+  {
+   "id": "trees-few-surviving",
+   "group": "plants",
+   "label": "Few surviving trees",
+   "synonyms": [
+    "dead trees",
+    "few trees left",
+    "trees dying"
+   ],
+   "how_to_check": "Compare living trees with dead standing ones."
+  },
+  {
+   "id": "patches-healthy-growth",
+   "group": "plants",
+   "label": "Patches of healthy growth",
+   "synonyms": [
+    "green patches",
+    "good growth spots",
+    "healthy clumps"
+   ],
+   "how_to_check": "Look for greener patches among the poor growth."
+  },
+  {
+   "id": "water-salty",
+   "group": "water",
+   "label": "Salty water",
+   "synonyms": [
+    "salty taste",
+    "salt water",
+    "tastes of salt"
+   ],
+   "how_to_check": "Taste a single drop; it tastes salty."
+  },
+  {
+   "id": "water-soapy-bitter",
+   "group": "water",
+   "label": "Soapy bitter water",
+   "synonyms": [
+    "bitter water",
+    "soapy taste",
+    "strange taste"
+   ],
+   "how_to_check": "Taste and smell; it is soapy or bitter."
+  },
+  {
+   "id": "water-good",
+   "group": "water",
+   "label": "Good water",
+   "synonyms": [
+    "clean water",
+    "tastes fine",
+    "good drinking water"
+   ],
+   "how_to_check": "Taste and smell; it seems clean and fresh."
+  },
+  {
+   "id": "water-leaves-white-deposit",
+   "group": "water",
+   "label": "Water leaves white deposit",
+   "synonyms": [
+    "white residue",
+    "white stain after drying",
+    "dried white film"
+   ],
+   "how_to_check": "Let a drop dry on a plate; white film remains."
+  },
+  {
+   "id": "rain-only",
+   "group": "water",
+   "label": "Rain is only water",
+   "synonyms": [
+    "only rain water",
+    "no other source",
+    "rain fed"
+   ],
+   "how_to_check": "Ask and look; the only water is rainfall."
+  },
+  {
+   "id": "well-available",
+   "group": "water",
+   "label": "Well available",
+   "synonyms": [
+    "well water",
+    "a well nearby",
+    "draw from well"
+   ],
+   "how_to_check": "Look for a working well within easy reach."
+  },
+  {
+   "id": "canal-available",
+   "group": "water",
+   "label": "Canal available",
+   "synonyms": [
+    "canal water",
+    "channel nearby",
+    "irrigation channel"
+   ],
+   "how_to_check": "Look for a canal or channel that can reach the land."
+  },
+  {
+   "id": "pond-nearby",
+   "group": "water",
+   "label": "Pond nearby",
+   "synonyms": [
+    "pond water",
+    "a pond close",
+    "tank nearby"
+   ],
+   "how_to_check": "Look for a pond you can carry water from."
+  },
+  {
+   "id": "water-scarce-dry-months",
+   "group": "water",
+   "label": "Water scarce in dry months",
+   "synonyms": [
+    "little water later",
+    "dry season shortage",
+    "water runs short"
+   ],
+   "how_to_check": "Ask how water holds up in the dry weeks."
+  },
+  {
+   "id": "tools-rough-only",
+   "group": "resources",
+   "label": "Only rough tools",
+   "synonyms": [
+    "few tools",
+    "rough tools",
+    "no good tools"
+   ],
+   "how_to_check": "Look at the tools on hand; they are crude."
+  },
+  {
+   "id": "tools-good",
+   "group": "resources",
+   "label": "Good tools",
+   "synonyms": [
+    "good tools",
+    "proper tools",
+    "tools in good shape"
+   ],
+   "how_to_check": "Look at the tools; they are sound and useful."
+  },
+  {
+   "id": "helpers-few",
+   "group": "resources",
+   "label": "Few helpers",
+   "synonyms": [
+    "little help",
+    "few hands",
+    "almost alone"
+   ],
+   "how_to_check": "Ask who can help; only a pair of hands."
+  },
+  {
+   "id": "helpers-many",
+   "group": "resources",
+   "label": "Many helpers",
+   "synonyms": [
+    "plenty of help",
+    "many hands",
+    "a group to help"
+   ],
+   "how_to_check": "Ask who can help; a whole group is ready."
+  },
+  {
+   "id": "seed-none",
+   "group": "resources",
+   "label": "No seed",
+   "synonyms": [
+    "no seed",
+    "seed missing",
+    "nothing to sow"
+   ],
+   "how_to_check": "Look in the store; no seed grain is kept."
+  },
+  {
+   "id": "seed-some",
+   "group": "resources",
+   "label": "Some seed",
+   "synonyms": [
+    "a little seed",
+    "some seed kept",
+    "seed in store"
+   ],
+   "how_to_check": "Look in the store; some seed grain is kept."
+  },
+  {
+   "id": "compost-none",
+   "group": "resources",
+   "label": "No compost",
+   "synonyms": [
+    "no compost",
+    "no rotting heap",
+    "nothing to spread"
+   ],
+   "how_to_check": "Look for a compost heap; none is found."
+  },
+  {
+   "id": "compost-available",
+   "group": "resources",
+   "label": "Compost available",
+   "synonyms": [
+    "compost heap",
+    "rotted material",
+    "heap of compost"
+   ],
+   "how_to_check": "Look for a rotted heap ready to spread."
+  },
+  {
+   "id": "dung-available",
+   "group": "resources",
+   "label": "Dung available",
+   "synonyms": [
+    "animal dung",
+    "cattle dung",
+    "manure heap"
+   ],
+   "how_to_check": "Look for animal dung you can collect."
+  },
+  {
+   "id": "gypsum-available",
+   "group": "resources",
+   "label": "Gypsum available",
+   "synonyms": [
+    "land plaster",
+    "market gypsum",
+    "white plaster powder"
+   ],
+   "how_to_check": "Ask the market for land plaster; it can be bought."
+  },
+  {
+   "id": "gypsum-none",
+   "group": "resources",
+   "label": "No gypsum",
+   "synonyms": [
+    "no land plaster",
+    "cannot get gypsum",
+    "none at market"
+   ],
+   "how_to_check": "Ask the market; land plaster is not to be had."
+  },
+  {
+   "id": "money-very-little",
+   "group": "resources",
+   "label": "Very little money",
+   "synonyms": [
+    "no money",
+    "almost nothing",
+    "cannot buy"
+   ],
+   "how_to_check": "Ask what can be bought; very little is possible."
+  },
+  {
+   "id": "money-some",
+   "group": "resources",
+   "label": "Some money",
+   "synonyms": [
+    "a little money",
+    "a bit of money",
+    "small savings"
+   ],
+   "how_to_check": "Ask what can be bought; a little is possible."
+  },
+  {
+   "id": "season-rainy",
+   "group": "season",
+   "label": "Rainy season",
+   "synonyms": [
+    "rains now",
+    "wet season",
+    "monsoon time"
+   ],
+   "how_to_check": "Look at sky and ground; rains are falling."
+  },
+  {
+   "id": "season-cool",
+   "group": "season",
+   "label": "Cool season",
+   "synonyms": [
+    "cold time",
+    "cool weather",
+    "winter chill"
+   ],
+   "how_to_check": "Feel the air; days and nights are cool."
+  },
+  {
+   "id": "season-hot",
+   "group": "season",
+   "label": "Hot season",
+   "synonyms": [
+    "hot weather",
+    "heat now",
+    "very hot days"
+   ],
+   "how_to_check": "Feel the air; the days are very hot."
+  },
+  {
+   "id": "rain-heavy-expected",
+   "group": "season",
+   "label": "Heavy rain expected",
+   "synonyms": [
+    "many rains coming",
+    "wet year",
+    "plenty rain due"
+   ],
+   "how_to_check": "Ask older folk; heavy rains are expected."
+  },
+  {
+   "id": "rain-poor-expected",
+   "group": "season",
+   "label": "Poor rain expected",
+   "synonyms": [
+    "little rain coming",
+    "dry year",
+    "weak rains due"
+   ],
+   "how_to_check": "Ask older folk; poor rains are expected."
+  },
+  {
+   "id": "goal-food",
+   "group": "goal",
+   "label": "Goal food",
+   "synonyms": [
+    "grow food",
+    "feed the family",
+    "food first"
+   ],
+   "how_to_check": "Ask the person; their aim is food."
+  },
+  {
+   "id": "goal-cash",
+   "group": "goal",
+   "label": "Goal cash",
+   "synonyms": [
+    "grow for sale",
+    "earn money",
+    "sell crops"
+   ],
+   "how_to_check": "Ask the person; their aim is money."
+  },
+  {
+   "id": "goal-fodder",
+   "group": "goal",
+   "label": "Goal fodder",
+   "synonyms": [
+    "feed animals",
+    "fodder crop",
+    "grow for cattle"
+   ],
+   "how_to_check": "Ask the person; their aim is animal feed."
+  },
+  {
+   "id": "goal-trees-long-term",
+   "group": "goal",
+   "label": "Goal long term trees",
+   "synonyms": [
+    "plant trees",
+    "long term plan",
+    "wood later"
+   ],
+   "how_to_check": "Ask the person; their aim is trees over years."
+  },
+  {
+   "id": "land-flat",
+   "group": "layout",
+   "label": "Flat land",
+   "synonyms": [
+    "level ground",
+    "no slope",
+    "even ground"
+   ],
+   "how_to_check": "Look across the field; it lies level."
+  },
+  {
+   "id": "land-slope",
+   "group": "layout",
+   "label": "Sloping land",
+   "synonyms": [
+    "tilted ground",
+    "a slope",
+    "ground runs down"
+   ],
+   "how_to_check": "Look across the field; it tilts downward."
+  },
+  {
+   "id": "low-spot-collects-water",
+   "group": "layout",
+   "label": "Low spot collects water",
+   "synonyms": [
+    "dip holds water",
+    "low corner wet",
+    "water gathers here"
+   ],
+   "how_to_check": "Look at the lowest spot after rain; water sits."
+  },
+  {
+   "id": "land-large",
+   "group": "layout",
+   "label": "Large land",
+   "synonyms": [
+    "big field",
+    "wide ground",
+    "much land"
+   ],
+   "how_to_check": "Pace the field; it takes many paces across."
+  },
+  {
+   "id": "land-small",
+   "group": "layout",
+   "label": "Small land",
+   "synonyms": [
+    "small plot",
+    "little ground",
+    "narrow field"
+   ],
+   "how_to_check": "Pace the field; it takes only a few paces."
+  },
+  {
+   "id": "market-near",
+   "group": "layout",
+   "label": "Market near",
+   "synonyms": [
+    "market close",
+    "short trip to market",
+    "nearby town"
+   ],
+   "how_to_check": "Ask how long the trip to market takes."
+  },
+  {
+   "id": "market-far",
+   "group": "layout",
+   "label": "Market far",
+   "synonyms": [
+    "far market",
+    "long trip to market",
+    "distant town"
+   ],
+   "how_to_check": "Ask how long the trip to market takes."
+  },
+  {
+   "id": "previously-farmed",
+   "group": "history",
+   "label": "Previously farmed",
+   "synonyms": [
+    "farmed before",
+    "used land",
+    "old fields"
+   ],
+   "how_to_check": "Ask older folk; the land was farmed before."
+  },
+  {
+   "id": "never-farmed-bare",
+   "group": "history",
+   "label": "Never farmed bare",
+   "synonyms": [
+    "never cropped",
+    "always bare",
+    "untouched ground"
+   ],
+   "how_to_check": "Ask older folk; the land was never cropped."
+  },
+  {
+   "id": "overgrazed",
+   "group": "history",
+   "label": "Overgrazed",
+   "synonyms": [
+    "too much grazing",
+    "eaten bare by cattle",
+    "heavy grazing"
+   ],
+   "how_to_check": "Look for cropped grass and many hoof marks."
+  },
+  {
+   "id": "previously-flooded",
+   "group": "history",
+   "label": "Previously flooded",
+   "synonyms": [
+    "flooded before",
+    "water covered it",
+    "old flood"
+   ],
+   "how_to_check": "Ask older folk; flood water covered the land."
+  },
+  {
+   "id": "photo-white-crust",
+   "group": "photo",
+   "label": "Photo white crust",
+   "synonyms": [
+    "picture of white ground",
+    "salty photo",
+    "white crust picture"
+   ],
+   "how_to_check": "Look at the photo for a white powdery top."
+  },
+  {
+   "id": "photo-cracked-surface",
+   "group": "photo",
+   "label": "Photo cracked surface",
+   "synonyms": [
+    "picture of cracks",
+    "cracked ground photo",
+    "dry cracks picture"
+   ],
+   "how_to_check": "Look at the photo for cracked dry ground."
+  },
+  {
+   "id": "photo-standing-water",
+   "group": "photo",
+   "label": "Photo standing water",
+   "synonyms": [
+    "picture of puddle",
+    "water lying photo",
+    "flooded patch picture"
+   ],
+   "how_to_check": "Look at the photo for water lying on top."
+  },
+  {
+   "id": "photo-bare-ground",
+   "group": "photo",
+   "label": "Photo bare ground",
+   "synonyms": [
+    "picture of empty soil",
+    "no plants photo",
+    "bare field picture"
+   ],
+   "how_to_check": "Look at the photo for ground with no plants."
+  },
+  {
+   "id": "photo-stunted-crop",
+   "group": "photo",
+   "label": "Photo stunted crop",
+   "synonyms": [
+    "picture of poor crop",
+    "small plants photo",
+    "yellow crop picture"
+   ],
+   "how_to_check": "Look at the photo for short yellow plants."
+  },
+  {
+   "id": "photo-gully-erosion",
+   "group": "photo",
+   "label": "Photo gully erosion",
+   "synonyms": [
+    "picture of gully",
+    "washed channel photo",
+    "eroded land picture"
+   ],
+   "how_to_check": "Look at the photo for channels cut by water."
+  }
+ ],
+ "photo_clue_guide": [
+  {
+   "id": "photo-clue-white-crust",
+   "what_photo_shows": "A field with a white powdery film over the top.",
+   "sets_tags": [
+    "photo-white-crust",
+    "crust-white",
+    "water-leaves-white-deposit",
+    "weeds-salt-loving"
+   ],
+   "look_closer_for": "White crust means salt as well as sodium."
+  },
+  {
+   "id": "photo-clue-cracked-surface",
+   "what_photo_shows": "Dry ground split into a pattern of cracks.",
+   "sets_tags": [
+    "photo-cracked-surface",
+    "cracks-deep",
+    "cracks-fine-network",
+    "crust-hard-sealed"
+   ],
+   "look_closer_for": "Check crack depth with a stick laid across."
+  },
+  {
+   "id": "photo-clue-standing-water",
+   "what_photo_shows": "Water lying on the surface in a flat patch.",
+   "sets_tags": [
+    "photo-standing-water",
+    "puddles-stay-long",
+    "hole-water-stays-long",
+    "low-spot-collects-water"
+   ],
+   "look_closer_for": "See whether it sits in a low spot."
+  },
+  {
+   "id": "photo-clue-bare-ground",
+   "what_photo_shows": "Wide ground with little or nothing growing.",
+   "sets_tags": [
+    "photo-bare-ground",
+    "ground-bare",
+    "weeds-none"
+   ],
+   "look_closer_for": "Look for a few tough weeds at the edges."
+  },
+  {
+   "id": "photo-clue-stunted-crop",
+   "what_photo_shows": "Short, yellow plants standing in poor rows.",
+   "sets_tags": [
+    "photo-stunted-crop",
+    "plants-stunted-yellow",
+    "plants-edge-scorched"
+   ],
+   "look_closer_for": "Compare leaf tips for browning and scorch."
+  },
+  {
+   "id": "photo-clue-gully-erosion",
+   "what_photo_shows": "Channels cut through the soil by running water.",
+   "sets_tags": [
+    "photo-gully-erosion",
+    "gullies-erosion",
+    "water-runs-off"
+   ],
+   "look_closer_for": "Trace where the water enters and leaves."
+  },
+  {
+   "id": "photo-clue-dark-greasy",
+   "what_photo_shows": "Dark greasy looking patches on the bare soil.",
+   "sets_tags": [
+    "patches-dark-greasy",
+    "soil-colour-dark"
+   ],
+   "look_closer_for": "Dark greasy patches mean very strong sodium."
+  },
+  {
+   "id": "photo-clue-mixed-patches",
+   "what_photo_shows": "Green patches beside bare and shiny ground.",
+   "sets_tags": [
+    "patches-healthy-growth",
+    "patches-bare-shiny",
+    "patches-dark-greasy"
+   ],
+   "look_closer_for": "Note which side of the ridge grows best."
+  },
+  {
+   "id": "photo-clue-wet-shiny",
+   "what_photo_shows": "A wet surface that looks shiny and sticky.",
+   "sets_tags": [
+    "sticky-smear-wet",
+    "slippery-soapy-wet",
+    "mud-deep-when-wet",
+    "patches-bare-shiny"
+   ],
+   "look_closer_for": "Never till or walk this soil while wet."
+  },
+  {
+   "id": "photo-clue-columnar-clods",
+   "what_photo_shows": "Dry clods standing as rounded columns with cracks.",
+   "sets_tags": [
+    "clods-columnar-rounded",
+    "clods-brick-hard",
+    "cracks-deep"
+   ],
+   "look_closer_for": "Check whether the clods break with a knock."
+  }
+ ],
+ "severity_levels": [
+  {
+   "id": "mild",
+   "how_it_looks": "Thin patchy crust, some bare ground, weak stunted plants.",
+   "acts_when_wet": "Sticky and slippery in small spots, water sinks slowly.",
+   "acts_when_dry": "Top crusts lightly, clods break with a knock.",
+   "first_season_aim": "Open the surface and get living roots in.",
+   "seasons_to_recover_in_words": "Two or three seasons."
+  },
+  {
+   "id": "moderate",
+   "how_it_looks": "Wide white and dark patches, hard crust over much ground.",
+   "acts_when_wet": "Puddles stand, soil feels soapy and smears, feet sink.",
+   "acts_when_dry": "Hard sealed crust, deep cracks, brick hard clods.",
+   "first_season_aim": "Drainage furrows, gypsum and a tolerant cover.",
+   "seasons_to_recover_in_words": "Three or four seasons."
+  },
+  {
+   "id": "severe",
+   "how_it_looks": "Thick white crust, greasy dark patches, land mostly bare.",
+   "acts_when_wet": "Water runs off or stands for days, deep clinging mud.",
+   "acts_when_dry": "Brick hard columns, wide cracks, hardpan below.",
+   "first_season_aim": "Open surface, safe drainage, living roots only.",
+   "seasons_to_recover_in_words": "More than five seasons."
+  }
+ ],
+ "field_tests": [
+  {
+   "id": "test-water-ponding-hole",
+   "name": "Water ponding hole test",
+   "household_items": [
+    "a pointed stick",
+    "a bucket or pot",
+    "good water"
+   ],
+   "steps": [
+    "Dig a hole a hand's depth wide and deep near the middle.",
+    "Fill it with water and note the time by sun or shade.",
+    "Check after a night and again after the next day.",
+    "Repeat in a bare patch and near any plants."
+   ],
+   "results": [
+    {
+     "see": "hole still full after a night",
+     "sets_tag": "hole-water-stays-long",
+     "meaning": "water will not sink, drainage is poor"
+    },
+    {
+     "see": "hole empty within a short while",
+     "sets_tag": "puddles-drain-fast",
+     "meaning": "water sinks here, this spot drains well"
+    },
+    {
+     "see": "water drains only at the hole edges",
+     "sets_tag": "puddles-stay-long",
+     "meaning": "sealed surface with slow entry at the sides"
+    }
+   ]
+  },
+  {
+   "id": "test-dry-clod",
+   "name": "Dry clod test",
+   "household_items": [
+    "a dry clod",
+    "a stone or firm heel"
+   ],
+   "steps": [
+    "Pick a clod from a dry patch.",
+    "Press it with the heel or knock it on a stone.",
+    "Note how it breaks apart.",
+    "Look at the shape of the broken pieces."
+   ],
+   "results": [
+    {
+     "see": "clod will not break and rings hard",
+     "sets_tag": "clods-brick-hard",
+     "meaning": "heavy clay soil that needs careful handling"
+    },
+    {
+     "see": "clod breaks into crumbs easily",
+     "sets_tag": "clods-crumble-easy",
+     "meaning": "soil is workable when dry, add gypsum"
+    },
+    {
+     "see": "clod stands as a rounded column",
+     "sets_tag": "clods-columnar-rounded",
+     "meaning": "strong sodium in the clay"
+    }
+   ]
+  },
+  {
+   "id": "test-jar",
+   "name": "Jar test",
+   "household_items": [
+    "a clear jar or bottle",
+    "soil from the field",
+    "clean water"
+   ],
+   "steps": [
+    "Half fill the jar with water.",
+    "Add a few handfuls of soil and shake hard.",
+    "Set it down and watch how it settles.",
+    "Look at the layers and how long it stays cloudy."
+   ],
+   "results": [
+    {
+     "see": "water stays cloudy for a long time",
+     "sets_tag": "sticky-smear-wet",
+     "meaning": "much fine clay is held in the soil"
+    },
+    {
+     "see": "grit settles at the bottom first",
+     "sets_tag": "clods-crumble-easy",
+     "meaning": "some sandy material is present"
+    },
+    {
+     "see": "a firm layer forms at the bottom",
+     "sets_tag": "hardpan-under-surface",
+     "meaning": "a hard layer may lie below the surface"
+    }
+   ]
+  },
+  {
+   "id": "test-wet-feel-smear",
+   "name": "Wet feel and smear test",
+   "household_items": [
+    "a lump of wet soil",
+    "your hands"
+   ],
+   "steps": [
+    "Take soil from just under the surface.",
+    "Rub it between your fingers and thumb.",
+    "Press a smear onto your palm.",
+    "Note how it feels and holds shape."
+   ],
+   "results": [
+    {
+     "see": "feels soapy and slick",
+     "sets_tag": "slippery-soapy-wet",
+     "meaning": "sodium in the clay makes it slick"
+    },
+    {
+     "see": "sticks and smears on the hand",
+     "sets_tag": "sticky-smear-wet",
+     "meaning": "heavy clay that clings when wet"
+    },
+    {
+     "see": "gritty feel between the fingers",
+     "sets_tag": "clods-crumble-easy",
+     "meaning": "some sand is mixed in the clay"
+    }
+   ]
+  },
+  {
+   "id": "test-crust-crack-look",
+   "name": "Crust and crack look",
+   "household_items": [
+    "your eyes",
+    "a stick"
+   ],
+   "steps": [
+    "Walk the field and look at the bare surface.",
+    "Note white powder, dark greasy spots or shine.",
+    "Lay a stick across cracks to judge their depth.",
+    "Peel any thin skin of crust with your fingers."
+   ],
+   "results": [
+    {
+     "see": "white powder lying on the surface",
+     "sets_tag": "crust-white",
+     "meaning": "salt comes up together with the sodium"
+    },
+    {
+     "see": "dark greasy patches on bare soil",
+     "sets_tag": "patches-dark-greasy",
+     "meaning": "very strong sodium in these spots"
+    },
+    {
+     "see": "dry ground cracked in a fine net",
+     "sets_tag": "cracks-fine-network",
+     "meaning": "clay swells and shrinks, surface sealed"
+    },
+    {
+     "see": "crust peels off as a thin skin",
+     "sets_tag": "crust-thin-peeling",
+     "meaning": "surface crusting, needs organic matter"
+    }
+   ]
+  },
+  {
+   "id": "test-long-stick-hardpan",
+   "name": "Long stick push test for hardpan",
+   "household_items": [
+    "a long pointed stick or bar",
+    "dry ground"
+   ],
+   "steps": [
+    "Choose a day when the top soil crumbles.",
+    "Push the pointed stick straight down.",
+    "Note where it stops and how hard it resists.",
+    "Try again in several bare spots."
+   ],
+   "results": [
+    {
+     "see": "stick stops on a hard layer",
+     "sets_tag": "hardpan-under-surface",
+     "meaning": "hardpan lies below the surface"
+    },
+    {
+     "see": "soft white lumps come up",
+     "sets_tag": "chalky-lumps-present",
+     "meaning": "chalky material is mixed in the soil"
+    },
+    {
+     "see": "stick goes down without much push",
+     "sets_tag": "clods-crumble-easy",
+     "meaning": "no hardpan here, soil is loose below"
+    }
+   ]
+  },
+  {
+   "id": "test-water-taste-lather",
+   "name": "Water taste and soap lather test",
+   "household_items": [
+    "a cup",
+    "a little soap",
+    "a clean plate"
+   ],
+   "steps": [
+    "Taste a drop of the water and note it.",
+    "Rub wet soap in a little of the water.",
+    "See whether lather forms or fails.",
+    "Let a drop dry on the plate."
+   ],
+   "results": [
+    {
+     "see": "water tastes salty",
+     "sets_tag": "water-salty",
+     "meaning": "never use this water to wash the soil"
+    },
+    {
+     "see": "soap will not lather and taste is bitter",
+     "sets_tag": "water-soapy-bitter",
+     "meaning": "bad water, never wash land with it"
+    },
+    {
+     "see": "a white film is left when dry",
+     "sets_tag": "water-leaves-white-deposit",
+     "meaning": "salts are held in the water"
+    },
+    {
+     "see": "good taste and good lather",
+     "sets_tag": "water-good",
+     "meaning": "safe for flushing the sodium downward"
+    }
+   ]
+  },
+  {
+   "id": "test-weed-colour-clues",
+   "name": "Weed and colour clues",
+   "household_items": [
+    "your eyes",
+    "a clean cloth"
+   ],
+   "steps": [
+    "Walk the field and note any plants.",
+    "Look which weeds grow on white or bare spots.",
+    "Dig a little soil and rub it on the cloth.",
+    "Compare the colour with the surrounding ground."
+   ],
+   "results": [
+    {
+     "see": "weeds grow only on white patches",
+     "sets_tag": "weeds-salt-loving",
+     "meaning": "strong salt and sodium there"
+    },
+    {
+     "see": "tough grasses survive where crops fail",
+     "sets_tag": "weeds-hardy-grass",
+     "meaning": "hardy plants suit the first season"
+    },
+    {
+     "see": "soil on the cloth looks dark",
+     "sets_tag": "soil-colour-dark",
+     "meaning": "very strong sodium, greasy soil"
+    },
+    {
+     "see": "soil on the cloth looks pale and washed",
+     "sets_tag": "soil-colour-pale",
+     "meaning": "washed pale soil, low in humus"
+    },
+    {
+     "see": "almost no plants at all",
+     "sets_tag": "weeds-none",
+     "meaning": "nothing grows yet, start with a cover"
+    }
+   ]
+  }
+ ],
+ "diagnosis_rules": [
+  {
+   "id": "diagnosis-mild-sodic",
+   "if_tags_all": [
+    "crust-thin-peeling"
+   ],
+   "if_tags_any": [
+    "clods-crumble-easy",
+    "puddles-drain-fast",
+    "weeds-hardy-grass"
+   ],
+   "diagnosis": "Mild sodic clay",
+   "plain_explanation": "Top crusts lightly, yet soil still crumbles and takes water.",
+   "confidence_words": "leaning that way",
+   "tie_break_test": "Break a dry clod with your heel."
+  },
+  {
+   "id": "diagnosis-moderate-sodic",
+   "if_tags_all": [
+    "crust-white",
+    "clods-brick-hard"
+   ],
+   "if_tags_any": [
+    "puddles-stay-long",
+    "slippery-soapy-wet",
+    "plants-stunted-yellow"
+   ],
+   "diagnosis": "Moderate sodic clay",
+   "plain_explanation": "White crust and hard clods, water stands and roots tire.",
+   "confidence_words": "fairly sure",
+   "tie_break_test": "Rub a wet handful; does it feel soapy."
+  },
+  {
+   "id": "diagnosis-severe-sodic",
+   "if_tags_all": [
+    "patches-dark-greasy",
+    "clods-columnar-rounded"
+   ],
+   "if_tags_any": [
+    "hole-water-stays-long",
+    "water-runs-off",
+    "weeds-none",
+    "ground-bare"
+   ],
+   "diagnosis": "Severe sodic clay",
+   "plain_explanation": "Greasy dark patches, column clods, almost nothing grows.",
+   "confidence_words": "very sure",
+   "tie_break_test": "Fill a hole and look again the next day."
+  },
+  {
+   "id": "diagnosis-salty-only",
+   "if_tags_all": [
+    "crust-white"
+   ],
+   "if_tags_any": [
+    "water-leaves-white-deposit",
+    "weeds-salt-loving",
+    "puddles-drain-fast",
+    "clods-crumble-easy"
+   ],
+   "diagnosis": "Salty surface without heavy sodium",
+   "plain_explanation": "Salt lies on top, yet the soil crumbles and drains.",
+   "confidence_words": "not sure yet",
+   "tie_break_test": "Taste a drop of field water, not the crust."
+  },
+  {
+   "id": "diagnosis-salty-and-sodic",
+   "if_tags_all": [
+    "crust-white",
+    "puddles-stay-long"
+   ],
+   "if_tags_any": [
+    "patches-dark-greasy",
+    "water-leaves-white-deposit",
+    "slippery-soapy-wet"
+   ],
+   "diagnosis": "Salty and sodic together",
+   "plain_explanation": "Salt crust over sealed clay, water both sits and spoils.",
+   "confidence_words": "fairly sure",
+   "tie_break_test": "Watch whether water leaves a film when dry."
+  },
+  {
+   "id": "diagnosis-just-compacted",
+   "if_tags_all": [
+    "ground-bare"
+   ],
+   "if_tags_any": [
+    "puddles-drain-fast",
+    "clods-crumble-easy",
+    "weeds-hardy-grass"
+   ],
+   "diagnosis": "Compacted land, not much sodium",
+   "plain_explanation": "Bare and firm, yet it drains and crumbles without salt.",
+   "confidence_words": "not sure yet",
+   "tie_break_test": "Push a pointed stick down; it sinks without hard stops."
+  },
+  {
+   "id": "diagnosis-sodic-with-hardpan",
+   "if_tags_all": [
+    "hardpan-under-surface",
+    "puddles-stay-long"
+   ],
+   "if_tags_any": [
+    "crust-white",
+    "clods-brick-hard",
+    "cracks-deep"
+   ],
+   "diagnosis": "Sodic clay with hardpan",
+   "plain_explanation": "Sealed top plus a hard layer below the roots.",
+   "confidence_words": "fairly sure",
+   "tie_break_test": "Push a long stick down until it stops."
+  },
+  {
+   "id": "diagnosis-sodic-with-chalky",
+   "if_tags_all": [
+    "chalky-lumps-present"
+   ],
+   "if_tags_any": [
+    "crust-white",
+    "clods-crumble-easy",
+    "soil-colour-pale"
+   ],
+   "diagnosis": "Sodic clay with chalky lumps",
+   "plain_explanation": "Soft white lumps sit with the salt in the soil.",
+   "confidence_words": "leaning that way",
+   "tie_break_test": "Dig a handspan and crumble the lumps."
+  },
+  {
+   "id": "diagnosis-waterlogged-sodic",
+   "if_tags_all": [
+    "hole-water-stays-long"
+   ],
+   "if_tags_any": [
+    "slippery-soapy-wet",
+    "mud-deep-when-wet",
+    "low-spot-collects-water",
+    "puddles-stay-long"
+   ],
+   "diagnosis": "Waterlogged sodic clay",
+   "plain_explanation": "Water cannot leave, so roots drown in sealed clay.",
+   "confidence_words": "fairly sure",
+   "tie_break_test": "Watch whether a hole empties by the next day."
+  },
+  {
+   "id": "diagnosis-eroded-slope",
+   "if_tags_all": [
+    "gullies-erosion"
+   ],
+   "if_tags_any": [
+    "land-slope",
+    "water-runs-off",
+    "cracks-deep",
+    "ground-bare"
+   ],
+   "diagnosis": "Eroded sloping sodic land",
+   "plain_explanation": "Water runs off and cuts channels through bare clay.",
+   "confidence_words": "fairly sure",
+   "tie_break_test": "Follow the channels to see where water leaves."
+  },
+  {
+   "id": "diagnosis-overgrazed-bare",
+   "if_tags_all": [
+    "overgrazed"
+   ],
+   "if_tags_any": [
+    "ground-bare",
+    "weeds-none",
+    "clods-brick-hard",
+    "crust-hard-sealed"
+   ],
+   "diagnosis": "Overgrazed bare sealed land",
+   "plain_explanation": "Hooves sealed the surface and nothing holds the soil.",
+   "confidence_words": "leaning that way",
+   "tie_break_test": "Look for many hoof marks on the bare ground."
+  },
+  {
+   "id": "diagnosis-bad-well-water",
+   "if_tags_all": [
+    "water-soapy-bitter"
+   ],
+   "if_tags_any": [
+    "crust-white",
+    "water-leaves-white-deposit",
+    "plants-edge-scorched",
+    "puddles-stay-long"
+   ],
+   "diagnosis": "Land spoiled by bad well water",
+   "plain_explanation": "Soapy bitter water was used and crust followed after.",
+   "confidence_words": "fairly sure",
+   "tie_break_test": "Rub soap in the water; lather fails to form."
+  },
+  {
+   "id": "diagnosis-early-crust",
+   "if_tags_all": [
+    "crust-hard-sealed"
+   ],
+   "if_tags_any": [
+    "cracks-fine-network",
+    "ground-dusty-powdery",
+    "crust-thin-peeling"
+   ],
+   "diagnosis": "Sealed surface starting to sodify",
+   "plain_explanation": "Top has capped and dusts, sodium is beginning to build.",
+   "confidence_words": "leaning that way",
+   "tie_break_test": "Pour a bucketful and watch whether it soaks in."
+  },
+  {
+   "id": "diagnosis-not-enough-clues",
+   "if_tags_all": [],
+   "if_tags_any": [],
+   "diagnosis": "Not enough clues yet",
+   "plain_explanation": "Too few signs to judge the land safely.",
+   "confidence_words": "no idea yet",
+   "tie_break_test": "Run the clod test and the ponding hole test."
+  }
+ ],
+ "gap_rules": [
+  {
+   "id": "gap-no-drainage-path",
+   "if_tags_any": [
+    "hole-water-stays-long",
+    "puddles-stay-long",
+    "low-spot-collects-water"
+   ],
+   "gap_title": "No drainage path",
+   "what_land_lacks": "Nowhere for wash water to leave the land.",
+   "why_it_matters": "Gypsum cannot work and salts stay near the roots.",
+   "fix_ids": [
+    "fix-drain-furrows",
+    "fix-protect-from-ponding"
+   ]
+  },
+  {
+   "id": "gap-sealed-surface",
+   "if_tags_any": [
+    "crust-hard-sealed",
+    "crust-thin-peeling",
+    "water-runs-off",
+    "puddles-stay-long"
+   ],
+   "gap_title": "Sealed surface",
+   "what_land_lacks": "A capped top that water cannot pass.",
+   "why_it_matters": "Water runs off and roots starve of air.",
+   "fix_ids": [
+    "fix-clear-crust",
+    "fix-loosen-when-crumbly",
+    "fix-compost-dung"
+   ]
+  },
+  {
+   "id": "gap-no-loose-topsoil",
+   "if_tags_any": [
+    "clods-brick-hard",
+    "ground-bare",
+    "crust-hard-sealed"
+   ],
+   "gap_title": "No loose topsoil",
+   "what_land_lacks": "Loose crumbly soil near the surface.",
+   "why_it_matters": "Seeds cannot enter and roots cannot spread.",
+   "fix_ids": [
+    "fix-loosen-when-crumbly",
+    "fix-compost-dung",
+    "fix-mulch"
+   ]
+  },
+  {
+   "id": "gap-hardpan",
+   "if_tags_any": [
+    "hardpan-under-surface",
+    "clods-columnar-rounded"
+   ],
+   "gap_title": "Hard layer below",
+   "what_land_lacks": "A broken layer beneath the root zone.",
+   "why_it_matters": "Water and roots both stop at that layer.",
+   "fix_ids": [
+    "fix-deep-loosen-hardpan",
+    "fix-drain-furrows"
+   ]
+  },
+  {
+   "id": "gap-no-organic-matter",
+   "if_tags_any": [
+    "compost-none",
+    "ground-dusty-powdery",
+    "crust-thin-peeling",
+    "weeds-none"
+   ],
+   "gap_title": "No organic matter",
+   "what_land_lacks": "Nothing rotted to open the clay.",
+   "why_it_matters": "Clay stays sealed and crusts after every rain.",
+   "fix_ids": [
+    "fix-compost-dung",
+    "fix-green-manure",
+    "fix-mulch"
+   ]
+  },
+  {
+   "id": "gap-no-calcium-helper",
+   "if_tags_any": [
+    "gypsum-none",
+    "patches-dark-greasy",
+    "clods-columnar-rounded",
+    "crust-white"
+   ],
+   "gap_title": "No calcium helper",
+   "what_land_lacks": "No land plaster to push sodium out.",
+   "why_it_matters": "Sodium keeps holding the clay closed.",
+   "fix_ids": [
+    "fix-gypsum-dusting",
+    "fix-flush-good-water"
+   ]
+  },
+  {
+   "id": "gap-no-good-water",
+   "if_tags_any": [
+    "rain-only",
+    "water-scarce-dry-months"
+   ],
+   "gap_title": "No good washing water",
+   "what_land_lacks": "Little or no good water for washing.",
+   "why_it_matters": "Sodium cannot be flushed below the roots.",
+   "fix_ids": [
+    "fix-rainwater-harvest"
+   ]
+  },
+  {
+   "id": "gap-salty-water-risk",
+   "if_tags_any": [
+    "water-salty",
+    "water-soapy-bitter",
+    "water-leaves-white-deposit"
+   ],
+   "gap_title": "Salty or soapy water risk",
+   "what_land_lacks": "Water that will not add more salt.",
+   "why_it_matters": "Washing with bad water makes the crust worse.",
+   "fix_ids": [
+    "fix-flush-good-water",
+    "fix-rainwater-harvest"
+   ]
+  },
+  {
+   "id": "gap-no-cover",
+   "if_tags_any": [
+    "ground-bare",
+    "weeds-none",
+    "plants-stunted-yellow",
+    "photo-bare-ground"
+   ],
+   "gap_title": "No living cover",
+   "what_land_lacks": "Bare ground with no living roots.",
+   "why_it_matters": "Rain hits hard, crust rebuilds and soil washes.",
+   "fix_ids": [
+    "fix-tolerant-cover-plants",
+    "fix-green-manure",
+    "fix-mulch"
+   ]
+  },
+  {
+   "id": "gap-erosion",
+   "if_tags_any": [
+    "gullies-erosion",
+    "land-slope",
+    "water-runs-off",
+    "photo-gully-erosion"
+   ],
+   "gap_title": "Soil washing away",
+   "what_land_lacks": "Nothing holding the soil on the slope.",
+   "why_it_matters": "Good topsoil leaves with every heavy rain.",
+   "fix_ids": [
+    "fix-erosion-control",
+    "fix-ridges-raised-beds",
+    "fix-stop-grazing-protect"
+   ]
+  },
+  {
+   "id": "gap-ponding-low-spot",
+   "if_tags_any": [
+    "low-spot-collects-water",
+    "hole-water-stays-long",
+    "photo-standing-water"
+   ],
+   "gap_title": "Ponding in a low spot",
+   "what_land_lacks": "A dip that keeps standing water.",
+   "why_it_matters": "Standing water seals the clay deeper down.",
+   "fix_ids": [
+    "fix-protect-from-ponding",
+    "fix-drain-furrows"
+   ]
+  },
+  {
+   "id": "gap-no-mulch",
+   "if_tags_any": [
+    "ground-dusty-powdery",
+    "crust-thin-peeling",
+    "patches-bare-shiny"
+   ],
+   "gap_title": "No mulch cover",
+   "what_land_lacks": "Nothing lying on the bare surface.",
+   "why_it_matters": "Sun bakes the top and dust blows away.",
+   "fix_ids": [
+    "fix-mulch",
+    "fix-compost-dung"
+   ]
+  },
+  {
+   "id": "gap-few-helpers",
+   "if_tags_any": [
+    "helpers-few"
+   ],
+   "gap_title": "Few hands to help",
+   "what_land_lacks": "Not enough hands for big work.",
+   "why_it_matters": "Big jobs must split into short easy spells.",
+   "fix_ids": [
+    "fix-ridges-raised-beds",
+    "fix-green-manure"
+   ]
+  },
+  {
+   "id": "gap-no-seed",
+   "if_tags_any": [
+    "seed-none"
+   ],
+   "gap_title": "No seed to sow",
+   "what_land_lacks": "Nothing at hand for the first sowing.",
+   "why_it_matters": "Living roots are the first aim of the season.",
+   "fix_ids": [
+    "fix-tolerant-cover-plants",
+    "fix-green-manure"
+   ]
+  },
+  {
+   "id": "gap-very-little-money",
+   "if_tags_any": [
+    "money-very-little",
+    "market-far"
+   ],
+   "gap_title": "Very little money",
+   "what_land_lacks": "Little to spend at the market.",
+   "why_it_matters": "Work must lean on dung, mulch and saved seed.",
+   "fix_ids": [
+    "fix-compost-dung",
+    "fix-rainwater-harvest",
+    "fix-green-manure"
+   ]
+  },
+  {
+   "id": "gap-rough-tools-only",
+   "if_tags_any": [
+    "tools-rough-only"
+   ],
+   "gap_title": "Rough tools only",
+   "what_land_lacks": "No tool that can break hard ground.",
+   "why_it_matters": "Deep work must wait for soft dry days.",
+   "fix_ids": [
+    "fix-loosen-when-crumbly",
+    "fix-deep-loosen-hardpan"
+   ]
+  }
+ ],
+ "scenario_variations": [
+  {
+   "id": "scenario-water-canal-pond",
+   "axis": "water source",
+   "option_tags": [
+    "canal-available",
+    "pond-nearby",
+    "water-good"
+   ],
+   "effect_on_plan": "Good water allows a safe wash cycle.",
+   "adapt": "Run the wash when the canal or pond gives water."
+  },
+  {
+   "id": "scenario-water-soapy-well",
+   "axis": "water source",
+   "option_tags": [
+    "well-available",
+    "water-soapy-bitter"
+   ],
+   "effect_on_plan": "That well would add salt and soap to the land.",
+   "adapt": "Never wash with it; catch rain and seek good water."
+  },
+  {
+   "id": "scenario-water-rain-only",
+   "axis": "water source",
+   "option_tags": [
+    "rain-only"
+   ],
+   "effect_on_plan": "Every fall must be caught and held.",
+   "adapt": "Dig catch pits and bunds before the rains arrive."
+  },
+  {
+   "id": "scenario-water-scarce-dry",
+   "axis": "water source",
+   "option_tags": [
+    "water-scarce-dry-months"
+   ],
+   "effect_on_plan": "Washing must stop through the dry weeks.",
+   "adapt": "Keep water for plants and wash only at rainy start."
+  },
+  {
+   "id": "scenario-drainage-possible",
+   "axis": "drainage possible",
+   "option_tags": [
+    "land-flat",
+    "low-spot-collects-water"
+   ],
+   "effect_on_plan": "Flat land holds water unless an outlet is cut.",
+   "adapt": "Dig a drain furrow toward a low edge."
+  },
+  {
+   "id": "scenario-drainage-not-possible",
+   "axis": "drainage possible",
+   "option_tags": [
+    "land-slope",
+    "water-runs-off"
+   ],
+   "effect_on_plan": "Runoff gives a natural way out, yet soil washes.",
+   "adapt": "Guide the drain safely and guard the slope."
+  },
+  {
+   "id": "scenario-hardpan-present",
+   "axis": "hardpan",
+   "option_tags": [
+    "hardpan-under-surface"
+   ],
+   "effect_on_plan": "Water and roots stop on the hard layer.",
+   "adapt": "Break it only when crumbly, in vertical lines."
+  },
+  {
+   "id": "scenario-hardpan-absent",
+   "axis": "hardpan",
+   "option_tags": [
+    "clods-crumble-easy"
+   ],
+   "effect_on_plan": "No hard layer below, normal loosening will do.",
+   "adapt": "Loosen gently and keep organic matter coming."
+  },
+  {
+   "id": "scenario-chalky-lumps",
+   "axis": "chalky lumps",
+   "option_tags": [
+    "chalky-lumps-present"
+   ],
+   "effect_on_plan": "Soft white lumps need care during washing.",
+   "adapt": "Clear lumps while loosening, then dust gypsum thinly."
+  },
+  {
+   "id": "scenario-white-crust-present",
+   "axis": "white salt crust",
+   "option_tags": [
+    "crust-white",
+    "water-leaves-white-deposit"
+   ],
+   "effect_on_plan": "Salt sits with the sodium and must be flushed.",
+   "adapt": "Dust gypsum, then wash downward with good water."
+  },
+  {
+   "id": "scenario-white-crust-absent",
+   "axis": "white salt crust",
+   "option_tags": [
+    "crust-hard-sealed"
+   ],
+   "effect_on_plan": "No visible salt, yet the clay is still sealed.",
+   "adapt": "Open the surface with mulch, compost and careful loosening."
+  },
+  {
+   "id": "scenario-rain-heavy",
+   "axis": "rain",
+   "option_tags": [
+    "rain-heavy-expected"
+   ],
+   "effect_on_plan": "Heavy rain helps washing yet cuts channels.",
+   "adapt": "Guard against erosion and keep drain furrows clear."
+  },
+  {
+   "id": "scenario-rain-poor",
+   "axis": "rain",
+   "option_tags": [
+    "rain-poor-expected"
+   ],
+   "effect_on_plan": "Little rain means little free washing water.",
+   "adapt": "Store every bucket and skip deep washing this season."
+  },
+  {
+   "id": "scenario-start-rainy",
+   "axis": "start season",
+   "option_tags": [
+    "season-rainy"
+   ],
+   "effect_on_plan": "Rain loosens the land and carries sodium down.",
+   "adapt": "Set gypsum and cover before the rains firm the soil."
+  },
+  {
+   "id": "scenario-start-cool",
+   "axis": "start season",
+   "option_tags": [
+    "season-cool"
+   ],
+   "effect_on_plan": "Cool dry days suit careful loosening work.",
+   "adapt": "Work the crust only while it crumbles in hand."
+  },
+  {
+   "id": "scenario-start-hot",
+   "axis": "start season",
+   "option_tags": [
+    "season-hot"
+   ],
+   "effect_on_plan": "Heat caps the top and dries water fast.",
+   "adapt": "Mulch heavily and water only in the early morning."
+  },
+  {
+   "id": "scenario-resources-little",
+   "axis": "resources",
+   "option_tags": [
+    "money-very-little",
+    "tools-rough-only",
+    "seed-none"
+   ],
+   "effect_on_plan": "Little to buy, dig with or sow.",
+   "adapt": "Lean on dung, mulch, saved seed and cover plants."
+  },
+  {
+   "id": "scenario-resources-good",
+   "axis": "resources",
+   "option_tags": [
+    "money-some",
+    "tools-good",
+    "seed-some"
+   ],
+   "effect_on_plan": "Work can move faster with bought supplies.",
+   "adapt": "Buy land plaster and seed, yet avoid market nitrogen alone."
+  },
+  {
+   "id": "scenario-helpers-few",
+   "axis": "helpers",
+   "option_tags": [
+    "helpers-few"
+   ],
+   "effect_on_plan": "Only a pair of hands at any time.",
+   "adapt": "Split work into short easy spells across many days."
+  },
+  {
+   "id": "scenario-helpers-many",
+   "axis": "helpers",
+   "option_tags": [
+    "helpers-many"
+   ],
+   "effect_on_plan": "A group can finish big jobs together.",
+   "adapt": "Organise a shared day for furrows and bunds."
+  },
+  {
+   "id": "scenario-goal-food",
+   "axis": "goal",
+   "option_tags": [
+    "goal-food"
+   ],
+   "effect_on_plan": "Food must come from tolerant crops first.",
+   "adapt": "Sow rice, barley or sorghum on ridge sides."
+  },
+  {
+   "id": "scenario-goal-cash",
+   "axis": "goal",
+   "option_tags": [
+    "goal-cash"
+   ],
+   "effect_on_plan": "Cash crops fail on sealed clay at first.",
+   "adapt": "Begin with forage grass, then cash crops after improvement."
+  },
+  {
+   "id": "scenario-goal-fodder",
+   "axis": "goal",
+   "option_tags": [
+    "goal-fodder"
+   ],
+   "effect_on_plan": "Fodder grasses tolerate salt and hold the soil.",
+   "adapt": "Sow karnal grass, rhodes grass and dhaincha together."
+  },
+  {
+   "id": "scenario-goal-trees",
+   "axis": "goal",
+   "option_tags": [
+    "goal-trees-long-term"
+   ],
+   "effect_on_plan": "Trees give roots and shade over many seasons.",
+   "adapt": "Plant neem and pongamia; warn that prosopis spreads."
+  },
+  {
+   "id": "scenario-land-small",
+   "axis": "land size",
+   "option_tags": [
+    "land-small"
+   ],
+   "effect_on_plan": "Small land can be finished in short spells.",
+   "adapt": "Work one corner first, then move along the field."
+  },
+  {
+   "id": "scenario-land-large",
+   "axis": "land size",
+   "option_tags": [
+    "land-large"
+   ],
+   "effect_on_plan": "Wide land must be split into sections.",
+   "adapt": "Take one strip at a time through the season."
+  },
+  {
+   "id": "scenario-slope",
+   "axis": "land shape",
+   "option_tags": [
+    "land-slope",
+    "gullies-erosion"
+   ],
+   "effect_on_plan": "Runoff crosses the land and cuts channels.",
+   "adapt": "Build contour bunds and stop grazing above."
+  },
+  {
+   "id": "scenario-low-spot",
+   "axis": "land shape",
+   "option_tags": [
+    "low-spot-collects-water",
+    "hole-water-stays-long"
+   ],
+   "effect_on_plan": "The dip gathers water and seals the clay.",
+   "adapt": "Raise beds and lead water out of the dip."
+  },
+  {
+   "id": "scenario-history-never-farmed",
+   "axis": "history",
+   "option_tags": [
+    "never-farmed-bare"
+   ],
+   "effect_on_plan": "Untouched land has never been worked or drained.",
+   "adapt": "Start slow; open the surface before any sowing."
+  },
+  {
+   "id": "scenario-history-old-farm",
+   "axis": "history",
+   "option_tags": [
+    "previously-farmed"
+   ],
+   "effect_on_plan": "Old farmland may still hold furrows and roots.",
+   "adapt": "Reuse old bunds and add gypsum with compost."
+  },
+  {
+   "id": "scenario-history-overgrazed",
+   "axis": "history",
+   "option_tags": [
+    "overgrazed"
+   ],
+   "effect_on_plan": "Hooves sealed the surface and removed cover.",
+   "adapt": "Stop grazing first, then mulch and reseed with cover."
+  },
+  {
+   "id": "scenario-history-flooded",
+   "axis": "history",
+   "option_tags": [
+    "previously-flooded"
+   ],
+   "effect_on_plan": "Flood water left salt and silt on top.",
+   "adapt": "Look for white crust and flush with good rainwater."
+  }
+ ],
+ "water_guidance": [
+  {
+   "id": "water-guide-taste",
+   "situation": "Judging water by taste",
+   "if_tags_any": [
+    "water-salty"
+   ],
+   "advice": "Taste one drop; salty water must never wash this land."
+  },
+  {
+   "id": "water-guide-lather",
+   "situation": "Checking soap lather",
+   "if_tags_any": [
+    "water-soapy-bitter"
+   ],
+   "advice": "Rub soap in the water; failed lather means keep it away."
+  },
+  {
+   "id": "water-guide-mixing",
+   "situation": "Mixing waters together",
+   "if_tags_any": [
+    "water-good",
+    "canal-available",
+    "pond-nearby"
+   ],
+   "advice": "Mix doubtful water with good water only while lather still forms."
+  },
+  {
+   "id": "water-guide-settling",
+   "situation": "Letting water settle before use",
+   "if_tags_any": [
+    "canal-available",
+    "pond-nearby",
+    "rain-only"
+   ],
+   "advice": "Let a bucket stand until grit sinks, then pour off clear water."
+  },
+  {
+   "id": "water-guide-rain-harvest",
+   "situation": "Catching rainwater",
+   "if_tags_any": [
+    "rain-only",
+    "water-scarce-dry-months"
+   ],
+   "advice": "Catch every fall in pits and pots; rainwater suits washing best."
+  },
+  {
+   "id": "water-guide-wash-cycles",
+   "situation": "Running a wash cycle",
+   "if_tags_any": [
+    "crust-white",
+    "puddles-stay-long",
+    "patches-dark-greasy"
+   ],
+   "advice": "Dust gypsum, then wash a little at a time through the season."
+  },
+  {
+   "id": "water-guide-when-not-to-wash",
+   "situation": "When not to wash",
+   "if_tags_any": [
+    "water-salty",
+    "water-soapy-bitter",
+    "hole-water-stays-long"
+   ],
+   "advice": "Never wash without an outlet, nor with salty or soapy water."
+  },
+  {
+   "id": "water-guide-dry-months",
+   "situation": "Plan for the dry weeks",
+   "if_tags_any": [
+    "water-scarce-dry-months",
+    "rain-only"
+   ],
+   "advice": "Hold water for plants only; put washing off until the rains."
+  },
+  {
+   "id": "water-guide-shared-pond",
+   "situation": "Sharing a nearby pond",
+   "if_tags_any": [
+    "pond-nearby",
+    "helpers-many"
+   ],
+   "advice": "Keep pond edges bunded and draw small bucketfuls so it lasts."
+  },
+  {
+   "id": "water-guide-soapy-well",
+   "situation": "Wells that turn soapy",
+   "if_tags_any": [
+    "well-available",
+    "water-soapy-bitter"
+   ],
+   "advice": "Stop washing with that well; turn to rain and good water."
+  }
+ ],
+ "questions_to_ask_survivor": [
+  {
+   "id": "question-puddles",
+   "question": "After rain, do puddles stand, and do they dry within a short while?",
+   "sets_tags": [
+    "puddles-stay-long",
+    "puddles-drain-fast"
+   ]
+  },
+  {
+   "id": "question-hole-water",
+   "question": "Does a hand-dug hole still hold water the next day?",
+   "sets_tags": [
+    "hole-water-stays-long"
+   ]
+  },
+  {
+   "id": "question-white-crust",
+   "question": "Is there white powder lying on the bare surface?",
+   "sets_tags": [
+    "crust-white"
+   ]
+  },
+  {
+   "id": "question-dark-patches",
+   "question": "Are there dark greasy patches that look wet even when dry?",
+   "sets_tags": [
+    "patches-dark-greasy",
+    "patches-bare-shiny"
+   ]
+  },
+  {
+   "id": "question-clods",
+   "question": "Do dry lumps break easily, or ring hard like a brick?",
+   "sets_tags": [
+    "clods-crumble-easy",
+    "clods-brick-hard",
+    "clods-columnar-rounded"
+   ]
+  },
+  {
+   "id": "question-wet-feel",
+   "question": "Does wet soil feel soapy or smear across your hand?",
+   "sets_tags": [
+    "slippery-soapy-wet",
+    "sticky-smear-wet"
+   ]
+  },
+  {
+   "id": "question-cracks",
+   "question": "Are there deep cracks or soft white lumps when you dig?",
+   "sets_tags": [
+    "cracks-deep",
+    "cracks-fine-network",
+    "chalky-lumps-present"
+   ]
+  },
+  {
+   "id": "question-water-taste",
+   "question": "How does your water taste, and does soap make lather?",
+   "sets_tags": [
+    "water-salty",
+    "water-soapy-bitter",
+    "water-good"
+   ]
+  },
+  {
+   "id": "question-white-film",
+   "question": "Does a drop of water leave a white film when dry?",
+   "sets_tags": [
+    "water-leaves-white-deposit"
+   ]
+  },
+  {
+   "id": "question-water-source",
+   "question": "Where does your water come from through the dry weeks?",
+   "sets_tags": [
+    "well-available",
+    "canal-available",
+    "pond-nearby",
+    "rain-only",
+    "water-scarce-dry-months"
+   ]
+  },
+  {
+   "id": "question-channels",
+   "question": "Do channels cut through the land where water runs off?",
+   "sets_tags": [
+    "gullies-erosion",
+    "water-runs-off"
+   ]
+  },
+  {
+   "id": "question-weeds",
+   "question": "What grows unplanted — tough grass, salt weeds, or nothing?",
+   "sets_tags": [
+    "weeds-salt-loving",
+    "weeds-hardy-grass",
+    "weeds-none"
+   ]
+  },
+  {
+   "id": "question-crops",
+   "question": "Do the plants stand short and yellow with burnt leaf edges?",
+   "sets_tags": [
+    "plants-stunted-yellow",
+    "plants-edge-scorched"
+   ]
+  },
+  {
+   "id": "question-shape",
+   "question": "Is the land flat, sloping, or does a low spot hold water?",
+   "sets_tags": [
+    "land-flat",
+    "land-slope",
+    "low-spot-collects-water"
+   ]
+  },
+  {
+   "id": "question-hands-tools",
+   "question": "How many hands can help, and what tools are on hand?",
+   "sets_tags": [
+    "helpers-few",
+    "helpers-many",
+    "tools-rough-only",
+    "tools-good"
+   ]
+  }
+ ],
+ "everyday_measures": [
+  {
+   "id": "measure-handful",
+   "measure": "handful",
+   "how_to_use": "A closed hand can hold this much seed or dung."
+  },
+  {
+   "id": "measure-two-hand-scoop",
+   "measure": "two-hand scoop",
+   "how_to_use": "Both hands cupped together carry this to the spot."
+  },
+  {
+   "id": "measure-bucketful",
+   "measure": "bucketful",
+   "how_to_use": "A full bucket spreads water or thin compost."
+  },
+  {
+   "id": "measure-basketful",
+   "measure": "basketful",
+   "how_to_use": "A full woven basket carries weeds, mulch or dung."
+  },
+  {
+   "id": "measure-sackful",
+   "measure": "sackful",
+   "how_to_use": "A full cloth sack buys or stores plaster and seed."
+  },
+  {
+   "id": "measure-pace",
+   "measure": "pace",
+   "how_to_use": "One ordinary step; pace the field to judge its size."
+  },
+  {
+   "id": "measure-long-stride",
+   "measure": "long stride",
+   "how_to_use": "One big step; space rows and ridges by this."
+  },
+  {
+   "id": "measure-handspan",
+   "measure": "handspan",
+   "how_to_use": "Spread thumb to little finger; space plants and widths."
+  },
+  {
+   "id": "measure-finger-width",
+   "measure": "finger width",
+   "how_to_use": "One finger laid sideways; a fine sowing depth."
+  },
+  {
+   "id": "measure-thumb-depth",
+   "measure": "thumb depth",
+   "how_to_use": "Push the thumb in; a shallow seed depth."
+  },
+  {
+   "id": "measure-knuckle-depth",
+   "measure": "knuckle depth",
+   "how_to_use": "Soil up to the first knuckle; a grain seed depth."
+  },
+  {
+   "id": "measure-hands-depth",
+   "measure": "hand's depth",
+   "how_to_use": "Soil up to the wrist; mix plaster or dung this deep."
+  }
+ ],
+ "fix_protocol": [
+  {
+   "id": "fix-stop-grazing-protect",
+   "order_word": "first",
+   "title": "Stop grazing and protect the land",
+   "applies_if_tags_any": [
+    "overgrazed",
+    "ground-bare",
+    "gullies-erosion",
+    "photo-gully-erosion"
+   ],
+   "do": "Keep animals off and fence the bare or broken spots.",
+   "amount_everyday": "a low brush fence around each damaged patch",
+   "how": "Pile cut brush or thorn in a low ring to keep cattle out.",
+   "timing_signs": "Do this before any other work, in any season.",
+   "cheap_alternative": "Thorny branches and a watchful neighbour cost nothing.",
+   "caution": "Do not lock away all grazing; leave the herd another patch.",
+   "why": "Cattle seal the surface and eat the cover that holds soil.",
+   "checkpoint_sign": "You see new shoots where the ground was bare.",
+   "what_not_to_do": "Do not let animals back until plants stand a handspan tall."
+  },
+  {
+   "id": "fix-erosion-control",
+   "order_word": "second",
+   "title": "Slow and catch running water",
+   "applies_if_tags_any": [
+    "gullies-erosion",
+    "land-slope",
+    "water-runs-off",
+    "cracks-deep"
+   ],
+   "do": "Cut small cross bunds and fill gullies with brush and stone.",
+   "amount_everyday": "a bund every few paces down the slope",
+   "how": "Pile soil, brush and stone across the gully to slow water.",
+   "timing_signs": "Do this before the heavy rains are expected.",
+   "cheap_alternative": "Stones, brush, old baskets and earth make good barriers.",
+   "caution": "Never dam a gully so strongly that water breaks through.",
+   "why": "Slowing water keeps the good topsoil on the land.",
+   "checkpoint_sign": "After rain the water runs clear, not muddy.",
+   "what_not_to_do": "Do not leave a gully open through the rainy season."
+  },
+  {
+   "id": "fix-drain-furrows",
+   "order_word": "third",
+   "title": "Cut drain furrows with an outlet",
+   "applies_if_tags_any": [
+    "puddles-stay-long",
+    "hole-water-stays-long",
+    "low-spot-collects-water",
+    "land-flat",
+    "water-runs-off"
+   ],
+   "do": "Cut shallow furrows that lead water off to a safe outlet.",
+   "amount_everyday": "furrows about a pace apart, a hand's depth deep",
+   "how": "Open furrows down the slope to a ditch or dry channel.",
+   "timing_signs": "Cut them before the rains, while soil is dry enough.",
+   "cheap_alternative": "A hoe and a strong back are enough.",
+   "caution": "Never cut furrows while the soil is wet and slippery.",
+   "why": "Water must leave the field or sodium cannot wash down.",
+   "checkpoint_sign": "A test bucketful runs away through the furrows.",
+   "what_not_to_do": "Do not let furrow water stand in the low corner."
+  },
+  {
+   "id": "fix-ridges-raised-beds",
+   "order_word": "fourth",
+   "title": "Plant on raised ridges and beds",
+   "applies_if_tags_any": [
+    "low-spot-collects-water",
+    "puddles-stay-long",
+    "hole-water-stays-long",
+    "land-flat",
+    "season-rainy"
+   ],
+   "do": "Raise beds and sow on the side of the ridge, never the crest.",
+   "amount_everyday": "ridges a handspan tall and a long stride apart",
+   "how": "Pull soil into low ridges and set seed on the sloping side.",
+   "timing_signs": "Make ridges when the soil is dry enough to crumble.",
+   "cheap_alternative": "A hoe, a basket and steady work raise good beds.",
+   "caution": "On the crest seedlings dry; in the furrow they drown.",
+   "why": "Ridge sides give air to roots and let water pass.",
+   "checkpoint_sign": "Plants on the ridge side stand greener than the furrow.",
+   "what_not_to_do": "Do not plant in the furrow bottom or on the dry crest."
+  },
+  {
+   "id": "fix-protect-from-ponding",
+   "order_word": "fifth",
+   "title": "Keep water from ponding",
+   "applies_if_tags_any": [
+    "low-spot-collects-water",
+    "hole-water-stays-long",
+    "photo-standing-water",
+    "puddles-stay-long"
+   ],
+   "do": "Fill the low spot a little and lead standing water away.",
+   "amount_everyday": "a basketful of soil moved from each high edge",
+   "how": "Spread soil over the dip and open a shallow channel outward.",
+   "timing_signs": "Do this before the rains so the dip never fills.",
+   "cheap_alternative": "Any spare soil and brushwood will do.",
+   "caution": "Do not bury good topsoil in the dip; keep it for beds.",
+   "why": "Standing water seals the clay and kills the roots below.",
+   "checkpoint_sign": "The dip dries soon after rain, leaving no puddle.",
+   "what_not_to_do": "Do not leave a bowl shape that holds water for days."
+  },
+  {
+   "id": "fix-clear-crust",
+   "order_word": "sixth",
+   "title": "Break the hard surface crust",
+   "applies_if_tags_any": [
+    "crust-hard-sealed",
+    "crust-thin-peeling",
+    "crust-white",
+    "water-runs-off"
+   ],
+   "do": "Scratch and lift the sealed crust so water can enter.",
+   "amount_everyday": "break the whole crust about a finger width deep",
+   "how": "Rake or hoe lightly, then drag a thorny branch over the top.",
+   "timing_signs": "Work only when the crust is dry and lifts in flakes.",
+   "cheap_alternative": "A thorny branch or a rough harrow does the job.",
+   "caution": "Never break crust when it is wet and sticky.",
+   "why": "An open surface lets rain in and air reach the roots.",
+   "checkpoint_sign": "A poured bucketful sinks quickly into the broken top.",
+   "what_not_to_do": "Do not turn the crust deep or bring up salty subsoil."
+  },
+  {
+   "id": "fix-loosen-when-crumbly",
+   "order_word": "seventh",
+   "title": "Loosen the top when it crumbles",
+   "applies_if_tags_any": [
+    "clods-brick-hard",
+    "patches-bare-shiny",
+    "ground-dusty-powdery",
+    "crust-thin-peeling"
+   ],
+   "do": "Loosen the top hand's depth only when dry crumbs form.",
+   "amount_everyday": "one hand's depth, and no deeper",
+   "how": "Lift the soil with a hoe and break clods as they fall.",
+   "timing_signs": "Start when a clod crumbles in the hand, not before.",
+   "cheap_alternative": "A hoe and patience loosen as well as any ox.",
+   "caution": "Wet working smears the clay and seals it worse.",
+   "why": "Loose dry soil takes water, air and roots easily.",
+   "checkpoint_sign": "A dropped clod breaks into crumbs, not bricks.",
+   "what_not_to_do": "Do not dig or drive animals over ground when wet."
+  },
+  {
+   "id": "fix-deep-loosen-hardpan",
+   "order_word": "eighth",
+   "title": "Break hardpan with a long bar",
+   "applies_if_tags_any": [
+    "hardpan-under-surface",
+    "clods-columnar-rounded",
+    "cracks-deep"
+   ],
+   "do": "Drive a long pointed bar down in lines to crack the hardpan.",
+   "amount_everyday": "lines a long stride apart, many holes each",
+   "how": "Push the bar down vertically in a line, then repeat beside it.",
+   "timing_signs": "Only when the deep soil is dry enough to shatter.",
+   "cheap_alternative": "A long pointed stick or iron bar works; no machine needed.",
+   "caution": "Never force the bar in wet soil; it will only smear.",
+   "why": "Broken hardpan lets water and roots reach below.",
+   "checkpoint_sign": "The bar sinks a hand's depth more than before.",
+   "what_not_to_do": "Do not dig a pit; break it in lines, not heaps."
+  },
+  {
+   "id": "fix-gypsum-dusting",
+   "order_word": "ninth",
+   "title": "Dust the land with gypsum",
+   "applies_if_tags_any": [
+    "crust-white",
+    "patches-dark-greasy",
+    "clods-columnar-rounded",
+    "gypsum-available",
+    "gypsum-none"
+   ],
+   "do": "Spread land plaster thin and mix it into the crumbly top.",
+   "amount_everyday": "a handful to each basketful of soil, spread thin",
+   "how": "Scatter gypsum, then mix it into the top hand's depth.",
+   "timing_signs": "Dust it when the soil crumbles and rain is coming.",
+   "cheap_alternative": "If plaster is scarce, use dung and green manure first.",
+   "caution": "Never mix gypsum into wet, smeared clay.",
+   "why": "Calcium in the plaster pushes the sodium out of the clay.",
+   "checkpoint_sign": "Water sinks faster and the white crust fades.",
+   "what_not_to_do": "Do not use wood ash or quicklime in its place."
+  },
+  {
+   "id": "fix-compost-dung",
+   "order_word": "tenth",
+   "title": "Add compost and dung",
+   "applies_if_tags_any": [
+    "compost-available",
+    "dung-available",
+    "compost-none",
+    "ground-dusty-powdery",
+    "crust-thin-peeling"
+   ],
+   "do": "Spread well-rotted compost or dung over the surface.",
+   "amount_everyday": "a basketful to every few paces of ground",
+   "how": "Spread it even, then mix it lightly into the top hand's depth.",
+   "timing_signs": "Apply before the rains, on soil dry enough to crumble.",
+   "cheap_alternative": "A household rotted heap and cattle dung cost nothing.",
+   "why": "Rotted matter opens the clay and cuts the crust.",
+   "checkpoint_sign": "The top stays crumbly after the next rain.",
+   "what_not_to_do": "Do not spread fresh dung thick or trust market nitrogen alone."
+  },
+  {
+   "id": "fix-rainwater-harvest",
+   "order_word": "eleventh",
+   "title": "Catch and store rainwater",
+   "applies_if_tags_any": [
+    "rain-only",
+    "water-scarce-dry-months",
+    "rain-heavy-expected",
+    "season-rainy"
+   ],
+   "do": "Catch roof and surface water in pits, pots and small bunds.",
+   "amount_everyday": "a pit a few paces across and a hand's depth deep",
+   "how": "Dig catch pits by the paths and bund the edges to hold water.",
+   "timing_signs": "Prepare the pits before the rain signs appear.",
+   "cheap_alternative": "Old pots, pits and earth bunds catch water cheaply.",
+   "caution": "Keep animals and dirty runoff out of drinking stores.",
+   "why": "Rainwater is the best water for washing sodium away.",
+   "checkpoint_sign": "The pits still hold water into the dry weeks.",
+   "what_not_to_do": "Do not let stored water grow stale or fill with silt."
+  },
+  {
+   "id": "fix-flush-good-water",
+   "order_word": "twelfth",
+   "title": "Wash the sodium down with good water",
+   "applies_if_tags_any": [
+    "crust-white",
+    "water-salty",
+    "water-soapy-bitter",
+    "puddles-stay-long",
+    "canal-available",
+    "pond-nearby"
+   ],
+   "do": "Wash gypsum into the soil with good water that can drain.",
+   "amount_everyday": "a bucketful at a time, letting each soak in",
+   "how": "Pour slowly, let it sink, and let the furrow carry water out.",
+   "timing_signs": "Wash after dusting gypsum, as the rains begin.",
+   "cheap_alternative": "Rain caught in pits washes as well as canal water.",
+   "caution": "Never wash with salty or soapy water, nor without an outlet.",
+   "why": "The wash carries the freed sodium below the root zone.",
+   "checkpoint_sign": "Water sinks steadily and the crust weakens.",
+   "what_not_to_do": "Do not flood the whole field at once without a drain."
+  },
+  {
+   "id": "fix-green-manure",
+   "order_word": "thirteenth",
+   "title": "Grow a green manure and mix it in",
+   "applies_if_tags_any": [
+    "seed-some",
+    "weeds-none",
+    "ground-bare",
+    "compost-none",
+    "water-runs-off"
+   ],
+   "do": "Sow a quick cover and mix its growth into the topsoil.",
+   "amount_everyday": "seed scattered a finger width apart across the strip",
+   "how": "Broadcast dhaincha or a cover, then cut and mix it in.",
+   "timing_signs": "Sow at rainy start; mix it in while still soft.",
+   "cheap_alternative": "Saved dhaincha seed and a hoe are enough.",
+   "caution": "Do not let the cover grow woody or go to seed.",
+   "why": "Green matter opens clay, feeds soil life and shades the top.",
+   "checkpoint_sign": "The buried cover rots into dark crumbly soil.",
+   "what_not_to_do": "Do not plough the cover deep while ground is wet."
+  },
+  {
+   "id": "fix-mulch",
+   "order_word": "fourteenth",
+   "title": "Cover the bare surface with mulch",
+   "applies_if_tags_any": [
+    "ground-dusty-powdery",
+    "patches-bare-shiny",
+    "crust-thin-peeling",
+    "crust-hard-sealed"
+   ],
+   "do": "Lay cut grass, straw or leaves over the bare ground.",
+   "amount_everyday": "a loose layer about a thumb depth thick",
+   "how": "Spread mulch between plants and over bare patches, off the stems.",
+   "timing_signs": "Mulch after the first good rain while soil holds damp.",
+   "cheap_alternative": "Crop waste, dry grass and leaves are free mulch.",
+   "caution": "Keep mulch off wet smeared clay until it dries.",
+   "why": "Mulch stops baking, crusting and dust blowing away.",
+   "checkpoint_sign": "The soil under the mulch stays damp and crumbly.",
+   "what_not_to_do": "Do not heap mulch on stems or leave ground bare."
+  },
+  {
+   "id": "fix-tolerant-cover-plants",
+   "order_word": "fifteenth",
+   "title": "Sow tolerant cover and first crops",
+   "applies_if_tags_any": [
+    "ground-bare",
+    "weeds-none",
+    "season-rainy",
+    "goal-food",
+    "goal-fodder"
+   ],
+   "do": "Sow salt-tolerant crops first and keep living roots in the soil.",
+   "amount_everyday": "seed set a finger width deep on the ridge side",
+   "how": "Sow barley, sorghum, cotton, dhaincha or grass on ridge sides.",
+   "timing_signs": "Sow at rainy start, on ridge sides, in dry crumbly soil.",
+   "cheap_alternative": "Dhaincha, barley and saved seed cost little.",
+   "caution": "Pulses, vegetables, groundnut and maize fail until land improves.",
+   "why": "Living roots hold the soil, shade it and feed soil life.",
+   "checkpoint_sign": "Plants grow evenly and green even after rain.",
+   "what_not_to_do": "Do not sow a sensitive crop on sealed clay or in furrows."
+  }
+ ],
+ "verification_checks": [
+  {
+   "id": "verify-stop-grazing-protect",
+   "after_step_id": "fix-stop-grazing-protect",
+   "check_by_hand_or_eye": "Walk the protected patch and look at the ground.",
+   "good_sign": "Young shoots or weeds stand where it was bare.",
+   "bad_sign": "Fresh hoof marks and cropped ground still show.",
+   "if_bad_do": "Mend the brush fence and warn the herders again."
+  },
+  {
+   "id": "verify-erosion-control",
+   "after_step_id": "fix-erosion-control",
+   "check_by_hand_or_eye": "Look at the gullies and cross bunds after rain.",
+   "good_sign": "Water leaves clear and the bunds still stand.",
+   "bad_sign": "Bunds broken and muddy water cutting a new channel.",
+   "if_bad_do": "Rebuild the bunds with more stone and brush."
+  },
+  {
+   "id": "verify-drain-furrows",
+   "after_step_id": "fix-drain-furrows",
+   "check_by_hand_or_eye": "Pour a bucketful into a furrow and follow it.",
+   "good_sign": "Water flows away and the furrow bed stays open.",
+   "bad_sign": "Water stands in the furrow or backs into the field.",
+   "if_bad_do": "Clear the outlet and deepen the furrow a little."
+  },
+  {
+   "id": "verify-ridges-raised-beds",
+   "after_step_id": "fix-ridges-raised-beds",
+   "check_by_hand_or_eye": "Feel the ridge side and look at the sown plants.",
+   "good_sign": "Ridge sides are firm and the plants stand green.",
+   "bad_sign": "Ridges washed flat or plants rotting in the furrow.",
+   "if_bad_do": "Raise the ridges again and set the plants higher."
+  },
+  {
+   "id": "verify-protect-from-ponding",
+   "after_step_id": "fix-protect-from-ponding",
+   "check_by_hand_or_eye": "Look at the low spot after a heavy rain.",
+   "good_sign": "The dip drains soon and no puddle stays.",
+   "bad_sign": "Water still lies in the dip for days.",
+   "if_bad_do": "Open the outlet wider and add more soil to the dip."
+  },
+  {
+   "id": "verify-clear-crust",
+   "after_step_id": "fix-clear-crust",
+   "check_by_hand_or_eye": "Pour a bucketful slowly on the broken top.",
+   "good_sign": "Water sinks in without running off.",
+   "bad_sign": "Water still pools and runs away over the surface.",
+   "if_bad_do": "Rake the crust again and add compost to the top."
+  },
+  {
+   "id": "verify-loosen-when-crumbly",
+   "after_step_id": "fix-loosen-when-crumbly",
+   "check_by_hand_or_eye": "Pick up a clod and crumble it in the hand.",
+   "good_sign": "It breaks into fine crumbs with light pressure.",
+   "bad_sign": "It stays a hard brick or smears when squeezed.",
+   "if_bad_do": "Stop work, wait for drier soil, then loosen again."
+  },
+  {
+   "id": "verify-deep-loosen-hardpan",
+   "after_step_id": "fix-deep-loosen-hardpan",
+   "check_by_hand_or_eye": "Push the long bar down where you broke the pan.",
+   "good_sign": "The bar sinks a hand's depth deeper than before.",
+   "bad_sign": "The bar still stops short on solid hardpan.",
+   "if_bad_do": "Run more lines when the deep soil is dry."
+  },
+  {
+   "id": "verify-gypsum-dusting",
+   "after_step_id": "fix-gypsum-dusting",
+   "check_by_hand_or_eye": "Look at the white crust and pour a bucketful.",
+   "good_sign": "Crust fades and water sinks into the treated strip.",
+   "bad_sign": "Crust returns thick and water still stands.",
+   "if_bad_do": "Dust again thin and wash with good water."
+  },
+  {
+   "id": "verify-compost-dung",
+   "after_step_id": "fix-compost-dung",
+   "check_by_hand_or_eye": "Feel the topsoil after the next rain.",
+   "good_sign": "The top stays crumbly and dark, not sealed.",
+   "bad_sign": "A hard cap forms again over the spread ground.",
+   "if_bad_do": "Add more rotted matter and mulch the surface."
+  },
+  {
+   "id": "verify-rainwater-harvest",
+   "after_step_id": "fix-rainwater-harvest",
+   "check_by_hand_or_eye": "Lift the lid and look into the water pit.",
+   "good_sign": "The pit still holds clean water in dry weeks.",
+   "bad_sign": "The pit is dry, cracked or full of silt.",
+   "if_bad_do": "Clear the silt and line the pit with clay."
+  },
+  {
+   "id": "verify-flush-good-water",
+   "after_step_id": "fix-flush-good-water",
+   "check_by_hand_or_eye": "Taste the wash water and watch it sink.",
+   "good_sign": "Water tastes good, lathers, and sinks steadily.",
+   "bad_sign": "Water tastes salty or soapy and the top seals.",
+   "if_bad_do": "Stop washing, find good water or wait for rain."
+  },
+  {
+   "id": "verify-green-manure",
+   "after_step_id": "fix-green-manure",
+   "check_by_hand_or_eye": "Dig a little where the cover was mixed in.",
+   "good_sign": "Rotted green matter has made dark crumbs.",
+   "bad_sign": "Cover lies unrotted and woody, or ground shows bare.",
+   "if_bad_do": "Chop it smaller, mix it in and keep the top damp."
+  },
+  {
+   "id": "verify-mulch",
+   "after_step_id": "fix-mulch",
+   "check_by_hand_or_eye": "Lift the mulch and feel the soil under it.",
+   "good_sign": "Soil beneath is damp and crumbly to the hand.",
+   "bad_sign": "Bare ground shows and the top is baked hard.",
+   "if_bad_do": "Spread more mulch over the bare patches."
+  },
+  {
+   "id": "verify-tolerant-cover-plants",
+   "after_step_id": "fix-tolerant-cover-plants",
+   "check_by_hand_or_eye": "Look along the rows and feel the soil between.",
+   "good_sign": "Plants grow green and the soil between stays open.",
+   "bad_sign": "Plants yellow or die and the ground seals again.",
+   "if_bad_do": "Resow with a hardier cover and keep the ridge sides."
+  }
+ ],
+ "what_if": [
+  {
+   "id": "what-if-no-gypsum",
+   "situation": "No gypsum can be found.",
+   "do": "Use dung, compost and green manure first, then wash with rainwater."
+  },
+  {
+   "id": "what-if-no-good-water",
+   "situation": "No good water is at hand.",
+   "do": "Catch rainwater and put washing off until the rains."
+  },
+  {
+   "id": "what-if-heavy-rain",
+   "situation": "Heavy rain falls and water races.",
+   "do": "Open drains, guard gullies and keep animals off wet soil."
+  },
+  {
+   "id": "what-if-no-rain",
+   "situation": "The rains fail and the soil stays dry.",
+   "do": "Mulch hard, protect the cover and hold every drop."
+  },
+  {
+   "id": "what-if-pests",
+   "situation": "Pests and disease appear on the crop.",
+   "do": "Hand-pick, keep plants strong and remove weak diseased ones."
+  },
+  {
+   "id": "what-if-little-money",
+   "situation": "Money is very short for the market.",
+   "do": "Lean on dung, mulch, saved seed and neighbourly help."
+  },
+  {
+   "id": "what-if-few-helpers",
+   "situation": "Too few hands for the work.",
+   "do": "Split jobs into short spells and do the smallest useful thing."
+  },
+  {
+   "id": "what-if-rough-tools",
+   "situation": "Only rough tools are on hand.",
+   "do": "Work when soil crumbles and use a pointed stick well."
+  },
+  {
+   "id": "what-if-hardpan-found",
+   "situation": "A hard layer is found below.",
+   "do": "Break it in dry weather with a long bar in lines."
+  },
+  {
+   "id": "what-if-ponding",
+   "situation": "Water ponds after rain.",
+   "do": "Lead the water out and fill the dip a little."
+  },
+  {
+   "id": "what-if-seed-shortage",
+   "situation": "Good seed is scarce.",
+   "do": "Sow dhaincha, barley or grass and save seed from them."
+  },
+  {
+   "id": "what-if-low-price",
+   "situation": "The market price is low.",
+   "do": "Grow food and fodder first and sell only the surplus."
+  },
+  {
+   "id": "what-if-worse",
+   "situation": "The soil seems to get worse.",
+   "do": "Stop heavy work, keep the surface open, add organic matter."
+  },
+  {
+   "id": "what-if-plants-fail",
+   "situation": "Young plants fail early.",
+   "do": "Check for crust, salt and standing water, then resow hardy cover."
+  },
+  {
+   "id": "what-if-improved",
+   "situation": "The soil shows signs of improving.",
+   "do": "Keep cover, add organic matter and widen the tolerant crops."
+  },
+  {
+   "id": "what-if-crust-returns",
+   "situation": "The white crust returns after washing.",
+   "do": "Dust gypsum again thin and wash with good water only."
+  },
+  {
+   "id": "what-if-rain-early",
+   "situation": "Rain comes too early.",
+   "do": "Sow the cover quickly and guard bare ground from washing."
+  },
+  {
+   "id": "what-if-rain-late",
+   "situation": "Rain comes too late.",
+   "do": "Hold the seed, mulch the surface and wash nothing yet."
+  },
+  {
+   "id": "what-if-animals-enter",
+   "situation": "Animals enter the field.",
+   "do": "Mend the fence and lead the herd to a grazing patch."
+  },
+  {
+   "id": "what-if-wind-dust",
+   "situation": "Wind blows dust off the field.",
+   "do": "Mulch the bare top and leave rough clods on the surface."
+  },
+  {
+   "id": "what-if-flood-upslope",
+   "situation": "Flood water comes from upslope.",
+   "do": "Cut a diversion bund to turn the water aside."
+  },
+  {
+   "id": "what-if-only-salty-water",
+   "situation": "Only salty water is available.",
+   "do": "Never wash with it; save it for nothing but the roadside."
+  },
+  {
+   "id": "what-if-gypsum-hard",
+   "situation": "Gypsum is too costly or hard to get.",
+   "do": "Improve with dung and green manure, and wash in the rains."
+  },
+  {
+   "id": "what-if-no-outlet",
+   "situation": "No way for water to leave can be found.",
+   "do": "Make raised beds, catch rain and wash only small amounts."
+  }
+ ],
+ "not_in_kb_message": "I have no note on that yet; gather more clues and I will try again.",
+ "advisor_rules": [
+  "Never ask for or quote readings or numbers; use eyes, hands and household items.",
+  "Always give a hands-and-eyes check the survivor can do alone.",
+  "Give amounts in everyday terms: a handful, a bucketful, a pace.",
+  "Always say why, so the survivor understands the land.",
+  "Explain why sensitive crops fail until the land improves.",
+  "Always offer one clear next step to try now.",
+  "Admit gaps plainly instead of guessing.",
+  "Stay cautious and hedge when clues are missing."
+ ],
+ "crops": [
+  {
+   "id": "rice-bad-soil",
+   "name": "Rice on poor sodic soil",
+   "tolerance_word": "tolerant",
+   "fit": {
+    "crust": "good",
+    "ponding": "great",
+    "water_quality": "fair",
+    "season": "good",
+    "labour": "fair",
+    "goal": "good"
+   },
+   "best_season_signs": "Sow when standing water lies and the rains have set in.",
+   "sowing": {
+    "seed_in_handfuls_per_pace": "a handful scattered over a few paces",
+    "depth_in_finger_widths": "a finger width",
+    "spacing_in_handspans": "a handspan between clumps"
+   },
+   "water_need_word": "thirsty; wants shallow standing water",
+   "use": "Grain food from a wet patch or low field.",
+   "stages": [
+    {
+     "stage": "nursery",
+     "span_in_words": "a few weeks before the rains",
+     "task": "Raise seedlings on a raised wet bed."
+    },
+    {
+     "stage": "planting",
+     "span_in_words": "at the rainy start",
+     "task": "Set clumps in shallow standing water."
+    },
+    {
+     "stage": "growing",
+     "span_in_words": "through the wet weeks",
+     "task": "Keep water shallow and pull weeds by hand."
+    },
+    {
+     "stage": "harvest",
+     "span_in_words": "when grains bend and yellow",
+     "task": "Cut, dry and store the grain dry."
+    }
+   ],
+   "disease_ids": [
+    "blast",
+    "stem-borer",
+    "leaf-spot",
+    "damping-off"
+   ],
+   "why_it_fails_on_bad_land": "Fails only where water drains away and salt stays.",
+   "best_when_tags": [
+    "low-spot-collects-water",
+    "puddles-stay-long",
+    "season-rainy",
+    "rain-heavy-expected"
+   ]
+  },
+  {
+   "id": "barley",
+   "name": "Barley",
+   "tolerance_word": "very-tolerant",
+   "fit": {
+    "crust": "great",
+    "ponding": "poor",
+    "water_quality": "good",
+    "season": "good",
+    "labour": "good",
+    "goal": "great"
+   },
+   "best_season_signs": "Sow in the cool season when the soil is dry and crumbly.",
+   "sowing": {
+    "seed_in_handfuls_per_pace": "a handful over a few paces",
+    "depth_in_finger_widths": "a knuckle depth",
+    "spacing_in_handspans": "a handspan between rows"
+   },
+   "water_need_word": "hardy; needs little water",
+   "use": "Grain food and fodder on salt land.",
+   "stages": [
+    {
+     "stage": "sowing",
+     "span_in_words": "cool season, dry crumbly soil",
+     "task": "Sow on ridge sides and cover lightly."
+    },
+    {
+     "stage": "tillering",
+     "span_in_words": "a few weeks after sowing",
+     "task": "Thin crowded plants by hand and weed."
+    },
+    {
+     "stage": "grain filling",
+     "span_in_words": "as the cool weeks end",
+     "task": "Keep birds off and pull weeds."
+    },
+    {
+     "stage": "harvest",
+     "span_in_words": "when heads dry and bend",
+     "task": "Cut, thresh and store dry."
+    }
+   ],
+   "disease_ids": [
+    "rust",
+    "leaf-spot",
+    "aphids",
+    "wilt"
+   ],
+   "why_it_fails_on_bad_land": "Rarely fails; waterlogged feet are its main dislike.",
+   "best_when_tags": [
+    "crust-white",
+    "season-cool",
+    "clods-crumble-easy",
+    "gypsum-available"
+   ]
+  },
+  {
+   "id": "dhaincha",
+   "name": "Dhaincha",
+   "tolerance_word": "very-tolerant",
+   "fit": {
+    "crust": "good",
+    "ponding": "good",
+    "water_quality": "good",
+    "season": "good",
+    "labour": "great",
+    "goal": "fair"
+   },
+   "best_season_signs": "Sow at the rainy start while the ground is still open.",
+   "sowing": {
+    "seed_in_handfuls_per_pace": "a handful over a few paces",
+    "depth_in_finger_widths": "a finger width",
+    "spacing_in_handspans": "a handspan between plants"
+   },
+   "water_need_word": "middling; copes with damp",
+   "use": "Green manure that opens the soil.",
+   "stages": [
+    {
+     "stage": "sowing",
+     "span_in_words": "at the rainy start",
+     "task": "Broadcast thinly over bare strips."
+    },
+    {
+     "stage": "growth",
+     "span_in_words": "through the wet weeks",
+     "task": "Let it grow tall and leafy."
+    },
+    {
+     "stage": "cutting",
+     "span_in_words": "before it flowers",
+     "task": "Cut and spread the green tops."
+    },
+    {
+     "stage": "mixing",
+     "span_in_words": "as it wilts, while dry",
+     "task": "Mix the tops into the top hand's depth."
+    }
+   ],
+   "disease_ids": [
+    "damping-off",
+    "aphids",
+    "wilt"
+   ],
+   "why_it_fails_on_bad_land": "Rarely fails; dry baking is its only setback.",
+   "best_when_tags": [
+    "ground-bare",
+    "weeds-none",
+    "compost-none",
+    "season-rainy"
+   ]
+  },
+  {
+   "id": "sorghum",
+   "name": "Sorghum",
+   "tolerance_word": "tolerant",
+   "fit": {
+    "crust": "good",
+    "ponding": "poor",
+    "water_quality": "good",
+    "season": "good",
+    "labour": "good",
+    "goal": "great"
+   },
+   "best_season_signs": "Sow in the warm weeks when rain has opened the top.",
+   "sowing": {
+    "seed_in_handfuls_per_pace": "a handful over a few paces",
+    "depth_in_finger_widths": "a knuckle depth",
+    "spacing_in_handspans": "a handspan and a half between plants"
+   },
+   "water_need_word": "hardy; little water needed",
+   "use": "Grain food, fodder and stalk fuel.",
+   "stages": [
+    {
+     "stage": "sowing",
+     "span_in_words": "warm weeks at the rainy start",
+     "task": "Sow on ridge sides in crumbly soil."
+    },
+    {
+     "stage": "thinning",
+     "span_in_words": "a few weeks after sowing",
+     "task": "Leave the strongest plants and weed by hand."
+    },
+    {
+     "stage": "heading",
+     "span_in_words": "as the wet weeks pass",
+     "task": "Keep birds off the forming heads."
+    },
+    {
+     "stage": "harvest",
+     "span_in_words": "when the heads dry hard",
+     "task": "Cut heads, dry and store."
+    }
+   ],
+   "disease_ids": [
+    "stem-borer",
+    "aphids",
+    "leaf-spot",
+    "caterpillars"
+   ],
+   "why_it_fails_on_bad_land": "Fails only in standing water and smeared wet clay.",
+   "best_when_tags": [
+    "crust-white",
+    "season-hot",
+    "goal-food",
+    "ground-dusty-powdery"
+   ]
+  },
+  {
+   "id": "cotton",
+   "name": "Cotton",
+   "tolerance_word": "tolerant",
+   "fit": {
+    "crust": "fair",
+    "ponding": "fails",
+    "water_quality": "fair",
+    "season": "good",
+    "labour": "fair",
+    "goal": "good"
+   },
+   "best_season_signs": "Sow in the warm weeks once rain has softened the crust.",
+   "sowing": {
+    "seed_in_handfuls_per_pace": "a handful over several paces",
+    "depth_in_finger_widths": "a knuckle depth",
+    "spacing_in_handspans": "two handspans between plants"
+   },
+   "water_need_word": "middling; dislikes wet feet",
+   "use": "Fibre and some cash from salt land.",
+   "stages": [
+    {
+     "stage": "sowing",
+     "span_in_words": "warm weeks at rainy start",
+     "task": "Sow on ridge sides, not in the furrow."
+    },
+    {
+     "stage": "thinning",
+     "span_in_words": "a few weeks after sowing",
+     "task": "Leave strong plants spaced two handspans apart."
+    },
+    {
+     "stage": "flowering",
+     "span_in_words": "through the warm weeks",
+     "task": "Weed by hand and pick caterpillars off."
+    },
+    {
+     "stage": "picking",
+     "span_in_words": "when bolls open white",
+     "task": "Pick dry, keep clean and store dry."
+    }
+   ],
+   "disease_ids": [
+    "aphids",
+    "caterpillars",
+    "wilt",
+    "leaf-spot"
+   ],
+   "why_it_fails_on_bad_land": "Fails where clay seals, ponds and the roots choke.",
+   "best_when_tags": [
+    "season-hot",
+    "crust-white",
+    "goal-cash",
+    "clods-crumble-easy"
+   ]
+  },
+  {
+   "id": "wheat",
+   "name": "Wheat",
+   "tolerance_word": "middling",
+   "fit": {
+    "crust": "fair",
+    "ponding": "poor",
+    "water_quality": "good",
+    "season": "good",
+    "labour": "good",
+    "goal": "great"
+   },
+   "best_season_signs": "Sow in the cool season on dry, crumbly, improved ground.",
+   "sowing": {
+    "seed_in_handfuls_per_pace": "a handful over a few paces",
+    "depth_in_finger_widths": "a knuckle depth",
+    "spacing_in_handspans": "a handspan between rows"
+   },
+   "water_need_word": "middling; needs steady damp",
+   "use": "Grain food on land already improved.",
+   "stages": [
+    {
+     "stage": "sowing",
+     "span_in_words": "cool season, crumbly soil",
+     "task": "Sow in rows on ridge sides."
+    },
+    {
+     "stage": "growth",
+     "span_in_words": "through the cool weeks",
+     "task": "Weed by hand and thin crowded rows."
+    },
+    {
+     "stage": "heading",
+     "span_in_words": "as the cool weeks end",
+     "task": "Guard against rust and keep birds off."
+    },
+    {
+     "stage": "harvest",
+     "span_in_words": "when the crop turns gold",
+     "task": "Cut, thresh and store dry."
+    }
+   ],
+   "disease_ids": [
+    "rust",
+    "leaf-spot",
+    "aphids",
+    "wilt"
+   ],
+   "why_it_fails_on_bad_land": "Struggles on sealed salty crust until the land improves.",
+   "best_when_tags": [
+    "season-cool",
+    "previously-farmed",
+    "compost-available",
+    "clods-crumble-easy"
+   ]
+  },
+  {
+   "id": "mustard",
+   "name": "Mustard",
+   "tolerance_word": "middling",
+   "fit": {
+    "crust": "fair",
+    "ponding": "poor",
+    "water_quality": "fair",
+    "season": "good",
+    "labour": "good",
+    "goal": "good"
+   },
+   "best_season_signs": "Sow in the cool season on improved, drained ground.",
+   "sowing": {
+    "seed_in_handfuls_per_pace": "a pinch over a few paces",
+    "depth_in_finger_widths": "a finger width",
+    "spacing_in_handspans": "a handspan between plants"
+   },
+   "water_need_word": "low; dislikes wet feet",
+   "use": "Oil seed and a little cash.",
+   "stages": [
+    {
+     "stage": "sowing",
+     "span_in_words": "cool season, dry top",
+     "task": "Sow thin in rows on ridge sides."
+    },
+    {
+     "stage": "thinning",
+     "span_in_words": "a few weeks after sowing",
+     "task": "Thin crowded plants by hand."
+    },
+    {
+     "stage": "flowering",
+     "span_in_words": "through the cool weeks",
+     "task": "Watch for aphids and pick them off."
+    },
+    {
+     "stage": "harvest",
+     "span_in_words": "when pods dry and rattle",
+     "task": "Cut, dry and beat out the seed."
+    }
+   ],
+   "disease_ids": [
+    "aphids",
+    "leaf-spot",
+    "wilt",
+    "damping-off"
+   ],
+   "why_it_fails_on_bad_land": "Fails in standing water and on still-sealed clay.",
+   "best_when_tags": [
+    "season-cool",
+    "land-slope",
+    "gypsum-available",
+    "money-some"
+   ]
+  },
+  {
+   "id": "safflower",
+   "name": "Safflower",
+   "tolerance_word": "tolerant",
+   "fit": {
+    "crust": "good",
+    "ponding": "poor",
+    "water_quality": "good",
+    "season": "good",
+    "labour": "great",
+    "goal": "good"
+   },
+   "best_season_signs": "Sow in the cool dry weeks into a broken crust.",
+   "sowing": {
+    "seed_in_handfuls_per_pace": "a handful over a few paces",
+    "depth_in_finger_widths": "a knuckle depth",
+    "spacing_in_handspans": "a handspan and a half between plants"
+   },
+   "water_need_word": "very low; hardy in dry land",
+   "use": "Oil seed with deep roots that open the crust.",
+   "stages": [
+    {
+     "stage": "sowing",
+     "span_in_words": "cool dry weeks",
+     "task": "Sow on ridge sides in broken crust."
+    },
+    {
+     "stage": "growth",
+     "span_in_words": "through the cool weeks",
+     "task": "Weed lightly and thin by hand."
+    },
+    {
+     "stage": "budding",
+     "span_in_words": "as warmth returns",
+     "task": "Keep birds off and watch for aphids."
+    },
+    {
+     "stage": "harvest",
+     "span_in_words": "when heads dry brown",
+     "task": "Cut, dry and thresh the seed."
+    }
+   ],
+   "disease_ids": [
+    "aphids",
+    "leaf-spot",
+    "root-rot",
+    "wilt"
+   ],
+   "why_it_fails_on_bad_land": "Fails in waterlogging and over a deep hardpan.",
+   "best_when_tags": [
+    "cracks-deep",
+    "crust-hard-sealed",
+    "rain-poor-expected",
+    "land-slope"
+   ]
+  },
+  {
+   "id": "sunflower",
+   "name": "Sunflower",
+   "tolerance_word": "tolerant",
+   "fit": {
+    "crust": "good",
+    "ponding": "poor",
+    "water_quality": "fair",
+    "season": "good",
+    "labour": "good",
+    "goal": "good"
+   },
+   "best_season_signs": "Sow in the warm weeks once the top has opened.",
+   "sowing": {
+    "seed_in_handfuls_per_pace": "a handful over a few paces",
+    "depth_in_finger_widths": "a knuckle depth",
+    "spacing_in_handspans": "two handspans between plants"
+   },
+   "water_need_word": "middling; deep roots help it",
+   "use": "Oil seed and fodder from the heads.",
+   "stages": [
+    {
+     "stage": "sowing",
+     "span_in_words": "warm weeks, opened top",
+     "task": "Sow on ridge sides, not in furrows."
+    },
+    {
+     "stage": "growth",
+     "span_in_words": "through the warm weeks",
+     "task": "Thin to strong plants and weed by hand."
+    },
+    {
+     "stage": "flowering",
+     "span_in_words": "as heads open wide",
+     "task": "Keep birds off the ripening heads."
+    },
+    {
+     "stage": "harvest",
+     "span_in_words": "when heads droop and dry",
+     "task": "Cut, dry and beat out the seed."
+    }
+   ],
+   "disease_ids": [
+    "leaf-spot",
+    "aphids",
+    "stem-borer",
+    "wilt"
+   ],
+   "why_it_fails_on_bad_land": "Fails in standing water and on sealed salty crust.",
+   "best_when_tags": [
+    "season-hot",
+    "gypsum-available",
+    "goal-cash",
+    "clods-crumble-easy"
+   ]
+  },
+  {
+   "id": "bajra",
+   "name": "Bajra millet",
+   "tolerance_word": "tolerant",
+   "fit": {
+    "crust": "good",
+    "ponding": "poor",
+    "water_quality": "good",
+    "season": "great",
+    "labour": "great",
+    "goal": "great"
+   },
+   "best_season_signs": "Sow in the hot weeks after the first trustworthy rain.",
+   "sowing": {
+    "seed_in_handfuls_per_pace": "a handful over a few paces",
+    "depth_in_finger_widths": "a finger width",
+    "spacing_in_handspans": "a handspan between plants"
+   },
+   "water_need_word": "very low; sheds drought well",
+   "use": "Quick grain food and fodder.",
+   "stages": [
+    {
+     "stage": "sowing",
+     "span_in_words": "hot weeks after first rain",
+     "task": "Sow on ridge sides in crumbly soil."
+    },
+    {
+     "stage": "thinning",
+     "span_in_words": "a few weeks after sowing",
+     "task": "Thin by hand and weed between plants."
+    },
+    {
+     "stage": "heading",
+     "span_in_words": "as the hot weeks pass",
+     "task": "Keep birds off the small heads."
+    },
+    {
+     "stage": "harvest",
+     "span_in_words": "when heads dry hard",
+     "task": "Cut, dry and store the grain."
+    }
+   ],
+   "disease_ids": [
+    "stem-borer",
+    "leaf-spot",
+    "caterpillars",
+    "aphids"
+   ],
+   "why_it_fails_on_bad_land": "Fails only in waterlogged, sealed spots.",
+   "best_when_tags": [
+    "season-hot",
+    "rain-poor-expected",
+    "goal-food",
+    "ground-dusty-powdery"
+   ]
+  },
+  {
+   "id": "karnal-grass",
+   "name": "Karnal grass",
+   "tolerance_word": "very-tolerant",
+   "fit": {
+    "crust": "great",
+    "ponding": "fair",
+    "water_quality": "good",
+    "season": "great",
+    "labour": "great",
+    "goal": "good"
+   },
+   "best_season_signs": "Sow at the rainy start and let it spread by itself.",
+   "sowing": {
+    "seed_in_handfuls_per_pace": "a handful over a few paces",
+    "depth_in_finger_widths": "a finger width",
+    "spacing_in_handspans": "a handspan between clumps"
+   },
+   "water_need_word": "low; very hardy",
+   "use": "Forage that holds the soil and feeds cattle.",
+   "stages": [
+    {
+     "stage": "sowing",
+     "span_in_words": "at the rainy start",
+     "task": "Sow thinly or set small clumps."
+    },
+    {
+     "stage": "spreading",
+     "span_in_words": "through the wet weeks",
+     "task": "Let runners spread over bare ground."
+    },
+    {
+     "stage": "cutting",
+     "span_in_words": "when it stands a handspan tall",
+     "task": "Cut for fodder and leave the roots."
+    },
+    {
+     "stage": "regrowth",
+     "span_in_words": "after each rain",
+     "task": "Let it regrow and cut again."
+    }
+   ],
+   "disease_ids": [
+    "leaf-spot",
+    "rust",
+    "termites",
+    "aphids"
+   ],
+   "why_it_fails_on_bad_land": "Hardly fails; only deep standing water harms it.",
+   "best_when_tags": [
+    "ground-bare",
+    "gullies-erosion",
+    "goal-fodder",
+    "overgrazed"
+   ]
+  },
+  {
+   "id": "rhodes-grass",
+   "name": "Rhodes grass",
+   "tolerance_word": "tolerant",
+   "fit": {
+    "crust": "good",
+    "ponding": "fair",
+    "water_quality": "good",
+    "season": "good",
+    "labour": "great",
+    "goal": "good"
+   },
+   "best_season_signs": "Sow at the rainy start on open, broken ground.",
+   "sowing": {
+    "seed_in_handfuls_per_pace": "a handful over a few paces",
+    "depth_in_finger_widths": "a finger width",
+    "spacing_in_handspans": "a handspan between clumps"
+   },
+   "water_need_word": "low; hardy and fast spreading",
+   "use": "Forage and cover for moving soil.",
+   "stages": [
+    {
+     "stage": "sowing",
+     "span_in_words": "at the rainy start",
+     "task": "Sow thinly on broken ground."
+    },
+    {
+     "stage": "spreading",
+     "span_in_words": "through the wet weeks",
+     "task": "Let it cover the open strips."
+    },
+    {
+     "stage": "cutting",
+     "span_in_words": "when tall and leafy",
+     "task": "Cut for fodder and leave roots."
+    },
+    {
+     "stage": "regrowth",
+     "span_in_words": "after the rains",
+     "task": "Let it regrow and cut again."
+    }
+   ],
+   "disease_ids": [
+    "leaf-spot",
+    "rust",
+    "termites",
+    "caterpillars"
+   ],
+   "why_it_fails_on_bad_land": "Fails only in long-standing water and heavy smearing.",
+   "best_when_tags": [
+    "goal-fodder",
+    "land-slope",
+    "ground-bare",
+    "gullies-erosion"
+   ]
+  },
+  {
+   "id": "pulse-sensitive",
+   "name": "Pulses on sensitive ground",
+   "tolerance_word": "fails",
+   "fit": {
+    "crust": "fails",
+    "ponding": "fails",
+    "water_quality": "poor",
+    "season": "fair",
+    "labour": "fair",
+    "goal": "fair"
+   },
+   "best_season_signs": "Sow only after seasons of improvement show green cover.",
+   "sowing": {
+    "seed_in_handfuls_per_pace": "a handful over a few paces",
+    "depth_in_finger_widths": "a knuckle depth",
+    "spacing_in_handspans": "a handspan between plants"
+   },
+   "water_need_word": "middling; cannot take salt",
+   "use": "Grain food and soil feeding on healed land.",
+   "stages": [
+    {
+     "stage": "wait",
+     "span_in_words": "several improved seasons",
+     "task": "Heal the land with cover and gypsum first."
+    },
+    {
+     "stage": "sowing",
+     "span_in_words": "cool season, open crumbly soil",
+     "task": "Sow a small strip as a trial."
+    },
+    {
+     "stage": "growth",
+     "span_in_words": "through the cool weeks",
+     "task": "Weed by hand and keep drainage open."
+    },
+    {
+     "stage": "harvest",
+     "span_in_words": "when pods dry",
+     "task": "Pick pods by hand and store dry."
+    }
+   ],
+   "disease_ids": [
+    "wilt",
+    "root-rot",
+    "aphids",
+    "leaf-spot"
+   ],
+   "why_it_fails_on_bad_land": "Roots cannot breathe or feed in salty, sealed clay.",
+   "best_when_tags": [
+    "previously-farmed",
+    "clods-crumble-easy",
+    "compost-available",
+    "patches-healthy-growth"
+   ]
+  },
+  {
+   "id": "vegetable-sensitive",
+   "name": "Vegetables on sensitive ground",
+   "tolerance_word": "fails",
+   "fit": {
+    "crust": "fails",
+    "ponding": "fails",
+    "water_quality": "fails",
+    "season": "fair",
+    "labour": "poor",
+    "goal": "fair"
+   },
+   "best_season_signs": "Grow only on raised beds once the land has healed.",
+   "sowing": {
+    "seed_in_handfuls_per_pace": "a pinch over a pace",
+    "depth_in_finger_widths": "a finger width",
+    "spacing_in_handspans": "a handspan between plants"
+   },
+   "water_need_word": "thirsty; needs clean good water",
+   "use": "Relishes and greens from a raised bed.",
+   "stages": [
+    {
+     "stage": "wait",
+     "span_in_words": "several improved seasons",
+     "task": "Heal the land with cover and compost first."
+    },
+    {
+     "stage": "bed making",
+     "span_in_words": "cool or rainy start",
+     "task": "Raise a bed a handspan tall for drainage."
+    },
+    {
+     "stage": "growing",
+     "span_in_words": "through the season",
+     "task": "Water with good water and weed by hand."
+    },
+    {
+     "stage": "picking",
+     "span_in_words": "as leaves and fruit ripen",
+     "task": "Pick often and remove sick plants."
+    }
+   ],
+   "disease_ids": [
+    "damping-off",
+    "aphids",
+    "leaf-spot",
+    "wilt"
+   ],
+   "why_it_fails_on_bad_land": "Salt and sealed clay scorch and starve the roots.",
+   "best_when_tags": [
+    "compost-available",
+    "water-good",
+    "pond-nearby",
+    "previously-farmed"
+   ]
+  },
+  {
+   "id": "prosopis",
+   "name": "Prosopis tree",
+   "tolerance_word": "very-tolerant",
+   "fit": {
+    "crust": "great",
+    "ponding": "fair",
+    "water_quality": "good",
+    "season": "great",
+    "labour": "great",
+    "goal": "good"
+   },
+   "best_season_signs": "Plant at the rainy start when the ground is soft.",
+   "sowing": {
+    "seed_in_handfuls_per_pace": "seed or suckers set a pace apart",
+    "depth_in_finger_widths": "a thumb depth",
+    "spacing_in_handspans": "several paces between trees"
+   },
+   "water_need_word": "very low; lives on little",
+   "use": "Fuel, shade and a wind break on hard land.",
+   "stages": [
+    {
+     "stage": "planting",
+     "span_in_words": "at the rainy start",
+     "task": "Set young plants where the crust is broken."
+    },
+    {
+     "stage": "establishing",
+     "span_in_words": "the first rainy season",
+     "task": "Water only in the worst dry spells."
+    },
+    {
+     "stage": "growing",
+     "span_in_words": "over several years",
+     "task": "Protect from animals and cut wood sparingly."
+    },
+    {
+     "stage": "spreading",
+     "span_in_words": "after a few years",
+     "task": "Dig out young seedlings where they spread."
+    }
+   ],
+   "disease_ids": [
+    "termites",
+    "root-rot",
+    "damping-off",
+    "caterpillars"
+   ],
+   "why_it_fails_on_bad_land": "Rarely fails; its danger is spreading like a weed.",
+   "best_when_tags": [
+    "gypsum-none",
+    "money-very-little",
+    "gullies-erosion",
+    "season-hot"
+   ]
+  },
+  {
+   "id": "acacia",
+   "name": "Acacia tree",
+   "tolerance_word": "tolerant",
+   "fit": {
+    "crust": "good",
+    "ponding": "poor",
+    "water_quality": "good",
+    "season": "good",
+    "labour": "great",
+    "goal": "good"
+   },
+   "best_season_signs": "Plant at the rainy start once the soil is soft.",
+   "sowing": {
+    "seed_in_handfuls_per_pace": "seed or seedlings set a pace apart",
+    "depth_in_finger_widths": "a thumb depth",
+    "spacing_in_handspans": "several paces between trees"
+   },
+   "water_need_word": "low; hardy in dry land",
+   "use": "Wood, fodder and shade.",
+   "stages": [
+    {
+     "stage": "planting",
+     "span_in_words": "at the rainy start",
+     "task": "Set young plants on broken ground."
+    },
+    {
+     "stage": "establishing",
+     "span_in_words": "the first rainy season",
+     "task": "Water in the worst dry spells only."
+    },
+    {
+     "stage": "growing",
+     "span_in_words": "over several years",
+     "task": "Protect from animals and keep weeds down."
+    },
+    {
+     "stage": "lopping",
+     "span_in_words": "when stems stand thick",
+     "task": "Cut fodder and wood lightly."
+    }
+   ],
+   "disease_ids": [
+    "termites",
+    "damping-off",
+    "root-rot",
+    "caterpillars"
+   ],
+   "why_it_fails_on_bad_land": "Fails only in standing water and waterlogged clay.",
+   "best_when_tags": [
+    "goal-trees-long-term",
+    "land-slope",
+    "rain-poor-expected",
+    "gullies-erosion"
+   ]
+  },
+  {
+   "id": "neem",
+   "name": "Neem tree",
+   "tolerance_word": "tolerant",
+   "fit": {
+    "crust": "good",
+    "ponding": "poor",
+    "water_quality": "good",
+    "season": "good",
+    "labour": "good",
+    "goal": "good"
+   },
+   "best_season_signs": "Plant at the rainy start in soft, open soil.",
+   "sowing": {
+    "seed_in_handfuls_per_pace": "seed or seedlings set a pace apart",
+    "depth_in_finger_widths": "a thumb depth",
+    "spacing_in_handspans": "several paces between trees"
+   },
+   "water_need_word": "low once roots settle",
+   "use": "Shade, seed for cures and wood.",
+   "stages": [
+    {
+     "stage": "planting",
+     "span_in_words": "at the rainy start",
+     "task": "Set young plants in broken soil."
+    },
+    {
+     "stage": "establishing",
+     "span_in_words": "the first rainy season",
+     "task": "Water in dry spells and keep animals off."
+    },
+    {
+     "stage": "growing",
+     "span_in_words": "over several years",
+     "task": "Weed around the base and guard the bark."
+    },
+    {
+     "stage": "harvest",
+     "span_in_words": "when the tree bears seed",
+     "task": "Collect seed and leaves for cures."
+    }
+   ],
+   "disease_ids": [
+    "termites",
+    "damping-off",
+    "root-rot",
+    "aphids"
+   ],
+   "why_it_fails_on_bad_land": "Fails only in long wet feet and smeared clay.",
+   "best_when_tags": [
+    "goal-trees-long-term",
+    "land-flat",
+    "water-good",
+    "previously-farmed"
+   ]
+  },
+  {
+   "id": "pongamia",
+   "name": "Pongamia tree",
+   "tolerance_word": "tolerant",
+   "fit": {
+    "crust": "good",
+    "ponding": "fair",
+    "water_quality": "good",
+    "season": "good",
+    "labour": "great",
+    "goal": "good"
+   },
+   "best_season_signs": "Plant at the rainy start in soft ground.",
+   "sowing": {
+    "seed_in_handfuls_per_pace": "seed or seedlings set a pace apart",
+    "depth_in_finger_widths": "a thumb depth",
+    "spacing_in_handspans": "several paces between trees"
+   },
+   "water_need_word": "low; sturdy beside damp ground",
+   "use": "Oil seed, shade and a wind break.",
+   "stages": [
+    {
+     "stage": "planting",
+     "span_in_words": "at the rainy start",
+     "task": "Set young plants where crust is broken."
+    },
+    {
+     "stage": "establishing",
+     "span_in_words": "the first rainy season",
+     "task": "Water in dry spells and keep animals away."
+    },
+    {
+     "stage": "growing",
+     "span_in_words": "over several years",
+     "task": "Weed around the base and guard the stem."
+    },
+    {
+     "stage": "harvest",
+     "span_in_words": "when seed pods ripen",
+     "task": "Gather pods and dry them well."
+    }
+   ],
+   "disease_ids": [
+    "termites",
+    "root-rot",
+    "damping-off",
+    "leaf-spot"
+   ],
+   "why_it_fails_on_bad_land": "Fails only in deep standing water and heavy smearing.",
+   "best_when_tags": [
+    "goal-trees-long-term",
+    "pond-nearby",
+    "land-large",
+    "gypsum-none"
+   ]
+  }
+ ],
+ "diseases": [
+  {
+   "id": "leaf-spot",
+   "name": "Leaf spot",
+   "crop_ids": [
+    "wheat",
+    "barley",
+    "sorghum",
+    "sunflower",
+    "cotton",
+    "bajra",
+    "karnal-grass",
+    "rhodes-grass",
+    "pongamia"
+   ],
+   "how_to_spot": "Brown or dark spots spread over the leaves.",
+   "cause": "Damp crowded leaves with little air between plants.",
+   "home_cure": "Spray a neem leaf soak and remove the worst leaves.",
+   "prevention": "Space plants well, weed, and open drainage for air.",
+   "stage_when_seen": "In the damp growing weeks before flowering."
+  },
+  {
+   "id": "rust",
+   "name": "Rust",
+   "crop_ids": [
+    "wheat",
+    "barley",
+    "rhodes-grass",
+    "karnal-grass"
+   ],
+   "how_to_spot": "Red-brown dusting powder on leaves and stems.",
+   "cause": "Damp warm weather with crowded plants.",
+   "home_cure": "Remove sick plants and spray a neem leaf soak.",
+   "prevention": "Space plants, weed well and avoid overwatering.",
+   "stage_when_seen": "As the crop grows tall, before grain forms."
+  },
+  {
+   "id": "aphids",
+   "name": "Aphids",
+   "crop_ids": [
+    "wheat",
+    "barley",
+    "mustard",
+    "safflower",
+    "cotton",
+    "sunflower",
+    "bajra",
+    "karnal-grass",
+    "neem",
+    "pongamia"
+   ],
+   "how_to_spot": "Tiny clusters on soft shoots, sometimes sticky.",
+   "cause": "Warm still weather with soft crowded growth.",
+   "home_cure": "Wash them off with a soapy water spray and by hand.",
+   "prevention": "Space plants, control weeds and encourage ladybirds.",
+   "stage_when_seen": "On young shoots in warm still spells."
+  },
+  {
+   "id": "stem-borer",
+   "name": "Stem borer",
+   "crop_ids": [
+    "sorghum",
+    "bajra",
+    "rice-bad-soil",
+    "sunflower"
+   ],
+   "how_to_spot": "Holes in stems, drooping heads and sawdust powder.",
+   "cause": "Moths laying eggs on crowded young plants.",
+   "home_cure": "Cut and remove damaged stems and hand-pick the grubs.",
+   "prevention": "Space plants, keep the field clean and sow on time.",
+   "stage_when_seen": "In young plants up to heading."
+  },
+  {
+   "id": "root-rot",
+   "name": "Root rot",
+   "crop_ids": [
+    "pulse-sensitive",
+    "safflower",
+    "acacia",
+    "neem",
+    "pongamia",
+    "prosopis"
+   ],
+   "how_to_spot": "Plants wilt and roots are dark, soft and rotted.",
+   "cause": "Waterlogged sealed clay with no air around roots.",
+   "home_cure": "Remove sick plants and open drainage furrows at once.",
+   "prevention": "Raise beds, improve drainage and never overwater.",
+   "stage_when_seen": "Whenever the soil stays wet too long."
+  },
+  {
+   "id": "blast",
+   "name": "Blast",
+   "crop_ids": [
+    "rice-bad-soil"
+   ],
+   "how_to_spot": "Leaf patches grey with dark edges, poor heads.",
+   "cause": "Damp crowded growth under heavy water.",
+   "home_cure": "Drain the water a little and remove sick leaves.",
+   "prevention": "Space clumps, keep water shallow and sow on time.",
+   "stage_when_seen": "On young plants in damp standing water."
+  },
+  {
+   "id": "wilt",
+   "name": "Wilt",
+   "crop_ids": [
+    "pulse-sensitive",
+    "vegetable-sensitive",
+    "cotton",
+    "barley",
+    "mustard",
+    "sorghum",
+    "safflower",
+    "sunflower"
+   ],
+   "how_to_spot": "Plants droop and wilt even while the soil is damp.",
+   "cause": "Sealed clay, salt and rotted roots cut water off.",
+   "home_cure": "Remove sick plants and open drainage so roots get air.",
+   "prevention": "Raise beds, add compost and plant on ridge sides.",
+   "stage_when_seen": "Any time the soil stays sealed and salty."
+  },
+  {
+   "id": "caterpillars",
+   "name": "Caterpillars",
+   "crop_ids": [
+    "cotton",
+    "sunflower",
+    "bajra",
+    "sorghum",
+    "prosopis",
+    "acacia"
+   ],
+   "how_to_spot": "Chewed leaves and fat grubs under the leaves.",
+   "cause": "Eggs laid by moths on soft green leaves.",
+   "home_cure": "Hand-pick the grubs each morning and remove them.",
+   "prevention": "Space plants, keep weeds down and watch leaves closely.",
+   "stage_when_seen": "While leaves are soft and green."
+  },
+  {
+   "id": "termites",
+   "name": "Termites",
+   "crop_ids": [
+    "prosopis",
+    "acacia",
+    "neem",
+    "pongamia",
+    "karnal-grass",
+    "rhodes-grass"
+   ],
+   "how_to_spot": "Mud tubes, hollow stems and dying young trees.",
+   "cause": "Dry soil with dead wood and old stumps left about.",
+   "home_cure": "Dig out the nest and pour a neem leaf soak around it.",
+   "prevention": "Clear dead wood, keep soil damp and mulch the base.",
+   "stage_when_seen": "Mostly in the dry hot spells."
+  },
+  {
+   "id": "damping-off",
+   "name": "Damping-off",
+   "crop_ids": [
+    "vegetable-sensitive",
+    "dhaincha",
+    "mustard",
+    "rice-bad-soil",
+    "prosopis",
+    "acacia",
+    "neem",
+    "pongamia"
+   ],
+   "how_to_spot": "Seedlings fall over with rotten thin stems at the base.",
+   "cause": "Wet crowded seedbeds with little air.",
+   "home_cure": "Remove sick seedlings and let the top dry a little.",
+   "prevention": "Space seeds, water less and keep the bed open.",
+   "stage_when_seen": "In the nursery, just after seedlings rise."
+  }
+ ],
+ "calendars": [
+  {
+   "crop_id": "rice-bad-soil",
+   "events": [
+    {
+     "order_word": "first",
+     "season_sign": "before the rains, dry ground",
+     "task": "Break the crust lightly and open a drain.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "second",
+     "season_sign": "after the first good rain",
+     "task": "Raise a wet nursery bed and sow seed.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "third",
+     "season_sign": "when standing water lies",
+     "task": "Set clumps in shallow water on the bed.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "fourth",
+     "season_sign": "through the wet weeks",
+     "task": "Keep water shallow and pull weeds by hand.",
+     "repeat_word": "each wet spell"
+    },
+    {
+     "order_word": "fifth",
+     "season_sign": "when grains bend and yellow",
+     "task": "Cut and dry the grain before storing.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "sixth",
+     "season_sign": "after harvest, dry ground",
+     "task": "Leave stubble and sow a tolerant cover.",
+     "repeat_word": "each season"
+    }
+   ]
+  },
+  {
+   "crop_id": "barley",
+   "events": [
+    {
+     "order_word": "first",
+     "season_sign": "before the rains, dry crumbly soil",
+     "task": "Dust gypsum thin and mix into the top.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "second",
+     "season_sign": "when the cool season starts",
+     "task": "Sow on ridge sides in rows.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "third",
+     "season_sign": "a few weeks after sowing",
+     "task": "Thin crowded plants and weed by hand.",
+     "repeat_word": "as needed"
+    },
+    {
+     "order_word": "fourth",
+     "season_sign": "through the cool weeks",
+     "task": "Keep birds off and watch for rust.",
+     "repeat_word": "each week"
+    },
+    {
+     "order_word": "fifth",
+     "season_sign": "when heads dry and bend",
+     "task": "Cut, dry and store the grain.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "sixth",
+     "season_sign": "after harvest",
+     "task": "Sow dhaincha on the bare stubble.",
+     "repeat_word": "each season"
+    }
+   ]
+  },
+  {
+   "crop_id": "dhaincha",
+   "events": [
+    {
+     "order_word": "first",
+     "season_sign": "at the rainy start",
+     "task": "Scatter seed over the bare strips.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "second",
+     "season_sign": "through the wet weeks",
+     "task": "Let it grow tall and leafy.",
+     "repeat_word": "each week"
+    },
+    {
+     "order_word": "third",
+     "season_sign": "before it flowers",
+     "task": "Cut the green tops and spread them.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "fourth",
+     "season_sign": "as it wilts, while dry",
+     "task": "Mix the tops into the top hand's depth.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "fifth",
+     "season_sign": "after mixing",
+     "task": "Keep the ground covered with mulch.",
+     "repeat_word": "each season"
+    }
+   ]
+  },
+  {
+   "crop_id": "sorghum",
+   "events": [
+    {
+     "order_word": "first",
+     "season_sign": "before the rains, crumbly soil",
+     "task": "Break the crust and open drain furrows.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "second",
+     "season_sign": "after the first good rain",
+     "task": "Sow on ridge sides in the warm weeks.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "third",
+     "season_sign": "a few weeks after sowing",
+     "task": "Thin to strong plants and weed.",
+     "repeat_word": "as needed"
+    },
+    {
+     "order_word": "fourth",
+     "season_sign": "as the wet weeks pass",
+     "task": "Keep birds off the forming heads.",
+     "repeat_word": "each day"
+    },
+    {
+     "order_word": "fifth",
+     "season_sign": "when the heads dry hard",
+     "task": "Cut heads, dry and store them.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "sixth",
+     "season_sign": "after harvest",
+     "task": "Leave stalks for fodder and sow cover.",
+     "repeat_word": "each season"
+    }
+   ]
+  },
+  {
+   "crop_id": "cotton",
+   "events": [
+    {
+     "order_word": "first",
+     "season_sign": "before the rains",
+     "task": "Open the crust, cut drains and dust gypsum.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "second",
+     "season_sign": "after the first good rain",
+     "task": "Sow on ridge sides in the warm weeks.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "third",
+     "season_sign": "a few weeks after sowing",
+     "task": "Thin plants two handspans apart, then weed.",
+     "repeat_word": "as needed"
+    },
+    {
+     "order_word": "fourth",
+     "season_sign": "through the warm weeks",
+     "task": "Pick caterpillars off by hand each morning.",
+     "repeat_word": "each day"
+    },
+    {
+     "order_word": "fifth",
+     "season_sign": "when bolls open white",
+     "task": "Pick dry and keep the lint clean.",
+     "repeat_word": "each week"
+    },
+    {
+     "order_word": "sixth",
+     "season_sign": "after picking",
+     "task": "Clear the field and sow a green cover.",
+     "repeat_word": "each season"
+    }
+   ]
+  },
+  {
+   "crop_id": "wheat",
+   "events": [
+    {
+     "order_word": "first",
+     "season_sign": "before the rains, improved ground",
+     "task": "Break the crust and mix compost in.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "second",
+     "season_sign": "when the cool season starts",
+     "task": "Sow in rows on ridge sides.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "third",
+     "season_sign": "through the cool weeks",
+     "task": "Weed by hand and thin crowded rows.",
+     "repeat_word": "as needed"
+    },
+    {
+     "order_word": "fourth",
+     "season_sign": "as the cool weeks end",
+     "task": "Watch for rust and keep birds off.",
+     "repeat_word": "each week"
+    },
+    {
+     "order_word": "fifth",
+     "season_sign": "when the crop turns gold",
+     "task": "Cut, thresh and store the grain dry.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "sixth",
+     "season_sign": "after harvest",
+     "task": "Sow a green cover on the stubble.",
+     "repeat_word": "each season"
+    }
+   ]
+  },
+  {
+   "crop_id": "mustard",
+   "events": [
+    {
+     "order_word": "first",
+     "season_sign": "before the rains",
+     "task": "Open the crust and lead water away.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "second",
+     "season_sign": "when the cool season starts",
+     "task": "Sow thin in rows on ridge sides.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "third",
+     "season_sign": "a few weeks after sowing",
+     "task": "Thin crowded plants by hand.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "fourth",
+     "season_sign": "through the cool weeks",
+     "task": "Pick aphids off and keep the rows open.",
+     "repeat_word": "each week"
+    },
+    {
+     "order_word": "fifth",
+     "season_sign": "when pods dry and rattle",
+     "task": "Cut, dry and beat out the seed.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "sixth",
+     "season_sign": "after harvest",
+     "task": "Clear the field and rest it under cover.",
+     "repeat_word": "each season"
+    }
+   ]
+  },
+  {
+   "crop_id": "safflower",
+   "events": [
+    {
+     "order_word": "first",
+     "season_sign": "before the cool dry weeks",
+     "task": "Break the crust deep with a long bar.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "second",
+     "season_sign": "when the cool weeks begin",
+     "task": "Sow on ridge sides in the broken crust.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "third",
+     "season_sign": "through the cool weeks",
+     "task": "Weed lightly and thin by hand.",
+     "repeat_word": "as needed"
+    },
+    {
+     "order_word": "fourth",
+     "season_sign": "as warmth returns",
+     "task": "Keep birds off and watch for aphids.",
+     "repeat_word": "each week"
+    },
+    {
+     "order_word": "fifth",
+     "season_sign": "when heads dry brown",
+     "task": "Cut, dry and thresh the seed.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "sixth",
+     "season_sign": "after harvest",
+     "task": "Leave roots to open soil and sow cover.",
+     "repeat_word": "each season"
+    }
+   ]
+  },
+  {
+   "crop_id": "sunflower",
+   "events": [
+    {
+     "order_word": "first",
+     "season_sign": "before the rains",
+     "task": "Open the top, cut drains and dust gypsum.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "second",
+     "season_sign": "after the first good rain",
+     "task": "Sow on ridge sides in the warm weeks.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "third",
+     "season_sign": "through the warm weeks",
+     "task": "Thin to strong plants and weed.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "fourth",
+     "season_sign": "as heads open wide",
+     "task": "Keep birds off the ripening heads.",
+     "repeat_word": "each day"
+    },
+    {
+     "order_word": "fifth",
+     "season_sign": "when heads droop and dry",
+     "task": "Cut, dry and beat out the seed.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "sixth",
+     "season_sign": "after harvest",
+     "task": "Clear the stalks and sow a green cover.",
+     "repeat_word": "each season"
+    }
+   ]
+  },
+  {
+   "crop_id": "bajra",
+   "events": [
+    {
+     "order_word": "first",
+     "season_sign": "before the hot weeks",
+     "task": "Open the crust and cut a drain.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "second",
+     "season_sign": "after the first trustworthy rain",
+     "task": "Sow on ridge sides in crumbly soil.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "third",
+     "season_sign": "a few weeks after sowing",
+     "task": "Thin by hand and weed between plants.",
+     "repeat_word": "as needed"
+    },
+    {
+     "order_word": "fourth",
+     "season_sign": "as the hot weeks pass",
+     "task": "Keep birds off the small heads.",
+     "repeat_word": "each day"
+    },
+    {
+     "order_word": "fifth",
+     "season_sign": "when heads dry hard",
+     "task": "Cut, dry and store the grain.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "sixth",
+     "season_sign": "after harvest",
+     "task": "Sow dhaincha over the bare stubble.",
+     "repeat_word": "each season"
+    }
+   ]
+  },
+  {
+   "crop_id": "karnal-grass",
+   "events": [
+    {
+     "order_word": "first",
+     "season_sign": "before the rains",
+     "task": "Stop grazing and fence the bare strips.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "second",
+     "season_sign": "at the rainy start",
+     "task": "Sow thinly or set small clumps.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "third",
+     "season_sign": "through the wet weeks",
+     "task": "Let runners spread over the bare ground.",
+     "repeat_word": "each week"
+    },
+    {
+     "order_word": "fourth",
+     "season_sign": "when it stands a handspan tall",
+     "task": "Cut for fodder and leave the roots.",
+     "repeat_word": "each spell"
+    },
+    {
+     "order_word": "fifth",
+     "season_sign": "after each rain",
+     "task": "Let it regrow and cut again.",
+     "repeat_word": "each season"
+    },
+    {
+     "order_word": "sixth",
+     "season_sign": "in the dry weeks",
+     "task": "Keep animals off and save seed.",
+     "repeat_word": "each season"
+    }
+   ]
+  },
+  {
+   "crop_id": "rhodes-grass",
+   "events": [
+    {
+     "order_word": "first",
+     "season_sign": "before the rains",
+     "task": "Break the surface and mark the strips.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "second",
+     "season_sign": "at the rainy start",
+     "task": "Sow thinly on the broken ground.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "third",
+     "season_sign": "through the wet weeks",
+     "task": "Let it cover the open strips.",
+     "repeat_word": "each week"
+    },
+    {
+     "order_word": "fourth",
+     "season_sign": "when tall and leafy",
+     "task": "Cut for fodder and leave the roots.",
+     "repeat_word": "each spell"
+    },
+    {
+     "order_word": "fifth",
+     "season_sign": "after the rains",
+     "task": "Let it regrow and cut again.",
+     "repeat_word": "each season"
+    },
+    {
+     "order_word": "sixth",
+     "season_sign": "as the dry weeks come",
+     "task": "Save seed and keep animals off.",
+     "repeat_word": "each season"
+    }
+   ]
+  },
+  {
+   "crop_id": "pulse-sensitive",
+   "events": [
+    {
+     "order_word": "first",
+     "season_sign": "several improved seasons",
+     "task": "Wait and heal the land with cover and gypsum.",
+     "repeat_word": "each season"
+    },
+    {
+     "order_word": "second",
+     "season_sign": "cool season, open crumbly soil",
+     "task": "Sow a small trial strip on ridge sides.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "third",
+     "season_sign": "through the cool weeks",
+     "task": "Weed by hand and keep drainage open.",
+     "repeat_word": "each week"
+    },
+    {
+     "order_word": "fourth",
+     "season_sign": "when flower buds show",
+     "task": "Watch for wilt and remove sick plants.",
+     "repeat_word": "each week"
+    },
+    {
+     "order_word": "fifth",
+     "season_sign": "when pods dry",
+     "task": "Pick pods by hand and store dry.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "sixth",
+     "season_sign": "after the trial",
+     "task": "Judge the ground and widen if it did well.",
+     "repeat_word": "each season"
+    }
+   ]
+  },
+  {
+   "crop_id": "vegetable-sensitive",
+   "events": [
+    {
+     "order_word": "first",
+     "season_sign": "several improved seasons",
+     "task": "Heal the land with compost and cover first.",
+     "repeat_word": "each season"
+    },
+    {
+     "order_word": "second",
+     "season_sign": "cool or rainy start",
+     "task": "Raise a bed a handspan tall for drainage.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "third",
+     "season_sign": "through the season",
+     "task": "Water with good water and weed by hand.",
+     "repeat_word": "each day"
+    },
+    {
+     "order_word": "fourth",
+     "season_sign": "as leaves and fruit ripen",
+     "task": "Pick often and remove sick plants.",
+     "repeat_word": "each week"
+    },
+    {
+     "order_word": "fifth",
+     "season_sign": "after picking",
+     "task": "Add compost and rest the bed under mulch.",
+     "repeat_word": "each season"
+    }
+   ]
+  },
+  {
+   "crop_id": "prosopis",
+   "events": [
+    {
+     "order_word": "first",
+     "season_sign": "before the rains",
+     "task": "Break the crust where the trees will stand.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "second",
+     "season_sign": "at the rainy start",
+     "task": "Set young plants a pace apart.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "third",
+     "season_sign": "the first rainy season",
+     "task": "Water only in the worst dry spells.",
+     "repeat_word": "as needed"
+    },
+    {
+     "order_word": "fourth",
+     "season_sign": "over several years",
+     "task": "Protect from animals and cut wood sparingly.",
+     "repeat_word": "each year"
+    },
+    {
+     "order_word": "fifth",
+     "season_sign": "after a few years",
+     "task": "Dig out young seedlings where they spread.",
+     "repeat_word": "each season"
+    },
+    {
+     "order_word": "sixth",
+     "season_sign": "in later years",
+     "task": "Warn neighbours that it spreads like a weed.",
+     "repeat_word": "each season"
+    }
+   ]
+  },
+  {
+   "crop_id": "acacia",
+   "events": [
+    {
+     "order_word": "first",
+     "season_sign": "before the rains",
+     "task": "Break the crust where the trees will stand.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "second",
+     "season_sign": "at the rainy start",
+     "task": "Set young plants on broken ground.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "third",
+     "season_sign": "the first rainy season",
+     "task": "Water in the worst dry spells only.",
+     "repeat_word": "as needed"
+    },
+    {
+     "order_word": "fourth",
+     "season_sign": "over several years",
+     "task": "Protect from animals and keep weeds down.",
+     "repeat_word": "each year"
+    },
+    {
+     "order_word": "fifth",
+     "season_sign": "when stems stand thick",
+     "task": "Cut fodder and wood lightly.",
+     "repeat_word": "each year"
+    },
+    {
+     "order_word": "sixth",
+     "season_sign": "in later years",
+     "task": "Keep goats off the young bark.",
+     "repeat_word": "each season"
+    }
+   ]
+  },
+  {
+   "crop_id": "neem",
+   "events": [
+    {
+     "order_word": "first",
+     "season_sign": "before the rains",
+     "task": "Open the soil where the trees will stand.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "second",
+     "season_sign": "at the rainy start",
+     "task": "Set young plants in broken soil.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "third",
+     "season_sign": "the first rainy season",
+     "task": "Water in dry spells and keep animals off.",
+     "repeat_word": "as needed"
+    },
+    {
+     "order_word": "fourth",
+     "season_sign": "over several years",
+     "task": "Weed around the base and guard the bark.",
+     "repeat_word": "each year"
+    },
+    {
+     "order_word": "fifth",
+     "season_sign": "when the tree bears seed",
+     "task": "Collect seed and leaves for cures.",
+     "repeat_word": "each year"
+    },
+    {
+     "order_word": "sixth",
+     "season_sign": "in later years",
+     "task": "Prune lightly and keep the base clear.",
+     "repeat_word": "each season"
+    }
+   ]
+  },
+  {
+   "crop_id": "pongamia",
+   "events": [
+    {
+     "order_word": "first",
+     "season_sign": "before the rains",
+     "task": "Break the crust where the trees will stand.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "second",
+     "season_sign": "at the rainy start",
+     "task": "Set young plants in soft ground.",
+     "repeat_word": "once"
+    },
+    {
+     "order_word": "third",
+     "season_sign": "the first rainy season",
+     "task": "Water in dry spells and keep animals away.",
+     "repeat_word": "as needed"
+    },
+    {
+     "order_word": "fourth",
+     "season_sign": "over several years",
+     "task": "Weed around the base and guard the stem.",
+     "repeat_word": "each year"
+    },
+    {
+     "order_word": "fifth",
+     "season_sign": "when seed pods ripen",
+     "task": "Gather pods and dry them well.",
+     "repeat_word": "each year"
+    },
+    {
+     "order_word": "sixth",
+     "season_sign": "in later years",
+     "task": "Cut wood lightly and mulch the base.",
+     "repeat_word": "each season"
+    }
+   ]
+  }
+ ],
+ "crop_selection_rules": [
+  {
+   "id": "rule-strong-crust",
+   "if_tags_any": [
+    "crust-hard-sealed",
+    "crust-white",
+    "clods-brick-hard"
+   ],
+   "prefer_crop_ids": [
+    "barley",
+    "safflower",
+    "karnal-grass",
+    "dhaincha"
+   ],
+   "avoid_crop_ids": [
+    "pulse-sensitive",
+    "vegetable-sensitive"
+   ],
+   "reason": "Hardy crops push through crust and open the top."
+  },
+  {
+   "id": "rule-long-ponding",
+   "if_tags_any": [
+    "puddles-stay-long",
+    "hole-water-stays-long",
+    "low-spot-collects-water",
+    "photo-standing-water"
+   ],
+   "prefer_crop_ids": [
+    "rice-bad-soil",
+    "karnal-grass",
+    "dhaincha",
+    "pongamia"
+   ],
+   "avoid_crop_ids": [
+    "cotton",
+    "safflower",
+    "pulse-sensitive",
+    "vegetable-sensitive"
+   ],
+   "reason": "Only crops that take wet feet survive standing water."
+  },
+  {
+   "id": "rule-soapy-water",
+   "if_tags_any": [
+    "water-soapy-bitter",
+    "water-salty"
+   ],
+   "prefer_crop_ids": [
+    "barley",
+    "karnal-grass",
+    "rhodes-grass",
+    "prosopis"
+   ],
+   "avoid_crop_ids": [
+    "vegetable-sensitive",
+    "pulse-sensitive",
+    "rice-bad-soil"
+   ],
+   "reason": "Bad water means choose crops that need little watering."
+  },
+  {
+   "id": "rule-good-water",
+   "if_tags_any": [
+    "water-good",
+    "canal-available",
+    "pond-nearby"
+   ],
+   "prefer_crop_ids": [
+    "rice-bad-soil",
+    "cotton",
+    "sunflower",
+    "vegetable-sensitive"
+   ],
+   "avoid_crop_ids": [],
+   "reason": "Good water lets thirsty crops grow and land be washed."
+  },
+  {
+   "id": "rule-rain-only",
+   "if_tags_any": [
+    "rain-only"
+   ],
+   "prefer_crop_ids": [
+    "bajra",
+    "sorghum",
+    "barley",
+    "safflower",
+    "karnal-grass"
+   ],
+   "avoid_crop_ids": [
+    "rice-bad-soil",
+    "vegetable-sensitive"
+   ],
+   "reason": "Rain-fed crops must be hardy and safe in drought."
+  },
+  {
+   "id": "rule-hardpan",
+   "if_tags_any": [
+    "hardpan-under-surface"
+   ],
+   "prefer_crop_ids": [
+    "safflower",
+    "pongamia",
+    "acacia"
+   ],
+   "avoid_crop_ids": [
+    "pulse-sensitive",
+    "vegetable-sensitive"
+   ],
+   "reason": "Deep-rooted crops reach into a broken hardpan."
+  },
+  {
+   "id": "rule-rainy-start",
+   "if_tags_any": [
+    "season-rainy"
+   ],
+   "prefer_crop_ids": [
+    "rice-bad-soil",
+    "dhaincha",
+    "karnal-grass",
+    "rhodes-grass",
+    "sorghum"
+   ],
+   "avoid_crop_ids": [
+    "vegetable-sensitive"
+   ],
+   "reason": "A rainy start suits tolerant cover and wet crops."
+  },
+  {
+   "id": "rule-cool-start",
+   "if_tags_any": [
+    "season-cool"
+   ],
+   "prefer_crop_ids": [
+    "barley",
+    "wheat",
+    "mustard",
+    "safflower"
+   ],
+   "avoid_crop_ids": [
+    "rice-bad-soil"
+   ],
+   "reason": "Cool dry weeks suit grain and oil seed crops."
+  },
+  {
+   "id": "rule-hot-start",
+   "if_tags_any": [
+    "season-hot"
+   ],
+   "prefer_crop_ids": [
+    "bajra",
+    "sorghum",
+    "cotton",
+    "sunflower"
+   ],
+   "avoid_crop_ids": [
+    "wheat",
+    "mustard"
+   ],
+   "reason": "Hot weeks suit millet and drought-hardy crops."
+  },
+  {
+   "id": "rule-few-helpers",
+   "if_tags_any": [
+    "helpers-few"
+   ],
+   "prefer_crop_ids": [
+    "karnal-grass",
+    "rhodes-grass",
+    "dhaincha",
+    "barley"
+   ],
+   "avoid_crop_ids": [
+    "cotton",
+    "vegetable-sensitive"
+   ],
+   "reason": "Low-care crops need few hands and little weeding."
+  },
+  {
+   "id": "rule-rough-tools",
+   "if_tags_any": [
+    "tools-rough-only"
+   ],
+   "prefer_crop_ids": [
+    "barley",
+    "bajra",
+    "karnal-grass"
+   ],
+   "avoid_crop_ids": [
+    "cotton",
+    "vegetable-sensitive"
+   ],
+   "reason": "Simple crops do not need fine tillage or good tools."
+  },
+  {
+   "id": "rule-little-money",
+   "if_tags_any": [
+    "money-very-little",
+    "gypsum-none"
+   ],
+   "prefer_crop_ids": [
+    "dhaincha",
+    "bajra",
+    "karnal-grass",
+    "prosopis"
+   ],
+   "avoid_crop_ids": [
+    "cotton",
+    "sunflower"
+   ],
+   "reason": "Cheap seed and free cover suit an empty purse."
+  },
+  {
+   "id": "rule-food-goal",
+   "if_tags_any": [
+    "goal-food"
+   ],
+   "prefer_crop_ids": [
+    "rice-bad-soil",
+    "barley",
+    "sorghum",
+    "bajra",
+    "wheat"
+   ],
+   "avoid_crop_ids": [
+    "cotton"
+   ],
+   "reason": "Food crops feed the family from tolerant land."
+  },
+  {
+   "id": "rule-cash-goal",
+   "if_tags_any": [
+    "goal-cash"
+   ],
+   "prefer_crop_ids": [
+    "cotton",
+    "sunflower",
+    "safflower",
+    "mustard",
+    "pongamia"
+   ],
+   "avoid_crop_ids": [
+    "karnal-grass"
+   ],
+   "reason": "Cash crops sell, yet they need better soil first."
+  },
+  {
+   "id": "rule-fodder-goal",
+   "if_tags_any": [
+    "goal-fodder"
+   ],
+   "prefer_crop_ids": [
+    "karnal-grass",
+    "rhodes-grass",
+    "sorghum",
+    "bajra"
+   ],
+   "avoid_crop_ids": [
+    "cotton"
+   ],
+   "reason": "Forage grasses feed cattle and hold the soil."
+  },
+  {
+   "id": "rule-trees-goal",
+   "if_tags_any": [
+    "goal-trees-long-term"
+   ],
+   "prefer_crop_ids": [
+    "neem",
+    "pongamia",
+    "acacia",
+    "prosopis"
+   ],
+   "avoid_crop_ids": [],
+   "reason": "Trees give long cover; prosopis can spread like a weed."
+  },
+  {
+   "id": "rule-slope",
+   "if_tags_any": [
+    "land-slope",
+    "gullies-erosion"
+   ],
+   "prefer_crop_ids": [
+    "karnal-grass",
+    "rhodes-grass",
+    "acacia",
+    "pongamia"
+   ],
+   "avoid_crop_ids": [
+    "rice-bad-soil",
+    "vegetable-sensitive"
+   ],
+   "reason": "Deep-rooted cover holds the soil on sloping ground."
+  },
+  {
+   "id": "rule-low-spot",
+   "if_tags_any": [
+    "low-spot-collects-water",
+    "hole-water-stays-long"
+   ],
+   "prefer_crop_ids": [
+    "rice-bad-soil",
+    "karnal-grass",
+    "pongamia"
+   ],
+   "avoid_crop_ids": [
+    "cotton",
+    "safflower"
+   ],
+   "reason": "Only wet-foot crops suit a low, water-holding dip."
+  },
+  {
+   "id": "rule-market-near",
+   "if_tags_any": [
+    "market-near",
+    "money-some"
+   ],
+   "prefer_crop_ids": [
+    "cotton",
+    "sunflower",
+    "mustard",
+    "safflower",
+    "vegetable-sensitive"
+   ],
+   "avoid_crop_ids": [],
+   "reason": "A near market lets cash crops be sold fresh."
+  },
+  {
+   "id": "rule-market-far",
+   "if_tags_any": [
+    "market-far"
+   ],
+   "prefer_crop_ids": [
+    "barley",
+    "wheat",
+    "karnal-grass",
+    "dhaincha"
+   ],
+   "avoid_crop_ids": [
+    "vegetable-sensitive"
+   ],
+   "reason": "Sturdy storable crops travel well to a far market."
+  },
+  {
+   "id": "rule-no-seed",
+   "if_tags_any": [
+    "seed-none"
+   ],
+   "prefer_crop_ids": [
+    "dhaincha",
+    "karnal-grass",
+    "bajra",
+    "barley"
+   ],
+   "avoid_crop_ids": [
+    "cotton",
+    "vegetable-sensitive"
+   ],
+   "reason": "Start with seed that is easy to find or save."
+  },
+  {
+   "id": "rule-some-seed",
+   "if_tags_any": [
+    "seed-some"
+   ],
+   "prefer_crop_ids": [
+    "barley",
+    "sorghum",
+    "dhaincha",
+    "bajra",
+    "karnal-grass"
+   ],
+   "avoid_crop_ids": [
+    "pulse-sensitive",
+    "vegetable-sensitive"
+   ],
+   "reason": "Sow saved tolerant seed first on bare land."
+  },
+  {
+   "id": "rule-land-improved",
+   "if_tags_any": [
+    "patches-healthy-growth",
+    "clods-crumble-easy",
+    "compost-available"
+   ],
+   "prefer_crop_ids": [
+    "wheat",
+    "mustard",
+    "pulse-sensitive",
+    "vegetable-sensitive",
+    "sunflower"
+   ],
+   "avoid_crop_ids": [],
+   "reason": "Improved land can carry a fussier crop again."
+  },
+  {
+   "id": "rule-still-severe",
+   "if_tags_any": [
+    "patches-dark-greasy",
+    "clods-columnar-rounded",
+    "weeds-none",
+    "gypsum-none"
+   ],
+   "prefer_crop_ids": [
+    "dhaincha",
+    "karnal-grass",
+    "rhodes-grass",
+    "prosopis"
+   ],
+   "avoid_crop_ids": [
+    "pulse-sensitive",
+    "vegetable-sensitive",
+    "cotton"
+   ],
+   "reason": "Severe land needs only cover, grass and trees."
+  }
+ ],
+ "season_plan": [
+  {
+   "id": "season-plan-rainy",
+   "start_tag": "season-rainy",
+   "stages": [
+    {
+     "order_word": "first",
+     "season_sign": "before the rain signs appear",
+     "task": "Stop grazing, cut drain furrows and open the crust."
+    },
+    {
+     "order_word": "second",
+     "season_sign": "at the rainy start",
+     "task": "Dust gypsum thin and mix the crumbly top."
+    },
+    {
+     "order_word": "third",
+     "season_sign": "after the first good rain",
+     "task": "Sow dhaincha and tolerant cover on ridge sides."
+    },
+    {
+     "order_word": "fourth",
+     "season_sign": "through the wet weeks",
+     "task": "Keep drains open and pull weeds by hand."
+    },
+    {
+     "order_word": "fifth",
+     "season_sign": "as the rain eases",
+     "task": "Cut the cover and mix it into the top."
+    },
+    {
+     "order_word": "sixth",
+     "season_sign": "at the first harvest",
+     "task": "Cut tolerant grain, dry it and store it dry."
+    },
+    {
+     "order_word": "seventh",
+     "season_sign": "after harvest",
+     "task": "Sow the next cover and plan the cool crop."
+    }
+   ]
+  },
+  {
+   "id": "season-plan-cool",
+   "start_tag": "season-cool",
+   "stages": [
+    {
+     "order_word": "first",
+     "season_sign": "before the cool weeks",
+     "task": "Open the crust and lead standing water away."
+    },
+    {
+     "order_word": "second",
+     "season_sign": "when the cool season starts",
+     "task": "Dust gypsum and mix in rotted dung."
+    },
+    {
+     "order_word": "third",
+     "season_sign": "in the cool dry weeks",
+     "task": "Sow barley, wheat or mustard on ridge sides."
+    },
+    {
+     "order_word": "fourth",
+     "season_sign": "through the cool weeks",
+     "task": "Weed by hand and thin the crowded rows."
+    },
+    {
+     "order_word": "fifth",
+     "season_sign": "as the cool weeks end",
+     "task": "Guard the heads from birds and disease."
+    },
+    {
+     "order_word": "sixth",
+     "season_sign": "at the first harvest",
+     "task": "Cut, dry and store the grain."
+    },
+    {
+     "order_word": "seventh",
+     "season_sign": "after harvest",
+     "task": "Sow dhaincha cover and prepare the hot crop."
+    }
+   ]
+  },
+  {
+   "id": "season-plan-hot",
+   "start_tag": "season-hot",
+   "stages": [
+    {
+     "order_word": "first",
+     "season_sign": "before the hot weeks",
+     "task": "Mulch the bare top and cut a drain."
+    },
+    {
+     "order_word": "second",
+     "season_sign": "when the hot weeks begin",
+     "task": "Dust gypsum thin and mix it into the crumbles."
+    },
+    {
+     "order_word": "third",
+     "season_sign": "after the first trustworthy rain",
+     "task": "Sow bajra, sorghum or cotton on ridge sides."
+    },
+    {
+     "order_word": "fourth",
+     "season_sign": "through the hot weeks",
+     "task": "Keep mulch on bare rows and weed by hand."
+    },
+    {
+     "order_word": "fifth",
+     "season_sign": "as heads and bolls form",
+     "task": "Keep birds off and remove sick plants."
+    },
+    {
+     "order_word": "sixth",
+     "season_sign": "at the first harvest",
+     "task": "Cut, dry and store the crop."
+    },
+    {
+     "order_word": "seventh",
+     "season_sign": "after harvest",
+     "task": "Rest the land under grass and plan the rainy crop."
+    }
+   ]
+  }
+ ],
+ "multi_year_path": [
+  {
+   "id": "year-one",
+   "aim": "Open the surface, drain the land and keep living roots.",
+   "main_actions": [
+    "Stop grazing and fence the bare patches.",
+    "Cut drain furrows with a safe outlet.",
+    "Dust gypsum thin on the crumbly top.",
+    "Sow dhaincha, grass or barley cover."
+   ],
+   "crops_in_words": "Tolerant cover, grass, barley, sorghum and rice in wet spots.",
+   "signs_of_progress": "Water sinks, the crust thins and green cover shows."
+  },
+  {
+   "id": "year-two",
+   "aim": "Deepen the roots and build rotted matter in the top.",
+   "main_actions": [
+    "Break hardpan in dry spells with a long bar.",
+    "Add dung, compost and more green manure.",
+    "Widen tolerant crops and mulch the bare rows.",
+    "Wash gypsum down with good water."
+   ],
+   "crops_in_words": "Barley, sorghum, cotton, grass and the first tree rows.",
+   "signs_of_progress": "Clods crumble, plants stand greener and ponds drain sooner."
+  },
+  {
+   "id": "year-three",
+   "aim": "Broaden the crop choice on land that has healed.",
+   "main_actions": [
+    "Keep cover on every bare strip.",
+    "Try a small strip of a fussier crop.",
+    "Keep grazing light and mulch the trees.",
+    "Watch the crust and wash when it returns."
+   ],
+   "crops_in_words": "Wheat, mustard, a pulse trial and the growing trees.",
+   "signs_of_progress": "Fussy crops grow and dark crumbly soil appears."
+  }
+ ],
+ "safe_default_plan": {
+  "message": "Give me a few clues and I will judge the land; until then start small and safe.",
+  "fix_ids": [
+   "fix-stop-grazing-protect",
+   "fix-clear-crust",
+   "fix-compost-dung",
+   "fix-mulch",
+   "fix-tolerant-cover-plants"
+  ],
+  "crop_ids": [
+   "dhaincha",
+   "barley",
+   "karnal-grass",
+   "bajra"
+  ]
+ }
+}
